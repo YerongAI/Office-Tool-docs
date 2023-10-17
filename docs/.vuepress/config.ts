@@ -14,7 +14,8 @@ import {
 
 export default defineUserConfig({
   base: '/',
-
+  shouldPreload: false,
+  shouldPrefetch: false,
   head,
 
   // site-level locales config
