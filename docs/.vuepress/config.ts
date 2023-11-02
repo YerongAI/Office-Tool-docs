@@ -23,17 +23,17 @@ export default defineUserConfig({
     '/': {
       lang: 'en-US',
       title: 'Office Tool Plus docs',
-      description: 'Office Tool Plus documentation.',
+      description: 'Office Tool Plus is a powerful and useful tool for Office deployment and management. Support multiple editions of Office.',
     },
     '/zh-cn/': {
       lang: 'zh-CN',
       title: 'Office Tool Plus 文档',
-      description: 'Office Tool Plus 帮助文档',
+      description: 'Office Tool Plus 是一个强大且实用的 Office 部署、管理工具。支持多种 Office 版本，可方便、快捷地部署、激活您的 Office。',
     },
     '/zh-tw/': {
       lang: 'zh-TW',
       title: 'Office Tool Plus 文档',
-      description: 'Office Tool Plus 帮助文档',
+      description: 'Office Tool Plus 是一个强大且实用的 Office 部署、管理工具。支持多种 Office 版本，可方便、快捷地部署、激活您的 Office。',
     }
   },
 
