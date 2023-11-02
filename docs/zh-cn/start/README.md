@@ -68,9 +68,6 @@ Office Tool
 ├── shared (.NET Runtimes)
 └── files
     ├── setup.exe (微软 Office 部署工具)
-    ├── clean
-    │   ├── x64 (64 位和 ARM64 系统专用 Office 激活信息清除工具)
-    │   └── x86 (32 位系统专用 Office 激活信息清除工具)
     ├── preferences (Office 应用程序首选项数据，由微软提供)
     └── Thunder (迅雷云加速开放平台相关文件)
 ```

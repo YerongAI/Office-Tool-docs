@@ -68,9 +68,6 @@ Office Tool
 ├── shared (.NET Runtimes)
 └── files
     ├── setup.exe (Microsoft Office Deployment Tool)
-    ├── clean
-    │   ├── x64 (Office activation cleaner for x64 and ARM64 system)
-    │   └── x86 (Office activation cleaner for x86 system)
     ├── preferences (Office applications preferences data, provided by Microsoft)
     └── Thunder (files related to Thunder download acceleration)
 ```
