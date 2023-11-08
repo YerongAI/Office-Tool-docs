@@ -1,5 +1,11 @@
 # Office tools
 
+## Query Office version
+
+You can get the version information of Office update channel from Microsoft, including the channel name, branch, version number, and creation time.
+
+![Query Office version](/images/en-us/toolbox/query-office-update-channel.png)
+
 ## Remove Office
 
 此功能支持移除所有版本的 Office.

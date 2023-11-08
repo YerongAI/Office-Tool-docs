@@ -20,7 +20,8 @@ deploy /add O365ProPlusRetail_zh-cn
 | /rm *values[]* | 卸载一个或多个产品 | values: productID_languages，使用方法同 `/add` |
 | /rmall | 卸载全部产品 |  |
 | /rmmsi | 卸载全部 Office MSI 产品 |  |
-| /channel *value* | 设置更新通道 | *value*: 通道 ID，默认值为 `Current`，[更多信息](/zh-cn/deploy/settings/basic.md#更新通道) |
+| /channel *value* | 设置更新通道 | *value*: 通道 ID，[更多信息](/zh-cn/deploy/settings/basic.md#更新通道) |
+| /branch *value* | 根据分支名称设置更新通道，这个命令会覆盖 `/channel` 命令。 | *value*: 通道的分支名，[更多信息](/zh-cn/toolbox/office.md#查询-office-版本信息) |
 | /edition *value* | 设置体系结构 | *value*: `32` 或 `64`，默认值为 `32` |
 | /migratearch | 迁移体系结构 |  |
 | /ver *value* | 设置 Office 版本号 | *value*: Office 版本号 |
@@ -43,25 +44,25 @@ deploy /add O365ProPlusRetail_zh-cn
 部署 Office 2021 专业增强版 - 批量版，简体中文，排除 Access, Outlook, OneNote，可以这样写：
 
 ``` batch
-deploy /add ProPlus2021Volume_zh-cn /ProPlus2021Volume.ExclApps Access,Outlook,OneNote /channel PerpetualVL2021
+deploy /add ProPlus2021Volume_zh-cn /ProPlus2021Volume.exclapps Access,Outlook,OneNote /channel PerpetualVL2021
 ```
 
 使用本地源部署 Office 时，你需要设置 `/srcpath` 和 `/ver` 参数。如果安装 64 位的 Office，还需设置 `/edition` 参数：
 
 ``` batch
-deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.ExclApps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
+deploy /add O365ProPlusRetail_zh-cn /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
 ```
 
 若要为批量产品设置 MAK，可以这样写：
 
 ``` batch
-deploy /add ProPlus2021Volume_zh-cn /ProPlus2021Volume.ExclApps Access,Outlook,OneNote /ProPlus2021Volume.MAK XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /channel PerpetualVL2021
+deploy /add ProPlus2021Volume_zh-cn /ProPlus2021Volume.exclapps Access,Outlook,OneNote /ProPlus2021Volume.MAK XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /channel PerpetualVL2021
 ```
 
 若要添加多个产品，可以这样写：
 
 ``` batch
-deploy /add ProPlus2021Volume_zh-cn|VisioPro2021Volume_zh-cn /ProPlus2021Volume.ExclApps Access,Outlook,OneNote,OneDrive,Groove /VisioPro2021Volume.ExclApps OneDrive,Groove /channel PerpetualVL2021
+deploy /add "ProPlus2021Volume_zh-cn|VisioPro2021Volume_zh-cn" /ProPlus2021Volume.exclapps Access,Outlook,OneNote,OneDrive,Groove /VisioPro2021Volume.exclapps OneDrive,Groove /channel PerpetualVL2021
 ```
 
 若要卸载产品，可以这样写：
@@ -73,11 +74,11 @@ deploy /rm ProPlus2021Volume
 卸载多个产品时，可以这样写：
 
 ``` batch
-deploy /rm ProPlus2021Volume|VisioPro2021Volume
+deploy /rm "ProPlus2021Volume|VisioPro2021Volume"
 ```
 
 若要卸载语言包，可以这样写：
 
 ``` batch
-deploy /rm LanguagePack_ja-jp
+deploy /rm LanguagePack_en-us
 ```

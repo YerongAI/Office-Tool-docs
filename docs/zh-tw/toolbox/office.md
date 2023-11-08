@@ -1,5 +1,11 @@
 # Office 工具
 
+## 查詢 Office 版本編號
+
+此功能可以从微软服务器获取 Office 更新通道的版本信息，包括通道名、分支、版本号和创建时间。
+
+![查询 Office 更新通道](/images/zh-tw/toolbox/query-office-update-channel.png)
+
 ## 解除安裝 Office
 
 此功能支持移除所有版本的 Office.

@@ -79,6 +79,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 > 不确定自己是否拥有 Office 授权？登录你的[个人账户](https://account.microsoft.com/services/)或者[企业账户](https://portal.office.com/account/?ref=MeControl#subscriptions)进行验证。
 
 ::: details Office 365 产品对照表
+
 | 订阅计划        | 产品 ID  |
 | ------------- |:-------------:|
 | 适用于企业的 Microsoft 365 应用 | O365ProPlusRetail |
@@ -92,6 +93,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 | Microsoft 365 E3 | O365ProPlusRetail |
 | Microsoft 365 E5 | O365ProPlusRetail |
 | Microsoft 365 商业高级版 | O365BusinessRetail |
+
 :::
 
 ### Applications

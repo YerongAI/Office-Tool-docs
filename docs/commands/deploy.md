@@ -20,7 +20,8 @@ deploy /add O365ProPlusRetail_en-us
 | /rm *values[]* | Uninstall products. | values: productID_languages, usage same as `/add`. |
 | /rmall | Uninstall all products. |  |
 | /rmmsi | Uninstall all Office MSI products. |  |
-| /channel *value* | Set update channel. | *value*: channel ID, default value is `Current`. [More info](/deploy/settings/basic.md#update-channel) |
+| /channel *value* | Set update channel. | *value*: channel ID. [More info](/deploy/settings/basic.md#update-channel) |
+| /branch *value* | Set update channel according to branch value. The command will override the `/channel` command.  | *value*: branch of channel. [More info](/toolbox/office.md#query-office-version) |
 | /edition *value* | Set architecture. | *value*: `32` or `64`, default value is `32`. |
 | /migratearch | Migrate architecture. |  |
 | /ver *value* | Set Office version. | *value*: Office version number. |
@@ -43,25 +44,25 @@ If you need to add or remove languages or proofing tools, use `LanguagePack` or 
 Deploying Office 2021 Professional Plus - Volume Edition, English (US), excluding Access, Outlook, OneNote, you can write this:
 
 ``` batch
-deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.ExclApps Access,Outlook,OneNote /channel PerpetualVL2021
+deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.exclapps Access,Outlook,OneNote /channel PerpetualVL2021
 ```
 
 To use local source to deploy Office, You need to specify `/srcpath` and `/ver` command. For 64-bit of Office, use `/edition` command:
 
 ``` batch
-deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.ExclApps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
+deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
 ```
 
 To set a MAK for a volume product, you can write this:
 
 ``` batch
-deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.ExclApps Access,Outlook,OneNote /ProPlus2021Volume.MAK XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /channel PerpetualVL2021
+deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.exclapps Access,Outlook,OneNote /ProPlus2021Volume.MAK XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /channel PerpetualVL2021
 ```
 
 Too add multiple products, you can write this:
 
 ``` batch
-deploy /add ProPlus2021Volume_en-us|VisioPro2021Volume_en-us /ProPlus2021Volume.ExclApps Access,Outlook,OneNote,OneDrive,Groove /VisioPro2021Volume.ExclApps OneDrive,Groove /channel PerpetualVL2021
+deploy /add "ProPlus2021Volume_en-us|VisioPro2021Volume_en-us" /ProPlus2021Volume.exclapps Access,Outlook,OneNote,OneDrive,Groove /VisioPro2021Volume.exclapps OneDrive,Groove /channel PerpetualVL2021
 ```
 
 To uninstall a product, you can write this:
@@ -73,7 +74,7 @@ deploy /rm ProPlus2021Volume
 To uninstall multiple products, you can write this:
 
 ``` batch
-deploy /rm ProPlus2021Volume|VisioPro2021Volume
+deploy /rm "ProPlus2021Volume|VisioPro2021Volume"
 ```
 
 To uninstall language pack, you can write this:
