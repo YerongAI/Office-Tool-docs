@@ -20,9 +20,9 @@ To display internal channels, please enable [Display internal products and chann
 Get-AppxPackage -name "Microsoft.Office.Desktop" | Remove-AppxPackage
 ```
 
-当你启用`同时清除激活信息`时，程序会执行 `cleanospp` 以卸载所有的 Office 许可证和产品密钥。
+当你启用`同时清除激活信息`时，Office Tool Plus 会同时卸载所有 Office 许可证和产品密钥。
 
-获取详细信息请访问[从 PC 卸载 Office](https://support.microsoft.com/zh-cn/office/从-pc-卸载-office-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
+For more information please refer to [Uninstall Office from a PC](https://support.microsoft.com/en-us/office/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8).
 
 ## Change Office Update Channel
 

@@ -15,6 +15,6 @@ For more information please visit:
 
 ::: warning Notice
 
-You can't install Office 2019/2021 on Windows 7 even you changed the installation module.
+You can't install newer version of Office on Windows 7 even you changed the installation module.
 
 :::

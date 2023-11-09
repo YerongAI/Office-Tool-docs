@@ -20,7 +20,7 @@
 Get-AppxPackage -name "Microsoft.Office.Desktop" | Remove-AppxPackage
 ```
 
-当你启用`同时清除激活信息`时，程序会执行 `cleanospp` 以卸载所有的 Office 许可证和产品密钥。
+当你启用`同时清除激活信息`时，Office Tool Plus 会同时卸载所有 Office 许可证和产品密钥。
 
 获取详细信息请访问[從電腦解除安裝 Office](https://support.microsoft.com/zh-tw/office/從電腦解除安裝-office-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
 
