@@ -11,7 +11,7 @@ If Office Tool Plus is working, reconnect to network.
 Open CMD or PowerShell, and using the following command to disable hardware acceleration:
 
 ``` batch
-"Office Tool Plus" /enableHWAcc false
+"Office Tool Plus" /enablehwacc false
 ```
 
 **To solve the problem, please try to upgrade your GPU driver.**

@@ -9,9 +9,9 @@ Office Tool Plus is made based on [Office Deployment Tool](https://docs.microsof
 The following products are supported:
 
 - Microsoft 365.
-- Office 2016, 2019, 2021.
-- Visio 2016, 2019, 2021 and Visio Online Plan 2.
-- Project 2016, 2019, 2021 and Project Online Desktop Client.
+- Office 2016, 2019, 2021, 2024.
+- Visio 2016, 2019, 2021, 2024 and Visio Online Plan 2.
+- Project 2016, 2019, 2021, 2024 and Project Online Desktop Client.
 
 No matter what, Office Tool Plus is always your best helper.
 

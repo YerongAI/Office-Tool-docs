@@ -9,9 +9,9 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 支持下列产品：
 
 - Microsoft 365
-- Office 2016, 2019, 2021
-- Visio 2016, 2019, 2021 & Visio Online Plan 2
-- Project 2016, 2019, 2021 & Project Online Desktop Client
+- Office 2016, 2019, 2021, 2024
+- Visio 2016, 2019, 2021, 2024 & Visio Online Plan 2
+- Project 2016, 2019, 2021, 2024 & Project Online Desktop Client
 
 无论你是个体还是团队，Office Tool Plus 都是你的得力小助手。
 

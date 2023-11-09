@@ -11,7 +11,7 @@
 打开 CMD 或 PowerShell，使用以下命令关闭 Office Tool Plus 的硬件加速：
 
 ``` batch
-"Office Tool Plus" /enableHWAcc false
+"Office Tool Plus" /enablehwacc false
 ```
 
 **为了能永久解决此问题，请尝试更新您的显卡驱动。**
