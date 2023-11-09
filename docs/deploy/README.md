@@ -4,12 +4,12 @@ When deploying Office, installation and uninstallation can occur simultaneously,
 
 ## Online installation
 
-Online installation requires internet connection. If you have a bad connection installation may take longer to complete.
+Online installation requires Internet connection. If you have a bad connection installation may take longer to complete.
 
-Open Office Tool Plus, goto deploy page and do the following things:
+Open Office Tool Plus, go to deploy page and do the following things:
 
-- Add product(s).
-- Add language(s).
+- Add [product(s)](/deploy/settings/basic.md#products).
+- Add [language(s)](/deploy/settings/basic.md#languages).
 
 Add products and languages according to your needs. If you don't know what products to add, please check [products](/deploy/settings/basic.md#products) section.
 
@@ -44,30 +44,30 @@ Once the configuration is complete and no errors, you can begin deploying Office
 
 ## Offline installation
 
-通常我们说的离线安装指的是使用已经制作/打包好的安装文件进行安装。
+The offline installation means that install Office using already packaged installation files.
 
-如果您的文件类型是镜像文件（.iso），请双击打开、挂载，您也可以将其解压到某个文件夹中。如果您的文件类型是压缩包（例如 .zip, .7z, .rar），请将其解压到某个文件夹中。
+If you have an image file (.iso), you can mount it as a DVD drive. If you have a compressed package (such as .zip, .7z, .rar), please unpack it to a folder.
 
-挂载/解压后，如果文件中包含 Office Tool Plus，请双击并打开 Office Tool Plus。If not, [download](/start/README.md#download) and run Office Tool Plus first.
+After mounting/unpacking, run Office Tool Plus from the archives. If not, [download](/start/README.md#download) Office Tool Plus first.
 
-After opened Office Tool Plus, navigate to deploy page, 确保安装文件能够正确加载并识别。如果没有，请点击`选择`按钮并根据提示选择 Office 安装文件。
+After opened Office Tool Plus, navigate to deploy page, make sure the installation files was loaded. If not, click `Select` button and choose the file.
 
 ![Office installation](/images/en-us/deploy/office-installation.png)
 
 ::: tip Tips
 
-Office 安装文件应该能够完整展示版本号和语言包信息，并且没有错误消息。如果安装文件不包含语言，或者仅包含校对工具，则安装的时候依然需要联网，否则会安装失败。
+Office installation files should show version number and languages information in its entirety without errors. If the installation files does not contain language, or contains only proofing tool, the installation will still require an Internet connection, otherwise the installation will fail.
 
 :::
 
-安装文件加载后，请进行如下配置：
+After installation files was loaded, do the following things:
 
 - Add [product(s)](/deploy/settings/basic.md#products).
-- Add language(s).
+- Add [language(s)](/deploy/settings/basic.md#languages).
 - Configure [applications](/deploy/settings/basic.md#applications) (if needed).
 
-体系结构和更新通道已根据安装文件自动匹配，因此您无法再更改，除非您有多个安装文件。语言也应当与安装文件的一致，如果安装文件不包含您所添加的语言，则安装时依然需要联网，否则安装会失败。
+The architecture and update channels have been automatically matched based on the installation files, so you don't need to change them again unless you have multiple installations. The language(s) should also match the installation file. If the installation files does not contain the language(s) you added, the installation will still require an Internet connection, otherwise the installation will fail.
 
-如果您在添加产品时，程序提示此产品无法安装在选定的通道上，则代表您所下载的 Office 安装文件无法安装您所选择的产品。请选择另外的产品，或下载另外的 Office 安装文件。
+If Office Tool Plus prompts that the product cannot be installed on the selected channel when adding a product, it means that the Office installation files you downloaded cannot install the product you selected. Please select a different product, or download different Office installation files.
 
 If everything is ok, click `Start deploy` now.

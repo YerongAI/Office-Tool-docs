@@ -1,32 +1,32 @@
-# 高级设置
+# Advanced settings
 
-::: warning 警告
+::: warning Warning
 
-不要随意更改你看不懂的设置，否则极有可能导致您的 Office 部署失败。
+Don't change any settings that you can't read, or Office installation may fail.
 
 :::
 
-## 常规设置
+## Gernal settings
 
-你可以给这个配置文件添加一个说明，用于记录或者备注。Office Tool Plus 支持显示 markdown 格式的文本，并且这些内容会在开始部署之前展示给用户看。
+You can add a description to this config for documentation or notes. Office Tool Plus supports displaying markdown-formatted text, and this content is shown to the user before deploying Office.
 
-## 安装设置
+## Install settings
 
-### Office 版本
+### Office version
 
-如果你需要安装 Office 的历史版本，你可以从下拉框中选择可用的历史版本，也可以从 [Microsoft 文档](https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date)获取可用的 Office 历史版本。如果下拉框中没有显示可用的历史版本，可能是你的网络连接失败，也可能是你所选择的更新通道没有可用的历史版本。
+If you need to install a historical version of Office, you can select an available historical version from the drop-down list. Also you can get the historical version from [Microsoft docs](https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date). If the drop-down list is empty, it may be that your Internet connection has failed, or that the update channel you have selected does not have any available historical versions.
 
-如果你下载了 Office 安装包，则此处会显示相应通道下所有 Office 安装包的版本。
+If you have downloaded Office installation files, the versions of all Office installation files under the appropriate channel are shown here.
 
-### 源路径
+### Source path
 
-如果你在本地有 Office 安装包，则应该在[安装文件管理](/zh-cn/deploy/settings/basic.md#安装文件)中选择文件，而不是在此处写入路径。
+If you have Office installation files, you should select them on [Installation files](/deploy/settings/basic.md#installation-files) panel, instead of writing the path here.
 
-## 激活设置
+## Activation settings
 
 此处的激活设置仅供企业管理员进行批量部署时使用，个人用户不应更改此处设置，否则极有可能导致 Office 无法激活。
 
-## 应用程序首选项
+## Application preferences
 
 `应用程序首选项由微软提供数据，其文本均为机器翻译，可能存在某些语法错误，请以英文版本的为准。`
 
@@ -36,6 +36,6 @@
 
 您所定义的应用程序首选项将应用于设备的所有现有用户以及未来添加到该设备的任何新用户。如果在 Office 应用程序运行时应用首选项，则新的设置将在 Office 下次运行时生效。
 
-## 其他选项
+## Other options
 
-其他选项介绍以及用法在[微软官方文档](https://docs.microsoft.com/zh-cn/deployoffice/office-deployment-tool-configuration-options)中有详细介绍，使用方法相同，在这里不再重复叙述。
+You can find all the instructions on [Microsoft docs](https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options).

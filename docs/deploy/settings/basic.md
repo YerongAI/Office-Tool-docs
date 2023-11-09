@@ -1,72 +1,72 @@
-# 基础设置
+# Basic settings
 
 ## Mode
 
-| 模式          | 说明 |
-| ------------- | ----- |
-| 编辑配置      | 仅用于生成/修改 XML 配置文件，不能进行部署   |
-| 下载          | 仅下载 Office 安装包，不会也不能启动安装程序 |
-| 安装          | 可以在计算机上进行安装、卸载、修改 Office 等操作 |
-| 创建 ISO 文件 | 将 Office 安装包与 Office Tool Plus 一起打包，如果有安装配置，则连同配置一起写入 Office ISO 中 |
+| Mode            | Tip |
+| :--             | :-- |
+| Edit config     | Create or modify XML config, can not start installation.        |
+| Download        | Download Office installation files, can not start installation. |
+| Install         | Install, uninstall or modify Office.                            |
+| Create ISO file | Packaging the Office installation files with Office Tool Plus.  |
 
-Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精简。
+The Office installation files contains Office, Visio and Project, provided by Microsoft.
 
 ## Architecture
 
-通常情况下，我们建议你安装 32 位的 Office，但如果存在下列情况，则推荐安装 64 位的 Office:
+32-bit of Office is the default choice. Computers running 64-bit versions of Windows generally have more resources such as processing power and memory, than their 32-bit predecessors. Also, 64-bit applications can access more memory than 32-bit applications. Therefore, if your scenarios include large files and/or working with large data sets and your computer is running 64-bit version of Windows, 64-bit is the right choice when:
 
-- 处理大型数据集，例如包含复杂计算、许多数据透视表、与外部数据库的数据连接、Power Pivot、三维地图、Power View 或获取和转换的企业级 Excel 工作簿。 在这些情况下，64 位版 Office 可能表现更出色。
-- 在 PowerPoint 中处理超大图片、视频或动画。 64 位版 Office 可能更适合处理这些复杂幻灯片。
-- 在 Project 中处理超过 2 GB 的文件，尤其是项目包含许多子项目时。
-- 开发内部 Office 解决方案，例如加载项或文档级别的自定义。 使用 64 位版 Office 将允许你提供这些解决方案的 64 位版和 32 位版。
-- Access 中的 Long Long 数据类型，虽然 32 位 Access 支持此数据类型，但在使用 32 位 VBA 库的代码或表达式时可能会看到意外结果。 64 位 VBA 提供 Long Long 数据类型的完整支持。
+- You’re working with large data sets, like enterprise-scale Excel workbooks with complex calculations, many pivot tables, data connections to external databases, Power Pivot, 3D Map, Power View, or Get & Transform. The 64-bit version of Microsoft 365 may perform better in these cases.
+- You’re working with extremely large pictures, videos, or animations in PowerPoint. The 64-bit version of Microsoft 365 may be better suited to handle these complex slide decks.
+- You’re working with files over 2 GB in Project, especially if the project has many sub-projects.
+- You’re developing in-house Microsoft 365 solutions like add-ins or document-level customization. Using the 64-bit version of Microsoft 365 lets you deliver a 64-bit version of those solutions as well as a 32-bit version.
+- You’re working with the Large Number data type in Access, and while this data type is supported by 32-bit Access, you may see unexpected results when executing code or expressions that use native 32-bit VBA libraries. 64-bit VBA provides the LongLong data type which fully supports large numbers.
 
-如果需要了解详细信息，请参阅[选择 64 位或 32 位版本的 Office](https://support.microsoft.com/zh-cn/office/选择-64-位或-32-位版本的-Office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)
+For more information please refer to [Choose between the 64-bit or 32-bit version of Office](https://support.microsoft.com/en-us/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261).
 
-::: tip 提示
+::: tip Tip
 
-如果您使用的是基于 ARM64 的 Windows，您可以选择 ARM64 (兼容 64 位) 以获得更好的性能和兼容性。
+If you are using ARM64-based Windows, you can select ARM64 (64-bit compatible) for better performance and compatibility.
 
 :::
 
 ## Update channel
 
-大多数情况下，只需要选择`当前通道`即可，下表列出了通道之间的区别：
+In most cases, `Current Channel` is the default channel. The table below lists the differences between the channels:
 
-| 通道                   | 通道 ID           | 发布频率          | 功能更新    |
-| --------------------- | ----------------- | ----------------- | ----------- |
-| 当前通道               | Current           | 每个月至少一次    | 同发布频率   |
-| 半年度企业通道         | SemiAnnual        | 每月的第二个星期二 | 一月和七月   |
-| 月度企业通道           | MonthlyEnterprise | 每月的第二个星期二 | 同发布频率   |
-| Office 2019 企业长期版 | PerpetualVL2019   | 每月的第二个星期二 | 无          |
-| Office 2021 企业长期版 | PerpetualVL2021   | 每月的第二个星期二 | 无          |
+| Update Channel                   | Channel ID        | Release frequency                                | Feature updates                    |
+| :--                              | :--               | :--                                              | :--                                |
+| Current Channel                  | Current           | At least once a month, but on no set schedule    | Same as release frequency          |
+| Semi-Annual Enterprise Channel   | SemiAnnual        | Once a month, on the second Tuesday of the month | Twice a year (in January and July) |
+| Monthly Enterprise Channel       | MonthlyEnterprise | Once a month, on the second Tuesday of the month | Same as release frequency          |
+| Office 2019 Perpetual Enterprise | PerpetualVL2019   | Once a month, on the second Tuesday of the month | None                               |
+| Office 2021 Perpetual Enterprise | PerpetualVL2021   | Once a month, on the second Tuesday of the month | None                               |
 
-> 企业长期版通道是 Office 2019/2021 批量许可证的专用通道。
+> The Perpetual Enterprise channel is a dedicated channel for Office 2019/2021 volume products.
 
-表中列出的所有通道都是稳定通道，非测试通道，因此都可以日常使用。
+All of the channels listed in the table are stable channels and can be used on a daily basis.
 
-每个通道都会在每个月的第二个星期二发布安全更新（如果需要），这是设定好的计划。
+Each channel releases security updates (if needed) on the second Tuesday of each month, which is scheduled.
 
-如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-update-channels)。
+For more information please refer to [Overview of update channels for Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/overview-update-channels).
 
 ## Modules
 
 ### Office Deployment Tool
 
-Office 部署工具是微软官方工具，提供了部署 Office 的完整支持，适合所有人使用。
+Office Deployment Tool is an official Microsoft tool that provides complete support for deploying Office.
 
 ### Office Tool Plus
 
-此模块是我们自行开发的安装模块，可以实现 Office 部署工具的大多数功能。下表列出了两者的区别：
+Our module enables most of the features of the Office Deployment Tool. The following table lists the differences between them:
 
-| 功能 | Office 部署工具 | Office Tool Plus |
-| :-- | --- | --- |
-| 移除现有的 MSI 版本的 Office | ✓ | × |
-| 安装与 MSI 版本相同的语言    | ✓ | × |
-| 使用 Office 内部通道         | × | ✓ |
-| 安装内部产品                 | × | ✓ |
+| Functions                                     | Office Deployment Tool | Office Tool Plus |
+| :--                                           | :--                    | :--              |
+| Remove existing MSI versions of Office        | ✓ | × |
+| Install the same languages as the MSI version | ✓ | × |
+| Use internal products and channels            | × | ✓ |
+| Install internal products                     | × | ✓ |
 
-我们建议优先使用 Office 部署工具，如果 Office 部署工具出现了无法解决的问题，或者有特殊需求，才应该选择 Office Tool Plus 作为安装模块。
+We recommend prioritizing the use of the Office Deployment Tool, and should only choose Office Tool Plus if there are issues with the Office Deployment Tool that cannot be resolved, or if there are special needs.
 
 ## Products
 
@@ -80,8 +80,8 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 ::: details Office 365 产品对照表
 
-| 订阅计划        | 产品 ID  |
-| ------------- |:-------------:|
+| Subscription plan  | 产品 ID  |
+| :--                   |:--:|
 | 适用于企业的 Microsoft 365 应用 | O365ProPlusRetail |
 | Office 365 企业版 E3 | O365ProPlusRetail |
 | Office 365 企业版 E4 | O365ProPlusRetail |
@@ -128,6 +128,8 @@ Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请�
 ## Installation files
 
 默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
+
+![Office installation](/images/en-us/deploy/office-installation.png)
 
 如果你有本地安装包，你可以点击 *选择文件*，然后指定 Office 安装文件中的任意一个 CAB 文件。
 

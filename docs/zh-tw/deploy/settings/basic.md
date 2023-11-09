@@ -3,17 +3,17 @@
 ## 部署模式
 
 | 模式          | 说明 |
-| ------------- | ----- |
+| :--           | :-- |
 | 编辑配置      | 仅用于生成/修改 XML 配置文件，不能进行部署   |
 | 下载          | 仅下载 Office 安装包，不会也不能启动安装程序 |
 | 安装          | 可以在计算机上进行安装、卸载、修改 Office 等操作 |
-| 创建 ISO 文件 | 将 Office 安装包与 Office Tool Plus 一起打包，如果有安装配置，则连同配置一起写入 Office ISO 中 |
+| 创建 ISO 文件 | 将 Office 安装包与 Office Tool Plus 一起打包 |
 
 Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精简。
 
 ## 体系结构
 
-通常情况下，我们建议你安装 32 位的 Office，但如果存在下列情况，则推荐安装 64 位的 Office:
+32 位的 Office 是默认的选择。运行 64 位 Windows 的计算机通常比 32 位版本拥有更多资源，例如处理能力和内存。此外，与 32 位应用程序相比，64 位应用程序可以访问更多内存。因此，如果你的方案包含大型文件和/或处理大型数据集，且你的计算机运行 64 位版 Windows，则存在下列情况时，64 位是恰当的选择：
 
 - 处理大型数据集，例如包含复杂计算、许多数据透视表、与外部数据库的数据连接、Power Pivot、三维地图、Power View 或获取和转换的企业级 Excel 工作簿。 在这些情况下，64 位版 Office 可能表现更出色。
 - 在 PowerPoint 中处理超大图片、视频或动画。 64 位版 Office 可能更适合处理这些复杂幻灯片。
@@ -41,7 +41,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 | Office 2019 企业长期版 | PerpetualVL2019   | 每月的第二个星期二 | 无          |
 | Office 2021 企业长期版 | PerpetualVL2021   | 每月的第二个星期二 | 无          |
 
-> 企业长期版通道是 Office 2019/2021 批量许可证的专用通道。
+> 企业长期版通道是 Office 2019/2021 批量产品的专用通道。
 
 表中列出的所有通道都是稳定通道，非测试通道，因此都可以日常使用。
 
@@ -128,6 +128,8 @@ Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请�
 ## 安装文件
 
 默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
+
+![Office installation](/images/zh-tw/deploy/office-installation.png)
 
 如果你有本地安装包，你可以点击 *选择文件*，然后指定 Office 安装文件中的任意一个 CAB 文件。
 
