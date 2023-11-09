@@ -20,7 +20,7 @@
 
 默认情况下，Office Tool Plus 使用来自必应的每日一图作为程序背景。你可以根据自己的喜好调整为其他背景，或使用本地图片作为程序背景，支持 PNG, JPG 和 BMP。
 
-如果你需要设置网络图片为背景图，请使用 [/setImage](/zh-cn/commands/build-in.md#程序内命令) 命令。
+如果你需要设置网络图片为背景图，请使用 [/setimage](/zh-cn/commands/build-in.md#程序内命令) 命令。
 
 ::: warning 注意
 
@@ -55,9 +55,9 @@
 
 ### 显示内部产品和通道
 
-默认情况下，Office Tool Plus 不会显示非公开的产品和更新通道，例如 ProPlusVolume 或 MondoVolume 等产品，又或者 Dofgood:DevMain 等更新通道。
+默认情况下，Office Tool Plus 不会显示非公开的产品和更新通道，例如 `ProPlusVolume` 或 `MondoVolume` 等产品，又或者 `Dofgood::DevMain` 等更新通道。
 
-内部产品和更新通道不受 Office 部署工具的支持，因此您无法直接使用。但如果您需要，您可以打开此开关，Office Tool Plus 将会在部署时显示这些内部产品和更新通道。
+内部产品和更新通道不受 Office 部署工具的支持，因此您无法直接使用。但如果您需要，您可以打开此开关，Office Tool Plus 将会显示这些内部产品和更新通道。
 
 ## 下载
 
@@ -104,4 +104,4 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 ## Windows 版本
 
-默认情况下，Office Tool Plus 自动识别当前系统版本并下载对应的 Office 安装文件。若要为其他系统下载 Office 安装文件，请在此处更改为对应的 Windows 版本。
+默认情况下，Office Tool Plus 自动识别当前系统版本并下载对应的 Office 版本。若要为其他系统下载 Office 安装文件，请在此处更改为对应的 Windows 版本。

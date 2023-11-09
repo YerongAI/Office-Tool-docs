@@ -6,6 +6,8 @@
 
 ![查询 Office 更新通道](/images/zh-tw/toolbox/query-office-update-channel.png)
 
+若要显示内部通道，请打开[显示内部产品和通道](/zh-tw/settings/README.md#显示内部产品和通道)。
+
 ## 解除安裝 Office
 
 此功能支持移除所有版本的 Office.

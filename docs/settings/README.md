@@ -1,28 +1,28 @@
-# 程序设置
+# Application settings
 
 在设置页面，你可以调整程序的语言、主题、背景等设置，还可以调整一些下载或者部署设置。
 
 如果系统语言无法匹配，则默认使用英语（美国）作为显示语言。
 
-::: tip 提示
+::: tip Tip
 
 若要保存更改，请打开`保存设置`按钮，否则所有设置将在重启程序后丢失。
 
 :::
 
-## 外观和行为
+## Appearance & behavior
 
-### 主题
+### Theme
 
 默认情况下，Office Tool Plus 会跟随 Windows 设置自动切换浅色主题（Light Blue）和深色主题（Dark White）。你也可以根据自己的喜好设置一个特定的主题。
 
-### 背景
+### Background
 
 默认情况下，Office Tool Plus 使用来自必应的每日一图作为程序背景。你可以根据自己的喜好调整为其他背景，或使用本地图片作为程序背景，支持 PNG, JPG 和 BMP。
 
-如果你需要设置网络图片为背景图，请使用 [/setImage](/zh-cn/commands/build-in.md) 命令。
+如果你需要设置网络图片为背景图，请使用 [/setimage](/commands/build-in.md#in-application-commands) 命令。
 
-::: warning 注意
+::: warning Notice
 
 云母效果仅在 Windows 11 中可用。使用亚克力、模糊或云母效果时，标题栏会自动变更为 Windows 11 样式。
 
@@ -30,19 +30,19 @@
 
 :::
 
-## 高级
+## Advanced
 
-### 硬件加速
+### Hardware acceleration
 
 使用硬件加速能够为程序带来更好的性能和动画效果。关闭硬件加速可能会极大降低应用程序性能，因此我们非常不建议关闭硬件加速。
 
 但如果您在使用 Office Tool Plus 的过程中遇到了窗口变全透明、加载图片时内存溢出等问题，你可以通过关闭硬件加速来缓解这些问题。
 
-你也可以通过使用[命令行](/zh-cn/commands/build-in.md#命令行命令)的方式临时关闭硬件加速。
+你也可以通过使用[命令行](/commands/build-in.md#commands)的方式临时关闭硬件加速。
 
-## 部署
+## Deploy
 
-### Office 语言显示格式
+### Office languages display format
 
 默认情况下，Office Tool Plus 显示 Office 语言为本地格式，例如英语显示为 English (United States).
 
@@ -53,15 +53,15 @@
 
 本地名称、英文名称以及本地化名称由 Windows 提供数据，不同版本的 Windows 显示结果可能不同。
 
-### 显示内部产品和通道
+### Display internal products and channels
 
-默认情况下，Office Tool Plus 不会显示非公开的产品和更新通道，例如 ProPlusVolume 或 MondoVolume 等产品，又或者 Dofgood:DevMain 等更新通道。
+By default, Office Tool Plus does not display non-public products and update channels, such as products like `ProPlusVolume` or `MondoVolume`, or update channels like `Dofgood::DevMain`.
 
-内部产品和更新通道不受 Office 部署工具的支持，因此您无法直接使用。但如果您需要，您可以打开此开关，Office Tool Plus 将会在部署时显示这些内部产品和更新通道。
+Internal products and update channels are not supported by Office Deployment Tool, so you can't use them directly. However, if you need, you can turn on this switch and Office Tool Plus will display these internal products and update channels.
 
-## 下载
+## Download
 
-### 校验文件
+### Verify files
 
 当您打开此开关后，Office Tool Plus 将会在下载 Office 安装文件后对文件进行校验，校验可以检查出版本不匹配，文件损坏等问题。
 
@@ -73,22 +73,22 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 :::
 
-### 使用 HTTPS 连接
+### Connect using HTTPS
 
 默认情况下，Office Tool Plus 使用 HTTP 请求下载 Office 安装文件。
 
 如果您下载 Office 安装文件时进度缓慢或者出现了意料之外的错误，您可以尝试打开此开关，然后重试下载。
 
-### 引擎
+### Engine
 
 下载引擎之间的区别：
 
-| 引擎                   | x86 | x64 & ARM64 | 显示进度 | 代理 | 暂停 & 继续 | 取消 |
-| :--------------------- | :-- | :--         | :--     | :--  | :--        | :--  |
-| 迅雷                   | ✓ | × | ✓ | ✓ | ✓ | ✓ |
+| Engine                 | x86 | x64 & ARM64 | Progress | Proxy | Pause & continue | Cancellation |
+| :--                    | :-- | :--         | :--      | :--   | :--              | :--          |
+| Thunder                | ✓ | × | ✓ | ✓ | ✓ | ✓ |
 | bezzad.Downloader      | ✓ | ✓ | ✓ | × | ✓ | ✓ |
 | Office Tool Plus       | ✓ | ✓ | ✓ | × | × | ✓ |
-| Office 部署工具        | ✓ | ✓ | × | × | × | × |
+| Office Deployment Tool | ✓ | ✓ | × | × | × | × |
 
 > 迅雷云加速开放平台为程序内置，不需要在系统上额外安装迅雷。
 
@@ -96,12 +96,12 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 使用 64 位或 ARM64 的 Office Tool Plus 时，下载引擎默认为 bezzad.Downloader。
 
-::: warning 警告
+::: warning Warning
 
 在 32 位系统中使用 bezzad.Downloader 作为下载引擎时，启用`分块同时下载`功能时可能会遇到内存不足的问题。此问题无法解决，请改用 64 位的 Office Tool Plus 以避免此问题。
 
 :::
 
-## Windows 版本
+## Windows version
 
-默认情况下，Office Tool Plus 自动识别当前系统版本并下载对应的 Office 安装文件。若要为其他系统下载 Office 安装文件，请在此处更改为对应的 Windows 版本。
+By default, Office Tool Plus automatically detected OS version and downloads the corresponding Office version. To download Office installation files for other systems, change to the corresponding Windows version here.

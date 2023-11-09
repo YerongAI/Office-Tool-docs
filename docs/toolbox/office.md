@@ -6,6 +6,8 @@ You can get the version information of Office update channel from Microsoft, inc
 
 ![Query Office version](/images/en-us/toolbox/query-office-update-channel.png)
 
+To display internal channels, please enable [Display internal products and channels](/settings/README.md#display-internal-products-and-channels).
+
 ## Remove Office
 
 此功能支持移除所有版本的 Office.
