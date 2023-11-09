@@ -1,12 +1,12 @@
 # Application settings
 
-在设置页面，你可以调整程序的语言、主题、背景等设置，还可以调整一些下载或者部署设置。
+Here you can adjust language, theme, background and other settings, as well as some download or deployment settings.
 
-如果系统语言无法匹配，则默认使用英语（美国）作为显示语言。
+If the system language cannot be matched, English (United States) is used by default.
 
 ::: tip Tip
 
-若要保存更改，请打开`保存设置`按钮，否则所有设置将在重启程序后丢失。
+To save the changes, turn on the `Save Settings`, otherwise all settings will be lost after restarting Office Tool Plus.
 
 :::
 
@@ -14,19 +14,19 @@
 
 ### Theme
 
-默认情况下，Office Tool Plus 会跟随 Windows 设置自动切换浅色主题（Light Blue）和深色主题（Dark White）。你也可以根据自己的喜好设置一个特定的主题。
+By default, Office Tool Plus automatically switches between light theme (Light Blue) and dark theme (Dark White) based on Windows settings. You can also manually select your favorite theme.
 
 ### Background
 
-默认情况下，Office Tool Plus 使用来自必应的每日一图作为程序背景。你可以根据自己的喜好调整为其他背景，或使用本地图片作为程序背景，支持 PNG, JPG 和 BMP。
+By default, Office Tool Plus uses Bing wallpaper as background image. You can adjust it to other backgrounds according to your preference, or use local images as background image, supporting PNG, JPG and BMP.
 
-如果你需要设置网络图片为背景图，请使用 [/setimage](/commands/build-in.md#in-application-commands) 命令。
+If you want to set a web image as the background image, please use [/setimage](/commands/build-in.md#in-application-commands) command.
 
 ::: warning Notice
 
-云母效果仅在 Windows 11 中可用。使用亚克力、模糊或云母效果时，标题栏会自动变更为 Windows 11 样式。
+The Mica effect is only available on Windows 11. When you use the Acrylic, Blur, or Mica effects, the title bar automatically changes to the Windows 11 style.
 
-在 Windows 10 中使用亚克力效果时，拖动窗口可能会有延迟。
+There may be a delay in dragging windows when using the Acrylic effect on Windows 10.
 
 :::
 
