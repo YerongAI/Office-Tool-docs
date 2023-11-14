@@ -131,6 +131,12 @@ Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请�
 
 ![Office installation](/images/zh-cn/deploy/office-installation.png)
 
+::: tip 提示
+
+Office 安装文件应该能够完整展示版本号和语言包信息，并且没有错误消息。如果安装文件不包含语言，或者仅包含校对工具，则安装的时候依然需要联网，否则会安装失败。
+
+:::
+
 如果你有本地安装包，你可以点击 *选择文件*，然后指定 Office 安装文件中的任意一个 CAB 文件。
 
 Office ISO 镜像应先挂载或者解压后，再选择其中内含的 CAB 文件。

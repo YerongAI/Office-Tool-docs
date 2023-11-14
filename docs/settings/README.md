@@ -59,6 +59,12 @@ By default, Office Tool Plus does not display non-public products and update cha
 
 Internal products and update channels are not supported by Office Deployment Tool, so you can't use them directly. However, if you need, you can turn on this switch and Office Tool Plus will display these internal products and update channels.
 
+::: danger Warning
+
+If you don't know about the internal products and update channels, **DO NOT USE** them.
+
+:::
+
 ## Download
 
 ### Verify files
