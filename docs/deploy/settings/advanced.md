@@ -24,17 +24,17 @@ If you have Office installation files, you should select them on [Installation f
 
 ## Activation settings
 
-此处的激活设置仅供企业管理员进行批量部署时使用，个人用户不应更改此处设置，否则极有可能导致 Office 无法激活。
+The activation settings are intended to be used by IT administrators only, and should not be changed by individual users.
 
 ## Application preferences
 
-`应用程序首选项由微软提供数据，其文本均为机器翻译，可能存在某些语法错误，请以英文版本的为准。`
+> Application preferences are data provided by Microsoft, these texts are machine translated and may contain some grammatical errors.
 
-应用程序首选项使你可以在部署 Office 前进行 Office 的设置，包括 VBA 宏通知、默认文件位置和默认文件格式。
+The function allow you defines application preferences for Office Apps, including VBA Macro notifications, default file locations, and default file format.
 
-除此之外，你还可以将应用程序首选项应用到现有的 Office 中。
+You can apply new application preferences to client computers that already have Office installed.
 
-您所定义的应用程序首选项将应用于设备的所有现有用户以及未来添加到该设备的任何新用户。如果在 Office 应用程序运行时应用首选项，则新的设置将在 Office 下次运行时生效。
+The app preferences are applied to all existing users of the device and any new users added to the device in the future. If you apply application preferences when Office apps are running, the preferences will be applied when Office is next restarted.
 
 ## Other options
 

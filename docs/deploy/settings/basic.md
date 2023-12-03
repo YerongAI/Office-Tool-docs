@@ -70,64 +70,62 @@ We recommend prioritizing the use of the Office Deployment Tool, and should only
 
 ## Products
 
-购买了 Microsoft 365 的用户，添加产品的时候选择 Microsoft 365 产品即可，具体视你所拥有的授权而选择家庭版、个人版或企业版。
+If you have a genuine Office license, install your own purchased version of Office.
 
-购买了 Office 2019/2021 的用户，按照自己购买的版本选择即可，例如家庭和学生版，或者专业增强版。
+If you want to use KMS or MAK to activate Office, install volume license products, such as Office 2019 Volume License or Office 2021 Volume License.
 
-如果需要使用 KMS 或 MAK 激活，请安装批量许可证产品，例如 Office 2019 批量许可证或 Office 2021 批量许可证。
+> Not sure if you have a genuine Office license? Login your [personal account](https://account.microsoft.com/services/) or your [enterprise account](https://portal.office.com/account/?ref=MeControl#subscriptions) to check.
 
-> 不确定自己是否拥有 Office 授权？登录你的[个人账户](https://account.microsoft.com/services/)或者[企业账户](https://portal.office.com/account/?ref=MeControl#subscriptions)进行验证。
+::: details Office 365 Plan
 
-::: details Office 365 产品对照表
-
-| Subscription plan  | 产品 ID  |
-| :--                   |:--:|
-| 适用于企业的 Microsoft 365 应用 | O365ProPlusRetail |
-| Office 365 企业版 E3 | O365ProPlusRetail |
-| Office 365 企业版 E4 | O365ProPlusRetail |
-| Office 365 企业版 E5 | O365ProPlusRetail |
-| Office 365 中型企业版 | O365ProPlusRetail |
-| Microsoft 365 应用商业版 | O365BusinessRetail |
-| Microsoft 365 商业标准版 | O365BusinessRetail |
-| Office 小型企业高级版 | O365SmallBusPremRetail |
-| Microsoft 365 E3 | O365ProPlusRetail |
-| Microsoft 365 E5 | O365ProPlusRetail |
-| Microsoft 365 商业高级版 | O365BusinessRetail |
+| Office 365 Plan                   | Product ID             |
+| --------------------------------- | :--------------------: |
+| Microsoft 365 Apps for enterprise | O365ProPlusRetail      |
+| Office 365 Enterprise E3          | O365ProPlusRetail      |
+| Office 365 Enterprise E4          | O365ProPlusRetail      |
+| Office 365 Enterprise E5          | O365ProPlusRetail      |
+| Office 365 Midsize                | O365ProPlusRetail      |
+| Office 365 Business               | O365BusinessRetail     |
+| Office 365 Business Premium       | O365BusinessRetail     |
+| Office Small Business Premium     | O365SmallBusPremRetail |
+| Microsoft 365 E3                  | O365ProPlusRetail      |
+| Microsoft 365 E5                  | O365ProPlusRetail      |
+| Microsoft 365 Business            | O365BusinessRetail     |
 
 :::
 
 ### Applications
 
-应用程序会随你选择的产品不同而显示不同的内容。
+The application will display different items depending on the products you selected.
 
-`Groove` 代表的是 OneDrive for Business，`Lync` 代表的是 Skype for Business。某些应用程序（例如 Teams 和 OneDrive）可能需要重启系统才能完成安装。
+`Groove` stands for **OneDrive for Business**, `Lync` stands for **Skype for Business**. Some applications may require a reboot to complete the installation, such as `Teams` or `OneDrive`.
 
-Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-cn/deployoffice/microsoft-search-bing).
+Bing is a extension for Chrome and Edge etc. For more information, visit [Microsoft Search in Bing and Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/microsoft-search-bing).
 
-选择 Visio 或 Project 等产品时，由于其本身为一个不可选组件，因此不会出现在应用程序列表中。
+When you select a product such as Visio or Project, it does not appear in the list of applications.
 
-有关产品和应用程序的信息，可以查看 [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
+For more information about products and applications, you can view [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
 
 ## Languages
 
-可以添加一个语言，也可以添加多个语言，列表中的首个完整类型的语言决定了 Shell UI 区域性，包括快捷方式、右键单击关联菜单和工具提示。如果决定要在初始安装后更改 Shell UI 语言，必须重新安装 Office。
+You can add one or more languages that you want. The first full type of language in the list determines the Shell UI culture, including shortcuts, right-click context menus, and tooltips. If you decide to change the Shell UI language after an initial installation, you have to reinstall Office.
 
-如果你没有添加语言，安装 Office 时将会自动匹配系统语言，如果系统语言无法匹配，则回退到 *高级设置 - 安装设置 - 备用语言* 所指定的语言。
+If you do not add a language, Office will automatically match the system language, or fall back to the language specified in *Advanced settings - Installation settings - Fallback language* if the system language cannot be matched.
 
-如果你选择了“部署为校对工具”，则该语言将会被安装为校对工具，不包含 Office 显示语言。
+If you check `Deploy proofing tools only`, the language will be installed as proofing tools without display language.
 
-### 语言类型区别
+### Language types
 
-| 语言类型　　　　　　　| 说明 |
-| :------------------ | :--- |
-| 完整　　　　　　　　　| 包含显示语言和校对工具 |
-| 部分　　　　　　　　　| 包含部分 Office 应用程序的显示语言，包含校对工具 |
-| 部分但不包含校对工具　| 包含部分 Office 应用程序的显示语言，但不包含校对工具 |
-| 校对工具　　　　　　　| 仅包含拼写检查器 |
+| Type                           | Description                                                                                 |
+| :----------------------------- | :------------------------------------------------------------------------------------------ |
+| Full                           | Includes display language and proofing tools.                                               |
+| Partial                        | Includes display language for some Office applications and includes proofing tools.         |
+| Partial without proofing tools | Includes display language for some Office applications but does not include proofing tools. |
+| Proofing tools                 | Only include spell checker.                                                                 |
 
 ## Installation files
 
-默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
+When you download Office from Office Tool Plus, Office Tool Plus will automatically detected the Office installation and displays it here.
 
 ![Office installation](/images/en-us/deploy/office-installation.png)
 
@@ -137,8 +135,8 @@ Office installation files should show version number and languages information i
 
 :::
 
-如果你有本地安装包，你可以点击 *选择文件*，然后指定 Office 安装文件中的任意一个 CAB 文件。
+If you have local installations, you can click *Select file* and then specify any of the CAB files in the Office installation.
 
-Office ISO 镜像应先挂载或者解压后，再选择其中内含的 CAB 文件。
+The Office ISO image should be mounted or extracted before selecting the CAB file contained within it.
 
-如果安装包显示错误，则不应该继续部署 Office，检查问题所在，解决问题后再继续部署操作。
+If the installation shows an error, you should check and fix the problems before deploying.
