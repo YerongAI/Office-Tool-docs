@@ -4,7 +4,7 @@
 
 Office Tool Plus 是一个强大且实用的 Office 部署工具。
 
-Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以很方便的部署 Office，其内置`迅雷云加速开放平台`和 [Downloader](https://github.com/bezzad/Downloader) 引擎可帮助您更快地下载 Office。你也可以使用 Office Tool Plus 的其他功能、小工具快捷、方便地激活和管理 Office 哦！
+Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以很方便的部署 Office，其内置迅雷云加速开放平台和 [Downloader](https://github.com/bezzad/Downloader) 引擎可帮助您更快地下载 Office。你也可以使用 Office Tool Plus 的其他功能、小工具快捷、方便地激活和管理 Office 哦！
 
 支持下列产品：
 
@@ -30,8 +30,8 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 
 体系架构区别：
 
-- x86（32 位）: 可以在 32 位、64 位 或 ARM64 的 Windows 中运行，支持使用`迅雷云加速开放平台`作为下载引擎；也支持 `Downloader` 下载引擎，但可能会发生内存不足问题。
-- x64（64 位）: 可以在 64 位 或 ARM64 的 Windows 中运行，不支持使用`迅雷云加速开放平台`，使用 `Downloader` 不会发生内存不足问题。
+- x86（32 位）: 可以在 32 位、64 位 或 ARM64 的 Windows 中运行，支持使用迅雷云加速开放平台作为下载引擎；也支持 Downloader 下载引擎，但可能会发生内存不足问题。
+- x64（64 位）: 可以在 64 位 或 ARM64 的 Windows 中运行，不支持使用迅雷云加速开放平台，使用 Downloader 不会发生内存不足问题。
 - ARM64: 可以在 ARM64 的 Windows 中运行，针对 ARM64 平台有更好的兼容性和性能表现，其余同 x64 版本。
 
 ### 解压

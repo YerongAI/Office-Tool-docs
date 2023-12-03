@@ -70,4 +70,4 @@ The architecture and update channels have been automatically matched based on th
 
 If Office Tool Plus prompts that the product cannot be installed on the selected channel when adding a product, it means that the Office installation files you downloaded cannot install the product you selected. Please select a different product, or download different Office installation files.
 
-If everything is ok, click `Start deploy` now.
+If everything is ok, click **Start deploy** now.

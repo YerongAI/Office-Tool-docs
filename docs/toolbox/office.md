@@ -10,11 +10,11 @@ To display internal channels, please enable [Display internal products and chann
 
 ## Remove Office
 
-此功能支持移除所有版本的 Office.
+Support to remove all version of Office.
 
 如果移除 Office 出现了某些文件无法访问的问题，你可以多试几次，也可以手动找到文件删除。
 
-当你启用`同时移除 Microsoft Store 版本的 Office` 时，程序会执行如下 PowerShell 命令以删除微软商店版本的 Office：
+当你启用**同时移除 Microsoft Store 版本的 Office** 时，程序会执行如下 PowerShell 命令以删除微软商店版本的 Office：
 
 ``` powershell
 Get-AppxPackage -name "Microsoft.Office.Desktop" | Remove-AppxPackage

@@ -4,7 +4,7 @@
 
 Microsoft 365 Apps may not install or run correctly on older systems. Microsoft strongly recommend you move to a supported operating system for better experience.
 
-If you still want to install Microsoft 365 Apps on your PC, please use ***Current Channel*** as deploy channel. If you receive a message that your operating system is not supported when installing Microsoft 365 Apps, you can try changing the installation module from `Office Deployment Tool` to `Office Tool Plus` to skip the compatibility check.
+If you still want to install Microsoft 365 Apps on your PC, please use **Current Channel** as deploy channel. If you receive a message that your operating system is not supported when installing Microsoft 365 Apps, you can try changing the installation module from `Office Deployment Tool` to `Office Tool Plus` to skip the compatibility check.
 
 For more information please visit:
 

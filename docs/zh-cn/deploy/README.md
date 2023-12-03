@@ -50,7 +50,7 @@
 
 挂载/解压后，如果文件中包含 Office Tool Plus，请双击并打开 Office Tool Plus。如果没有，请先[下载](/zh-cn/start/README.md#下载)并打开 Office Tool Plus 然后再继续操作。
 
-打开 Office Tool Plus 后，转到部署页面，确保安装文件能够正确加载并识别。如果没有，请点击`选择`按钮并根据提示选择 Office 安装文件。
+打开 Office Tool Plus 后，转到部署页面，确保安装文件能够正确加载并识别。如果没有，请点击**选择**按钮并根据提示选择 Office 安装文件。
 
 ![Office installation](/images/zh-cn/deploy/office-installation.png)
 
