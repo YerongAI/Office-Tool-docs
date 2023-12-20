@@ -104,10 +104,10 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 ::: warning Warning
 
-在 32 位系统中使用 bezzad.Downloader 作为下载引擎时，启用`分块同时下载`功能时可能会遇到内存不足的问题。此问题无法解决，请改用 64 位的 Office Tool Plus 以避免此问题。
+使用 bezzad.Downloader 作为下载引擎时，如果储存 Office 安装文件的目标硬盘是机械硬盘，则不建议设置过高的**分块**数量。在高速下载时，过多的**分块**同时下载会导致文件总体写入速度下降。
 
 :::
 
-## Windows version
+### Windows version
 
 By default, Office Tool Plus automatically detected OS version and downloads the corresponding Office version. To download Office installation files for other systems, change to the corresponding Windows version here.

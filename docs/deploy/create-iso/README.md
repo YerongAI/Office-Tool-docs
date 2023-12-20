@@ -1,4 +1,4 @@
-# 前期准备
+# Perpare to create
 
 使用 Office Tool Plus 创建 ISO 映像文件可以将 Office Tool Plus 和 Office 安装文件一起打包。ISO 映像文件可以与他人共享，或者用于多次安装。
 
@@ -10,7 +10,7 @@ Office 会固定在每个月的第二个星期二（太平洋时间）更新一�
 - 创建 Office ISO 文件。
 - 测试 Office ISO 是否和预期的一样工作。
 
-## 注意事项
+## Notices
 
 为了确保 Office 安装文件下载完整，我们建议您勾选**设置 - 下载 - 校验文件**。
 
@@ -28,7 +28,7 @@ Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无�
 
 下载完成后，请将整个压缩包解压到一个合适的位置，例如桌面。**请勿在压缩包内直接双击运行 Office Tool Plus**.
 
-## 创建 Office ISO
+## Create Office ISO
 
 您可以根据需要创建以下格式的 Office ISO 文件：
 
@@ -40,6 +40,6 @@ Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无�
 
 通常情况下，如果您需要创建 32 位和 64 位的 Office ISO，我们建议您分开创建两个文件。如果您决定创建同时包含 32 位和 64 位的 Office ISO，则我们不建议您使用第二或第三种方法创建 Office ISO，这两个方法无法自由选择 32 位或 64 位进行部署。
 
-## 完成之后
+## The end
 
-当你完成了 Office ISO 的创建后，我们建议您在虚拟机内测试 Office ISO 是否和您预期的一样工作。
+When you finished creating Office ISO file, we recommend you to test the Office ISO before you use it.
