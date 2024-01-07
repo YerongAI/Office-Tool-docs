@@ -30,9 +30,9 @@ Differences between the versions:
 
 Differences between the architecture:
 
-- x86: Works on 32 bit, 64 bit and ARM64 of Windows. Supports `Thunder` engine. Also supports `Downloader` engine, but memory problem may occurred when using `Downloader` engine.
-- x64: Works on 64 bit and ARM64 of Windows. Only supports `Downloader` engine.
-- ARM64: Works on ARM64 of Windows. Better compatibility and performance for ARM64 platform, others are same as the x64.
+- x86 (32-bit): Works on 32 bit, 64 bit and ARM64 of Windows. `Thunder` engine is supported.
+- x64 (64-bit): Works on 64 bit and ARM64 of Windows. `Thunder` engine is **not** supported.
+- ARM64: Only works on ARM64 of Windows. Better compatibility and performance for ARM64 platform, others are same as the x64.
 
 ### Unpack
 
