@@ -10,27 +10,27 @@ To display internal channels, please enable [Display internal products and chann
 
 ## Remove Office
 
-Support to remove all version of Office.
+Support to remove all versions of Office.
 
-如果移除 Office 出现了某些文件无法访问的问题，你可以多试几次，也可以手动找到文件删除。
+If some errors occurred when removing Office, you can try again later or fix it manually.
 
-当你启用**同时移除 Microsoft Store 版本的 Office** 时，程序会执行如下 PowerShell 命令以删除微软商店版本的 Office：
+If **Also remove the Microsoft Store edition of Office** is enabled, Office Tool Plus will run the following PS command to remove Office:
 
-``` powershell
+```powershell
 Get-AppxPackage -name "Microsoft.Office.Desktop" | Remove-AppxPackage
 ```
 
-当你启用`同时清除激活信息`时，Office Tool Plus 会同时卸载所有 Office 许可证和产品密钥。
+If **Also clear activation** is enabled, Office Tool Plus will remove all Office licenses and product keys.
 
 For more information please refer to [Uninstall Office from a PC](https://support.microsoft.com/en-us/office/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8).
 
 ## Change Office Update Channel
 
-此功能可以更改 Office 更新通道，从而实现不重装进行 Office 的升级/降级。
+This feature allows you to change the Office update channel so that you can upgrade/downgrade Office without reinstalling it.
 
 ::: warning Notice
 
-Office 企业版长期通道被锁定，一般情况下无法更改，也无法从别的通道更改到此通道。
+The Office Perpetual Enterprise channel is locked and cannot be changed, nor can it be changed from another channel to this channel.
 
 :::
 
@@ -62,7 +62,7 @@ User ID 为刚才复制的用户 ID，Name 是你想设置的名字，例如：`
 
 填写完成后，点击`设置名称`按钮，重启你的 Office 应用程序即可看到新的名称。
 
-### 更改 Office 传统许可证的属于者
+### Change owner for legacy license
 
 在部署页面查看您已安装的产品的 ID，例如 `ProPlus2021Volume` 或 `VisioPro2021Volume`。
 

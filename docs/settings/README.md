@@ -87,7 +87,7 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 ### Engine
 
-下载引擎之间的区别：
+Differences between engines:
 
 | Engine                 | x86 | x64 & ARM64 | Progress | Proxy | Pause & continue | Cancellation |
 | :--                    | :-- | :--         | :--      | :--   | :--              | :--          |
@@ -96,15 +96,9 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 | Office Tool Plus       | ✓ | ✓ | ✓ | × | × | ✓ |
 | Office Deployment Tool | ✓ | ✓ | × | × | × | × |
 
-> 迅雷云加速开放平台为程序内置，不需要在系统上额外安装迅雷。
-
-在中国大陆地区（根据系统区域设置识别）使用 32 位的 Office Tool Plus 时，下载引擎默认为迅雷，其他地区默认为 bezzad.Downloader。
-
-使用 64 位或 ARM64 的 Office Tool Plus 时，下载引擎默认为 bezzad.Downloader。
-
 ::: warning Warning
 
-使用 bezzad.Downloader 作为下载引擎时，如果储存 Office 安装文件的目标硬盘是机械硬盘，则不建议设置过高的**分块**数量。在高速下载时，过多的**分块**同时下载会导致文件总体写入速度下降。
+When using *bezzad.Downloader* as download engine, it is not recommended to set the number of **chunks** too high if files are downloading to a hard disk drive (HDD), too many **chunks** downloading at the same time will reduce the write speeds.
 
 :::
 
