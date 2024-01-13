@@ -1,22 +1,22 @@
-# Perpare to create
+# Prepare to create
 
-使用 Office Tool Plus 创建 ISO 映像文件可以将 Office Tool Plus 和 Office 安装文件一起打包。ISO 映像文件可以与他人共享，或者用于多次安装。
+By using Office Tool Plus, you can create an Office ISO which contains Office Tool Plus and Office installation files. You can use the ISO to install Office to multiple clients, or share it with your friends.
 
-Office 会固定在每个月的第二个星期二（太平洋时间）更新一次，我们建议您在此时间后及时更新 Office Tool Plus 和 Office ISO，以确保您始终可以获得最佳的部署体验。
+We recommend that you update your Office ISO once a month, in line with Microsoft's update schedules.
 
-若要创建 Office ISO，您需要完成以下步骤：
+To create an Office ISO, do the following things：
 
-- 下载合适的 Office Tool Plus。
-- 创建 Office ISO 文件。
-- 测试 Office ISO 是否和预期的一样工作。
+- Download the appropriate Office Tool Plus.
+- Create Office ISO file.
+- Test the Office ISO if it works fine.
 
 ## Notices
 
-为了确保 Office 安装文件下载完整，我们建议您勾选**设置 - 下载 - 校验文件**。
+To ensure that the Office installation files downloads completely, we recommend you enable **Settings - Download - Verify files**。
 
-Office Tool Plus 默认下载适合当前操作系统的 Office 版本。若要下载适用于其他 Windows 的 Office 版本，请更改**设置 - 下载 - Windows 版本**。
+Office Tool Plus downloads Office for the current OS version by default. To download Office for other Windows, change the **Settings - Download - Windows version**。
 
-![Download settings](/images/zh-cn/settings/download-settings.png)
+![Download settings](/images/en-us/settings/download-settings.png)
 
 Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无需更改我们没有在教程中提到的设置。
 

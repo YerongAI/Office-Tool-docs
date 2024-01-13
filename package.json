@@ -6,8 +6,9 @@
   "author": "Yerong",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^2.0.0-beta.67",
-    "@vuepress/plugin-search": "^2.0.0-beta.67",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.0",
+    "@vuepress/plugin-google-analytics": "^2.0.0-rc.0",
+    "@vuepress/plugin-search": "^2.0.0-rc.0",
     "vuepress": "^2.0.0-rc.0"
   },
   "scripts": {

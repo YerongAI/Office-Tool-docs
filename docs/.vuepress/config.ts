@@ -2,6 +2,7 @@ import { defineUserConfig } from '@vuepress/cli'
 import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import {
   head,
   navbarEnUS,
@@ -54,6 +55,7 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-L3WG8DCE0S'
     }),
+    backToTopPlugin()
   ],
 
   // configure default theme

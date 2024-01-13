@@ -36,7 +36,7 @@ When this option is off, Office will be deployed during downloading, and when it
 ![Download first](/images/en-us/deploy/download-first.png)
 
 - Deploy during downloading: you can't pause or cancel the installation at that moment. Office installer will download and install Office from Office CDN. If you have a bad internet connection, the installation may get stuck.
-- Deploy after downloaded: the operation is usually performed by Office Tool Plus, so you can cancel or pause the download before the installation begins. Once the download is complete, you can go offline when installting Office.
+- Deploy after downloaded: the operation is usually performed by Office Tool Plus, so you can cancel or pause the download before the installation begins. Once the download is complete, you can go offline when installing Office.
 
 ---
 

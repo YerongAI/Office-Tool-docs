@@ -6,7 +6,7 @@ Don't change any settings that you can't read, or Office installation may fail.
 
 :::
 
-## Gernal settings
+## General settings
 
 You can add a description to this config for documentation or notes. Office Tool Plus supports displaying markdown-formatted text, and this content is shown to the user before deploying Office.
 

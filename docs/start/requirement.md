@@ -2,7 +2,7 @@
 
 ## Operating System
 
-- Windows 10 or highter.
+- Windows 10 or higher.
 - Windows Server 2016 or higher.
 - Architecture: x86, x64 or ARM64.
 

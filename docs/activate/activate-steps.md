@@ -6,7 +6,7 @@ Input your Office product key on Keys management, click **Install key**, finally
 
 ::: tip Tip
 
-If you get an error code [0xC004F069](/faq/activation.md#_0xc004f069) when installating key, install Office licenses for the corresponding product first.
+If you get an error code [0xC004F069](/faq/activation.md#_0xc004f069) when installing key, install Office licenses for the corresponding product first.
 
 :::
 
@@ -18,7 +18,7 @@ Use the *installation ID* to get *confirmation ID* from Microsoft. click **Insta
 
 ::: tip Tip
 
-If you get an error code [0xC004F069](/faq/activation.md#_0xc004f069) when installating key, install Office licenses for the corresponding product first.
+If you get an error code [0xC004F069](/faq/activation.md#_0xc004f069) when installing key, install Office licenses for the corresponding product first.
 
 :::
 

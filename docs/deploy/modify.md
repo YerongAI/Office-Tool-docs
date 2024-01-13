@@ -20,7 +20,7 @@ If the applications does not have the items you want, such as Access, add a new 
 
 ![Upgrade Office](/images/en-us/deploy/upgrade-product.png)
 
-Download Office installation from another PC, then make an ISO or copy the files to the client. Make sure the `Installation files` was loaded the Office installtion, if not, select the file manually. Add the same products as installed products, finally click **Start deploy**.
+Download Office installation from another PC, then make an ISO or copy the files to the client. Make sure the `Installation files` was loaded the Office installation, if not, select the file manually. Add the same products as installed products, finally click **Start deploy**.
 
 ## Migration architecture
 

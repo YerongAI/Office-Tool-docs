@@ -12,7 +12,7 @@ This error code has no meaning, please refer to the given error message to troub
 
 Error description: The Software Licensing Service reported that the license is not installed.
 
-If your Office was activated, you can ignore the messgae.
+If your Office was activated, you can ignore the message.
 
 If your Office is not activated, check your activation steps is correct or not, or purchase Office from Microsoft.
 
@@ -30,7 +30,7 @@ The Office product key you are installing does not have a corresponding license,
 
 ## 0xC004E015
 
-Error description: The Software Licensing Service reported that license consimption failed.
+Error description: The Software Licensing Service reported that license consumption failed.
 
 Please refer to [Rebuild Windows Activation Token](/toolbox/windows.md#rebuild-windows-activation-token).
 

@@ -65,7 +65,7 @@ Office Tool
 ├── Office Tool Plus.exe (main program)
 ├── Office Tool Plus.Console.exe (Console Helper)
 ├── hostfxr.dll (.NET Host)
-├── shared (.NET Runtimes)
+├── shared (.NET Runtime)
 └── files
     ├── setup.exe (Microsoft Office Deployment Tool)
     ├── preferences (Office applications preferences data, provided by Microsoft)
