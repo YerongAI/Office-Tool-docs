@@ -13,5 +13,5 @@ features:
   details: Born for Office deployments.
 - title: Powerful
   details: Full support of customize.
-footer: GPL-3.0 Licensed | Copyright © 2016 - 2023 Yerong All Rights Reserved.
+footer: MIT Licensed | Copyright © 2016 - 2024 Yerong All Rights Reserved.
 ---

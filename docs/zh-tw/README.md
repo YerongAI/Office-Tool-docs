@@ -13,5 +13,5 @@ features:
   details: 没有多余的东西，只为 Office 而生。
 - title: 强大
   details: 完整的自定义支持。
-footer: GPL-3.0 Licensed | Copyright © 2016 - 2023 Yerong All Rights Reserved.
+footer: MIT Licensed | Copyright © 2016 - 2024 Yerong All Rights Reserved.
 ---
