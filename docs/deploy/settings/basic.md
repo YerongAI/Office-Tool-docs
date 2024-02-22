@@ -63,7 +63,7 @@ Our module enables most of the features of the Office Deployment Tool. The follo
 | :--                                           | :--                    | :--              |
 | Remove existing MSI versions of Office        | ✓ | × |
 | Install the same languages as the MSI version | ✓ | × |
-| Use internal products and channels            | × | ✓ |
+| Use internal channels                         | × | ✓ |
 | Install internal products                     | × | ✓ |
 
 We recommend prioritizing the use of the Office Deployment Tool, and should only choose Office Tool Plus if there are issues with the Office Deployment Tool that cannot be resolved, or if there are special needs.
