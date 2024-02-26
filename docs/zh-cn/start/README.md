@@ -21,6 +21,28 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 
 - [Office Tool Plus 官方网站](http://otp.landian.vip/)
 
+或者使用 PowerShell 下载 Office Tool Plus:
+
+站点 1（第一个为简体中文，第二个为英文）:
+
+```powershell
+irm https://otp.landian.vip/get/?lang=zh-cn | iex
+```
+
+```powershell
+irm https://otp.landian.vip/get/ | iex
+```
+
+站点 2（第一个为简体中文，第二个为英文）:
+
+```powershell
+irm https://officetool.plus/get/?lang=zh-cn | iex
+```
+
+```powershell
+irm https://officetool.plus/get/ | iex
+```
+
 版本区别：
 
 - 包含框架版本：包含 .NET Runtime，可以在不安装 .NET Runtime 的情况下直接运行 Office Tool Plus.

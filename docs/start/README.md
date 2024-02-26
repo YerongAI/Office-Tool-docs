@@ -21,6 +21,20 @@ Download Office Tool Plus from:
 
 - [Office Tool Plus official website](http://otp.landian.vip/)
 
+Or download Office Tool Plus using PowerShell:
+
+Site 1:
+
+```powershell
+irm https://otp.landian.vip/get/ | iex
+```
+
+Site 2:
+
+```powershell
+irm https://officetool.plus/get/ | iex
+```
+
 Differences between the versions:
 
 - Includes runtime: Includes .NET Runtime, you can run Office Tool Plus without .NET Runtime installation.

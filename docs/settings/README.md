@@ -44,14 +44,13 @@ There may be a delay in dragging windows when using the Acrylic effect on Window
 
 ### Office languages display format
 
-默认情况下，Office Tool Plus 显示 Office 语言为本地格式，例如英语显示为 English (United States).
+By default, Office Tool Plus displays Office languages in native name.
 
-- 默认：不进行任何更改，按照默认的设置显示。
-- 本地名称：显示语言的本地名称，例如英语是 English，德语是：Deutsch
-- 英文名称：显示语言的英文名称，例如中文是 Chinese，德语是：German
-- 本地化名称：按照系统语言设置显示，例如你的系统语言是中文，那么所有的语言都显示为中文。
+- Native: display the local name of the languages, for example *Deutsch* for *German*.
+- English: all language names display in English.
+- Localized: all language names display in your OS language.
 
-本地名称、英文名称以及本地化名称由 Windows 提供数据，不同版本的 Windows 显示结果可能不同。
+The native name, English name, and localized name are data provided by Windows. Different versions of Windows may display different results.
 
 ### Display internal products and channels
 
