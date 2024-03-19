@@ -17,7 +17,7 @@
 
 ## 重建 Windows 激活令牌
 
-此功能会尝试删除 `C:\Windows\System32\spp\store\2.0`（Windows Insider 为 `C:\Windows\System32\spp\store_test\2.0`）文件夹下的 `data.dat`, `tokens.dat` 和 `cache.dat`。
+此功能会尝试删除 `%SystemRoot%\System32\spp\store\2.0`（Windows Insider 为 `%SystemRoot%\System32\spp\store_test\2.0`）文件夹下的 `data.dat`, `tokens.dat` 和 `cache.dat`。
 
 删除后，Windows 将会尝试重建这些文件，您的 Windows 激活状态可能会丢失（如果激活已绑定主板或微软账户则无需担心此问题），Office 也需要重新安装许可证并重新激活。
 
