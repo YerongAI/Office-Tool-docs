@@ -20,7 +20,7 @@
 
 ![Upgrade Office](/images/zh-tw/deploy/upgrade-product.png)
 
-在另外的 PC 上下载 Office 安装文件，创建 Office ISO 或者将其拷贝到客户端计算机中。确保[安装文件](/zh-tw/deploy/settings/basic.html#安装文件)已正确加载数据，如果没有，请手动选择文件进行加载。然后在部署页面添加一个与当前已安装的 Office 一摸一样的产品即可开始部署。
+在另外的 PC 上下载 Office 安装文件，创建 Office ISO 或者将其拷贝到客户端计算机中。确保[安装文件](/zh-tw/deploy/settings/basic.md#安装文件)已正确加载数据，如果没有，请手动选择文件进行加载。然后在部署页面添加一个与当前已安装的 Office 一摸一样的产品即可开始部署。
 
 ## 迁移体系结构
 
