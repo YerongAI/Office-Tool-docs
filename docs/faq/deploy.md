@@ -18,3 +18,11 @@ For more information please visit:
 You can't install newer version of Office on Windows 7 even you changed the installation module.
 
 :::
+
+## How to install Office to another path
+
+Microsoft does not allow Office to be installed in other path, nor do we recommend that you force change it.
+
+## Value cannot be null. (Parameter 'xxxx')
+
+To fix the problem, go to Toolbox page and [reset system variables](/toolbox/windows.md#reset-system-variables).

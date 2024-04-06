@@ -2,7 +2,7 @@
 
 ::: warning Warning
 
-Don't change any settings that you can't read, or Office installation may fail.
+Don't change any settings that you can't understand, or the Office installation may fail.
 
 :::
 

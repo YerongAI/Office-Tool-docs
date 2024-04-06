@@ -18,3 +18,11 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 即使你更改安装模块，你也无法在 Windows 7 中安装高版本的 Office。
 
 :::
+
+## 如何将 Office 安装到其他位置
+
+微软不允许将 Office 安装到其他位置，我们也不建议您强制更改其安装位置。
+
+## Value cannot be null. (Parameter 'xxxx')
+
+要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/toolbox/windows.md#重置系统变量).
