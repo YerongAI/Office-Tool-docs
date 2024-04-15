@@ -23,6 +23,6 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 微软不允许将 Office 安装到其他位置，我们也不建议您强制更改其安装位置。
 
-## Value cannot be null. (Parameter 'xxxx')
+## The path is null or empty, please check your system variables
 
 要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/toolbox/windows.md#重置系统变量).

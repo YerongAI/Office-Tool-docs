@@ -23,6 +23,6 @@ You can't install newer version of Office on Windows 7 even you changed the inst
 
 Microsoft does not allow Office to be installed in other path, nor do we recommend that you force change it.
 
-## Value cannot be null. (Parameter 'xxxx')
+## The path is null or empty, please check your system variables
 
 To fix the problem, go to Toolbox page and [reset system variables](/toolbox/windows.md#reset-system-variables).
