@@ -100,13 +100,38 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 应用程序会随你选择的产品不同而显示不同的内容。
 
-`Groove` 代表的是 OneDrive for Business，`Lync` 代表的是 Skype for Business。某些应用程序（例如 Teams 和 OneDrive）可能需要重启系统才能完成安装。
+::: tip 建议
 
-Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-tw/deployoffice/microsoft-search-bing).
+我们建议您选择您能理解的应用程序，例如 Word，PowerPoint 和 Excel。
 
-选择 Visio 或 Project 等产品时，由于其本身为一个不可选组件，因此不会出现在应用程序列表中。
+:::
 
-有关产品和应用程序的信息，可以查看 [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
+- `Groove` 代表的是 **OneDrive for Business**。
+- `Lync` 代表的是 **Skype for Business**。
+
+某些应用程序可能需要重启才能完成安装，例如 *Teams* 和 *OneDrive*。
+
+Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信息请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-cn/deployoffice/microsoft-search-bing)。
+
+### 附加组件
+
+附加组件会随你选择的产品不同而显示不同的内容。
+
+::: warning 警告
+
+如果你不能理解附加组件是什么，**请不要取消**勾选它们，取消选择某些附加组件可能导致 Office 功能不完整。
+
+:::
+
+- `DCF` 代表的是 **Database Compare** 和 **Spreadsheet Compare**。
+- `OSM` 代表的是 **Telemetry Dashboard**。
+- `OSMUX` 代表的是 **Office 遥测日志**。
+
+了解有关 [PowerPivot](https://support.microsoft.com/zh-cn/office/powerpivot-%E6%A6%82%E8%BF%B0%E5%92%8C%E5%AD%A6%E4%B9%A0-f9001958-7901-4caa-ad80-028a6d2432ed) 的更多信息。
+
+了解有关 [Power View](https://support.microsoft.com/zh-cn/office/power-view-%E6%A6%82%E8%BF%B0%E5%92%8C%E5%AD%A6%E4%B9%A0-5380e429-3ee0-4be2-97b7-64d7930020b6) 的更多信息。
+
+有关更多产品、应用程序和附加组件的信息，您可以访问 [Office Products Information](https://www.coolhub.top/tech-articles/products.html)。
 
 ## 语言
 

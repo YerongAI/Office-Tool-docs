@@ -98,13 +98,38 @@ If you want to use KMS or MAK to activate Office, install volume license product
 
 The application will display different items depending on the products you selected.
 
-`Groove` stands for **OneDrive for Business**, `Lync` stands for **Skype for Business**. Some applications may require a reboot to complete the installation, such as `Teams` or `OneDrive`.
+::: tip Suggestion
 
-Bing is a extension for Chrome and Edge etc. For more information, visit [Microsoft Search in Bing and Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/microsoft-search-bing).
+We recommend you to select the apps which you can understand, such as Word, PowerPoint and Excel.
 
-When you select a product such as Visio or Project, it does not appear in the list of applications.
+:::
 
-For more information about products and applications, you can view [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
+- `Groove` stands for **OneDrive for Business**.
+- `Lync` stands for **Skype for Business**.
+
+Some applications may require a reboot to complete the installation, such as *Teams* and *OneDrive*.
+
+Bing is a extension for Chrome and Edge etc. For more information please visit [Microsoft Search in Bing and Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/microsoft-search-bing).
+
+### Add-ons
+
+The add-ons will display different items depending on the products you selected.
+
+::: warning Warning
+
+**DO NOT** uncheck add-ons if you cannot understand them. Unchecking add-ons may reduce Office functionality.
+
+:::
+
+- `DCF` stand for **Database Compare** and **Spreadsheet Compare**.
+- `OSM` stand for **Telemetry Dashboard**.
+- `OSMUX` stand for **Telemetry Log for Office**.
+
+Learn more about [PowerPivot](https://support.microsoft.com/en-us/office/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed).
+
+Learn more about [Power View](https://support.microsoft.com/en-us/office/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6).
+
+For more information about products, applications and add-ons, you can view [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
 
 ## Languages
 
