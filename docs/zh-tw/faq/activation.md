@@ -10,7 +10,7 @@
 
 ## 0xC004F015
 
-错误信息：软件授权服务报告许可证未安装。
+> 软件授权服务报告许可证未安装。
 
 如果您的 Office 已经激活，则不需要理会此消息。
 
@@ -18,31 +18,31 @@
 
 ## 0xC004F017
 
-错误信息：软件授权服务报告许可证未安装。
+> 软件授权服务报告许可证未安装。
 
 解决方案同[0xC004F015](activation.md#_0xc004f015)。
 
 ## 0xC004F069
 
-错误信息：软件授权服务报告找不到产品 SKU。
+> 软件授权服务报告找不到产品 SKU。
 
 这个错误代码表示你正在安装的 Office 产品密钥没有对应的许可证，你需要先安装对应的 Office 许可证，然后再安装这个产品密钥。
 
 ## 0xC004E015
 
-错误信息：软件授权服务报告许可证使用失败
+> 软件授权服务报告许可证使用失败
 
 请参考[重建 Windows 激活令牌](/zh-cn/toolbox/windows.md#重建-windows-激活令牌)。
 
 ## 0x8004E108
 
-错误信息：软件授权服务报告令牌存储中的令牌包含无效的哈希
+> 软件授权服务报告令牌存储中的令牌包含无效的哈希
 
 解决方案同[0xC004E015](activation.md#_0xc004e015)。
 
 ## 0x8007000D
 
-错误信息：数据无效
+> 数据无效
 
 确保以下事项没有问题：
 
@@ -56,9 +56,15 @@
 
 ## 0x8007007B
 
-错误信息：文件名、目录名或卷标语法不正确
+> 文件名、目录名或卷标语法不正确
 
 解决方案同[0x8007000D](activation.md#_0x8007000d)。
+
+## .NET Framework 问题
+
+> The native library 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll' does not have all required functions. Please update the .NET Framework.
+
+请使用 Windows Update 检查并安装所有的 .NET Framework 更新。
 
 ## 尚无解决方案的错误
 
