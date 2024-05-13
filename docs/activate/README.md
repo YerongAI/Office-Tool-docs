@@ -27,7 +27,7 @@ KMS 续期策略由 KMS 主机决定。通常情况下，一次激活的有效�
 
 ### Install licenses
 
-你可以从列表中找到你需要的许可证并安装，按住 Ctrl 可以同时选择多个许可证。Office Tool Plus 为零售许可证内置了默认密钥，为批量许可证内置了 GVLK 密钥。
+You can choose which licenses you want to install from list. Holding <kbd>Ctrl</kbd> to select multiple licenses. Office Tool Plus 为零售许可证内置了默认密钥，为批量许可证内置了 GVLK 密钥。
 
 安装许可证时，原有的许可证不会被覆盖也不会被清除，因此许可证可以共存。
 
@@ -37,7 +37,7 @@ KMS 续期策略由 KMS 主机决定。通常情况下，一次激活的有效�
 
 ### Uninstall all licenses
 
-此功能会删除系统上安装了的所有的 Office 许可证，不会清除密钥。
+The operation will removing all licenses, but without keys.
 
 ## Key management
 
