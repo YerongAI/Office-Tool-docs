@@ -4,7 +4,7 @@
 
 ## 程序内命令
 
-这些命令只能在命令框中使用。命令框可以点击按钮打开，也可以按下快捷键 <kbd>Ctrl + Shift + P</kbd> 打开。
+这些命令只能在命令框中使用。命令框可以点击按钮打开，也可以按下快捷键 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 打开。
 
 ![Command box](/images/zh-tw/command-box.png)
 
@@ -34,12 +34,12 @@ Office Tool Plus.Console 是一个命令行程序，默认情况下，通过 Off
 以下命令示例启动 Office Tool Plus 日志输出：
 
 ``` batch
-"Office Tool Plus.Console" /enablelog
+"Office Tool Plus.Console" /log
 ```
 
 ::: tip 提示
 
-`deploy` and `ospp` 命令默认启用日志输出，您无需额外指定 `/enablelog` 参数。`deploy` 和 `ospp` 命令不可以和其他命令混用，否则会无法识别。
+`deploy` and `ospp` 命令默认启用日志输出，您无需额外指定 `/log` 参数。`deploy` 和 `ospp` 命令不可以和其他命令混用，否则会无法识别。
 
 :::
 

@@ -4,7 +4,7 @@ The commands are not case-sensitive. If a command argument contains spaces, use 
 
 ## In-application commands
 
-These commands can be only used on command box. You can open command box via button or keyboard shortcuts <kbd>Ctrl + Shift + P</kbd>.
+These commands can be only used on command box. You can open command box via button or keyboard shortcuts <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>.
 
 ![Command box](/images/en-us/command-box.png)
 
@@ -34,12 +34,12 @@ Office Tool Plus.Console is a command-line program. When executing commands via 
 For example the following command enable the log output:
 
 ``` batch
-"Office Tool Plus.Console" /enablelog
+"Office Tool Plus.Console" /log
 ```
 
 ::: tip Tip
 
-The `deploy` and `ospp` commands enable logging by default, you don't need to specify the `/enablelog` command again. `deploy` and `ospp` commands should not be mixed with other commands or they will not works.
+The `deploy` and `ospp` commands enable logging by default, you don't need to specify the `/log` command again. `deploy` and `ospp` commands should not be mixed with other commands or they will not works.
 
 :::
 
