@@ -1,6 +1,6 @@
 # Application settings
 
-Here you can adjust language, theme, background and other settings, as well as some download or deployment settings.
+Here you can adjust language, theme, background, download or deployment settings.
 
 If the system language cannot be matched, English (United States) is used by default.
 
@@ -18,7 +18,7 @@ By default, Office Tool Plus automatically switches between light theme (Light B
 
 ### Background
 
-By default, Office Tool Plus uses Bing wallpaper as background image. You can adjust it to other backgrounds according to your preference, or use local images as background image, supporting PNG, JPG and BMP.
+By default, Office Tool Plus automatically choose background according to environment. Mica effect is the default background on Windows 11, and Bing wallpaper for others. If remote session is detected, the background will be off. You can adjust it to other backgrounds according to your preference, or use local images as background image, supporting PNG, JPG and BMP.
 
 If you want to set a web image as the background image, please use [/setimage](/commands/build-in.md#in-application-commands) command.
 
@@ -94,6 +94,8 @@ Differences between engines:
 | bezzad.Downloader      | ✓ | ✓ | ✓ | × | ✓ | ✓ |
 | Office Tool Plus       | ✓ | ✓ | ✓ | × | × | ✓ |
 | Office Deployment Tool | ✓ | ✓ | × | × | × | × |
+
+The default engine is *bezzad.Downloader*.
 
 ::: warning Warning
 
