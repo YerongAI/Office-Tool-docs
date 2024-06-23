@@ -26,3 +26,19 @@ Microsoft does not allow Office to be installed in other path, nor do we recomme
 ## The path is null or empty, please check your system variables
 
 To fix the problem, go to Toolbox page and [reset system variables](/toolbox/windows.md#reset-system-variables).
+
+## Office installation is stuck
+
+If Office installation progress is stuck between 0-49%, it means that the Office installer could not get the required files.
+
+- If you are installing online, please check your network connection or try a different network.
+- Enable [download first](/deploy/README.md#download-first), this can minimize problems due to the network.
+- Try to [verify Office installation files](/deploy/settings/basic.md#installation-files), sometimes there are problems with the files.
+
+If Office installation progress is stuck between 50-100%, it means that an error occurred during the Office installation.
+
+- If the installer allows you to ignore this error, then you can choose to ignore it, but VBA or certain functions may not be available.
+- Try to close or exit all third-party software. Some third-party software may incorrectly prevent the installer from running.
+- Try to [remove Office](/toolbox/office.md#remove-office), then try to install again.
+
+If the above suggestions does not work, you may need to reinstall Windows.

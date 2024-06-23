@@ -16,20 +16,24 @@ Most retail licenses are tied to a Microsoft account, so retail licenses are not
 
 Volume licenses can be activated using MAK or via KMS.
 
-- MAK stands for Multiple Activation Key. 该密钥有激活次数上限，可以多次使用并激活 Office。
-- KMS stands for Key Management Service. KMS 激活需要使用 GVLK，并设置 KMS 主机。
+- Multiple Activation Key (MAK): can be used in multiple times within specific limits. Once activated, the activation will be permanent.
+- Key Management Service (KMS): KMS activation requires the use of GVLK and setting up the KMS host.
 
-在激活信息不丢失的情况下，使用 MAK 激活为永久激活。
-
-KMS 续期策略由 KMS 主机决定。通常情况下，一次激活的有效期是 180 天，每隔 7 天续期一次。
+The KMS renewal policy is determined by the KMS host. Typically, an activation is valid for 180 days and is renewed every 7 days.
 
 ## Licenses management
 
 ### Install licenses
 
-You can choose which licenses you want to install from list. Holding <kbd>Ctrl</kbd> to select multiple licenses. The Grace key is the default key for Retail licenses, GVLK  is the default key for volume licenses.
+You can choose which licenses you want to install from list. The Grace key is the default key for Retail licenses, GVLK  is the default key for volume licenses.
 
 When installing a new license, the existing licenses are not overwritten, so the licenses can coexist.
+
+::: tip Tip
+
+You can holding <kbd>Ctrl</kbd> to select multiple items when installing licenses. You can also type `|` in the filter box to filter by multiple conditions. For example, type `office ltsc 2021|visio 2021` to filter Office 2021 LTSC licenses and Visio 2021 licenses.
+
+:::
 
 ### Install other licenses
 
@@ -37,7 +41,7 @@ You can install other licenses if you needed. Usually the Office licenses storag
 
 ### Uninstall all licenses
 
-The operation will removing all licenses, but without keys.
+The operation will removing all licenses, but except product keys.
 
 ## Key management
 
@@ -47,7 +51,7 @@ Input a valid key for Office product to install. If you get an error code [0xC00
 
 ### Uninstall all unactivated keys
 
-This will query all licenses and uninstall all inactivated keys automatically. Be careful when using the function.
+This will query all licenses and uninstall all unactivated keys automatically. Be careful when using the function.
 
 ### Install confirmation ID (CID)
 
@@ -62,12 +66,6 @@ The default port of KMS is 1688, you can change it if needed, such as `kms.examp
 ## Office licenses list
 
 You can query information about all installed Office licenses, support vNext licenses and legacy licenses.
-
-::: tip What is vNext license?
-
-vNext 许可证是 Microsoft 订阅用户的专属许可证，通常是 Microsoft 365 个人/家庭版订阅或 Microsoft 365 企业版订阅许可证。这些许可证与微软账户绑定，具有一定的时间限制，通常情况下需要在两个月内联网验证可用性，否则 Office 可能会弹出订阅过期的提示。
-
-:::
 
 ### vNext licenses
 

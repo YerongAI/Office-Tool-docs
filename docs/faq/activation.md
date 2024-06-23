@@ -28,6 +28,20 @@ Solution is same as [0xC004F015](activation.md#_0xc004f015).
 
 The Office product key you are installing does not have a corresponding license, you need to install the corresponding Office license first, and then install the product key.
 
+## 0xC004F074
+
+> The Software Licensing Service reported that the product could not be activated. No Key Management Service (KMS) could be contacted.
+
+Do the following things:
+
+- Check your network connection is normal.
+- Make sure the KMS host which you are using is working. [How to test?](/toolbox/README.md#test-kms-host-reachability)
+
+Do the following thins:
+
+- [Reset Software Protection service](/toolbox/windows.md#reset-software-protection-service).
+- Try activating again.
+
 ## 0xC004E015
 
 > The Software Licensing Service reported that license consumption failed.
@@ -44,7 +58,11 @@ Solution is same as [0xC004E015](activation.md#_0xc004e015).
 
 > The data is invalid.
 
-Check your OS time is correct or not. Make sure the KMS host which you are using is working. [How to test?](/toolbox/README.md#test-kms-host-reachability)
+Do the following things:
+
+- Check your OS time is correct or not.
+- Check your network connection is normal.
+- Make sure the KMS host which you are using is working. [How to test?](/toolbox/README.md#test-kms-host-reachability)
 
 Do the following thins:
 
@@ -62,6 +80,15 @@ Solution is same as [0x8007000D](activation.md#_0x8007000d).
 > The native library 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll' does not have all required functions. Please update the .NET Framework.
 
 Please check and install all .NET Framework updates using Windows Update.
+
+## No valid Office KMS licenses were found on the system
+
+To use KMS to activate Office, you need to install Volume licenses and GVLK for Office.
+
+Usually, when you install the corresponding volume licenses on Office Tool Plus, you can activate it using KMS, except for the following cases:
+
+- SPLA license: SPLA licenses can only be activated using MAK, KMS activation is not supported.
+- Preview products: Products in the preview do not have the GVLK, so you need to manually install the GVLK for KMS activation.
 
 ## No solutions at this time
 
