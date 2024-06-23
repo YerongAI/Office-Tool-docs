@@ -97,6 +97,7 @@ If you want to use KMS or MAK to activate Office, install volume license product
 ::: tip Tip
 
 You can holding <kbd>Ctrl</kbd> to select multiple items when adding products. You can also type `|` in the filter box to filter by multiple conditions. For example, type `365|VisioPro` to filter Microsoft 365 products and Visio Professional products.
+
 :::
 
 ### Applications
