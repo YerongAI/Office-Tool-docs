@@ -96,7 +96,7 @@ If you want to use KMS or MAK to activate Office, install volume license product
 
 ::: tip Tip
 
-You can holding <kbd>Ctrl</kbd> to select multiple items when adding products. You can also type `|` in the filter box to filter by multiple conditions. For example, type `365|VisioPro` to filter Microsoft 365 products and Visio Professional products.
+You can holding <kbd>Ctrl</kbd> to select multiple items when adding products. You can type product name or product ID in the filter box to filter the product list. Also you can type `|` in the filter box to filter by multiple conditions. For example, type `365|VisioPro` to filter Microsoft 365 products and Visio Professional products.
 
 :::
 
@@ -147,7 +147,7 @@ If you check `Deploy proofing tools only`, the language will be installed as pro
 
 ::: tip Tip
 
-You can holding <kbd>Ctrl</kbd> to select multiple items when adding languages. You can also type `|` in the filter box to filter by multiple conditions. For example, type `en-us|zh` to filter English (United States) and Chinese language packs.
+You can holding <kbd>Ctrl</kbd> to select multiple items when adding languages. You can type language name or language ID in the filter box to filter the language list. Also you can type `|` in the filter box to filter by multiple conditions. For example, type `en-us|zh` to filter English (United States) and Chinese language packs.
 
 :::
 
