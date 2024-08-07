@@ -50,7 +50,7 @@ deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.exclapps Access,Outlook,O
 To use local source to deploy Office, You need to specify `/srcpath` and `/ver` command. For 64-bit of Office, use `/edition` command:
 
 ``` batch
-deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
+deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx /channel Current
 ```
 
 To set a MAK for a volume product, you can write this:

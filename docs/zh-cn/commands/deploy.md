@@ -50,7 +50,7 @@ deploy /add ProPlus2021Volume_zh-cn /ProPlus2021Volume.exclapps Access,Outlook,O
 使用本地源部署 Office 时，你需要设置 `/srcpath` 和 `/ver` 参数。如果安装 64 位的 Office，还需设置 `/edition` 参数：
 
 ``` batch
-deploy /add O365ProPlusRetail_zh-cn /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx
+deploy /add O365ProPlusRetail_zh-cn /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx /channel Current
 ```
 
 若要为批量产品设置 MAK，可以这样写：
