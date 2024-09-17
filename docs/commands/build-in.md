@@ -33,8 +33,8 @@ Office Tool Plus.Console is a command-line program. When executing commands via 
 
 For example the following command enable the log output:
 
-``` batch
-"Office Tool Plus.Console" /log
+``` powershell
+.\"Office Tool Plus.Console" /log
 ```
 
 ::: tip Tip
@@ -45,8 +45,8 @@ The `deploy` and `ospp` commands enable logging by default, you don't need to sp
 
 If you want to use [deploy commands](deploy.md) or [activation commands](activate.md), you can write like this:
 
-``` batch
-"Office Tool Plus.Console" deploy /add ...
+``` powershell
+.\"Office Tool Plus.Console" deploy /add ...
 ```
 
 ### Batch File

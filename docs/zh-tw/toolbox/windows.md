@@ -50,7 +50,7 @@
 
 ::: details 适用情况
 
-- 使用 Office Tool Plus 安装或移除 Office 时出现错误提示：*The path is null or empty, please check your system variables.*
+- 使用 Office Tool Plus 安装或移除 Office 时出现错误提示：*The path is null or empty*
 
 :::
 

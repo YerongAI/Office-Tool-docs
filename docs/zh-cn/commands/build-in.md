@@ -33,8 +33,8 @@ Office Tool Plus.Console 是一个命令行程序，默认情况下，通过 Off
 
 以下命令示例启动 Office Tool Plus 日志输出：
 
-``` batch
-"Office Tool Plus.Console" /log
+``` powershell
+.\"Office Tool Plus.Console" /log
 ```
 
 ::: tip 提示
@@ -45,8 +45,8 @@ Office Tool Plus.Console 是一个命令行程序，默认情况下，通过 Off
 
 如果您需要使用[部署命令](deploy.md)或者[激活命令](activate.md)，像这样用即可：
 
-``` batch
-"Office Tool Plus.Console" deploy /add ...
+``` powershell
+.\"Office Tool Plus.Console" deploy /add ...
 ```
 
 ### Batch 文件
