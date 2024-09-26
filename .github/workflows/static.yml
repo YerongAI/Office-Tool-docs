@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-      - name: Build VuePress site
+      - name: Build VitePress site
         run: npm install && npm run docs:build
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: 'docs/.vuepress/dist'
+          path: 'docs/.vitepress/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
