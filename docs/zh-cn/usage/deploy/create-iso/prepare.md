@@ -32,7 +32,7 @@ Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无�
 
 您可以根据需要创建以下格式的 Office ISO 文件：
 
-1. [不含任何配置](basic.md)：像正常使用一样进行配置以及部署。
+1. [不含任何配置](no-config.md)：像正常使用一样进行配置以及部署。
 2. [包含默认配置](default-config.md)：程序会自动加载配置，询问用户是否开始部署。
 3. [使用 ISO 命令](iso-command.md)：程序会自动寻找配置并直接开始部署。
 4. [使用 loadConfig 命令](config-command.md)：程序会根据您指定的命令创建配置并直接开始部署。
