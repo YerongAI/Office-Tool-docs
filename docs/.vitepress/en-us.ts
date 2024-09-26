@@ -57,7 +57,7 @@ function sidebarIntroduction(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: 'What is Office Tool Plus?', link: 'what-is-otp' },
                 { text: 'System requirements', link: 'requirement' },
-                { text: 'Download', link: 'download' }
+                { text: 'Download and use', link: 'download' }
             ]
         },
         {

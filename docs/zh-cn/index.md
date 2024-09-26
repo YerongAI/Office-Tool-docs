@@ -16,6 +16,9 @@ hero:
       text: 主页
       link: https://otp.landian.vip/
     - theme: alt
+      text: 下载
+      link: /zh-cn/introduction/download
+    - theme: alt
       text: 博客
       link: https://www.coolhub.top/
     - theme: alt

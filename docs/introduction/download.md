@@ -42,3 +42,11 @@ Differences between the architecture:
 ## Unpack
 
 Extract Office Tool Plus to a normal location, such as desktop. **Do NOT run Office Tool Plus without unpacking**.
+
+## Run
+
+Double click `Office Tool Plus.exe` to run program. You don't need to turn off any antivirus softwares. Office Tool Plus is a safe and reliable software.
+
+## Uninstall
+
+You can safely remove Office Tool Plus. This is a green software, so there is no standard uninstallation procedure, just delete the program files.

@@ -50,3 +50,13 @@ irm https://officetool.plus/get/ | iex
 ## 解压
 
 下载完成后，请将整个压缩包解压到一个合适的位置，例如桌面。**请勿在压缩包内直接双击运行 Office Tool Plus**.
+
+## 运行
+
+双击 `Office Tool Plus.exe` 以运行程序。您不需要为此关闭任何防病毒软件。Office Tool Plus 是一款安全可靠的软件。
+
+## 卸载
+
+如果您已经完成了 Office 的部署管理，您可以安全地删除 Office Tool Plus。这是一款绿色软件，因此没有标准的卸载程序，直接删除程序文件即可。
+
+如果 Office Tool Plus 没能解决您的问题，非常私密马赛！~~（鞠躬）~~，但我们希望能够得到您的反馈，以便我们在将来解决这些问题或者做出相关优化。

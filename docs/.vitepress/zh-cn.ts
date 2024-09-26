@@ -76,7 +76,7 @@ function sidebarIntroduction(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '什么是 Office Tool Plus?', link: 'what-is-otp' },
                 { text: '系统要求', link: 'requirement' },
-                { text: '下载', link: 'download' }
+                { text: '下载并使用', link: 'download' }
             ]
         },
         {
@@ -166,9 +166,9 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: '关于', link: 'about' },
-                { text: '程序', link: 'application' },
-                { text: '部署', link: 'deploy' },
-                { text: '激活', link: 'activation' },
+                { text: '程序问题', link: 'application' },
+                { text: '部署问题', link: 'deploy' },
+                { text: '激活问题', link: 'activation' },
             ]
         }
     ]
