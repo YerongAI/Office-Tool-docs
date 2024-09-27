@@ -64,11 +64,12 @@ function sidebarIntroduction(): DefaultTheme.SidebarItem[] {
             text: "Pages",
             collapsed: false,
             items: [
-                { text: 'Deploy', link: 'pages/deploy-page' },
-                { text: 'Activate', link: 'pages/activate-page' },
-                { text: 'Toolbox', link: 'pages/toolbox-page' },
-                { text: 'Convert documents', link: 'pages/convert-doc-page' },
-                { text: 'Check hash', link: 'pages/check-hash-page' },
+                { text: 'Home', link: 'pages/home' },
+                { text: 'Deploy', link: 'pages/deploy' },
+                { text: 'Activate', link: 'pages/activate' },
+                { text: 'Toolbox', link: 'pages/toolbox' },
+                { text: 'Convert documents', link: 'pages/convert-doc' },
+                { text: 'Check hash', link: 'pages/check-hash' },
             ]
         }
     ]

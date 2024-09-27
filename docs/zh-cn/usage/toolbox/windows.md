@@ -1,6 +1,6 @@
-# Windows 工具
+# Windows 工具 {#windows-tools}
 
-## 重置 Software Protection 服务
+## 重置 Software Protection 服务 {#reset-software-protection-service}
 
 此功能会删除注册表中和 Software Protection 相关的一些 KMS 信息，例如 KMS 主机地址或一些续期策略。除此之外，如果 Office Tool Plus 检测到您的 Software Protection 服务被 `SppExtComObjHook.dll` 劫持，程序还会尝试解除劫持并删除 `SppExtComObjHook.dll` 文件。
 
@@ -15,7 +15,7 @@
 
 :::
 
-## 重建 Windows 激活令牌
+## 重建 Windows 激活令牌 {#rebuild-windows-activation-token}
 
 此功能会尝试删除 `%SystemRoot%\System32\spp\store\2.0`（Windows Insider 为 `%SystemRoot%\System32\spp\store_test\2.0`）文件夹下的 `data.dat`, `tokens.dat` 和 `cache.dat`。
 
@@ -38,7 +38,7 @@
 
 :::
 
-## 重置系统变量
+## 重置系统变量 {#reset-system-variables}
 
 此功能会重置一些系统变量，例如 `%ProgramFiles%`, `%CommonProgramFiles%` 等系统变量。某些系统变量丢失时会导致 Office 安装程序或 Click to Run 服务无法正常工作。
 
@@ -54,7 +54,7 @@
 
 :::
 
-## 修复 WMI 组件
+## 修复 WMI 组件 {#repair-wmi-components}
 
 此功能会重新注册所有 WMI 组件。
 

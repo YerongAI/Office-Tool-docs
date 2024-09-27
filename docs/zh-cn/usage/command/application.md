@@ -1,8 +1,8 @@
-# 程序命令
+# 程序命令 {#application-commands}
 
 命令不区分大小写。如果命令参数中含有空格，请使用 "" (英文双引号) 将其包括起来。
 
-## 程序内命令
+## 程序内命令 {#in-application-commands}
 
 这些命令只能在命令框中使用。命令框可以点击按钮打开，也可以按下快捷键 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 打开。
 
@@ -16,7 +16,7 @@
 | `/resetnotif` | 重置通知，以便再次显示已经关闭了的通知 | |
 | `/getlogs` | 获取应用程序的运行日志 | |
 
-## 命令行命令
+## 命令行命令 {#commands}
 
 这些命令只能够从命令行中执行。
 
@@ -28,7 +28,7 @@
 | `/edition` *value* | 覆写 XML 配置文件中的体系结构属性。该命令需与 `/loadconfig` 命令一起使用 | *value*: `32` 或 `64` |
 | `/enablehwacc` *value* | 启用硬件加速 | *value*: `true` 或 `false`，默认为 `true` |
 
-## Office Tool Plus Console Helper
+## Office Tool Plus Console Helper {#office-tool-plus-console-helper}
 
 Office Tool Plus.Console 是一个命令行程序，默认情况下，通过 Office Tool Plus 执行命令时，CMD 将会立即返回，不会等待 Office Tool Plus 退出。通过 Office Tool Plus.Console 执行命令时，CMD 将会等待程序退出，并且支持输出程序日志。
 

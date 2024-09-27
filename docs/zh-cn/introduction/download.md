@@ -1,4 +1,4 @@
-# 下载
+# 下载 {#download}
 
 你可以从这些站点中下载 Office Tool Plus:
 
@@ -47,15 +47,17 @@ irm https://officetool.plus/get/ | iex
 - x64（64 位）: 可以在 64 位 或 ARM64 的 Windows 中运行，不支持使用迅雷云加速开放平台。
 - ARM64: 仅能在 ARM64 的 Windows 中运行，针对 ARM64 平台有更好的兼容性和性能表现，其余同 x64 版本。
 
-## 解压
+## 解压 {#unpack}
 
 下载完成后，请将整个压缩包解压到一个合适的位置，例如桌面。**请勿在压缩包内直接双击运行 Office Tool Plus**.
 
-## 运行
+## 运行 {#run}
 
 双击 `Office Tool Plus.exe` 以运行程序。您不需要为此关闭任何防病毒软件。Office Tool Plus 是一款安全可靠的软件。
 
-## 卸载
+Office Tool Plus 由数字签名保护，运行程序时，Windows 会报告为已验证的发布者（Yerong Lai）。若签名被篡改或无效，请停止使用并从[上述站点](#download)重新下载 Office Tool Plus。
+
+## 卸载 {#uninstall}
 
 如果您已经完成了 Office 的部署管理，您可以安全地删除 Office Tool Plus。这是一款绿色软件，因此没有标准的卸载程序，直接删除程序文件即可。
 

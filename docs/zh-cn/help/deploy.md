@@ -1,6 +1,6 @@
-# 部署问题
+# 部署问题 {#deploy-questions}
 
-## Windows 支持终止和 Microsoft 365 应用
+## Windows 支持终止和 Microsoft 365 应用 {#windows-end-of-support-and-microsoft-365-apps}
 
 Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强烈建议您迁移到受支持的操作系统以便获得更好的使用体验。
 
@@ -19,26 +19,26 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 :::
 
-## 如何将 Office 安装到其他位置
+## 如何将 Office 安装到其他位置 {#how-to-install-office-to-another-path}
 
 微软不允许将 Office 安装到其他位置，我们也不建议您强制更改其安装位置。
 
 ## The path is null or empty
 
-要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#重置系统变量).
+要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables).
 
-## Office 安装进度卡住不动
+## Office 安装进度卡住不动 {#office-installation-is-stuck}
 
 如果安装进度卡在 0-49% 之间，则表示 Office 安装程序无法获取所需文件。
 
 - 如果是在线安装，请检查网络状况是否良好，或者尝试换个网络。
-- 尝试使用[下载后再部署](/zh-cn/usage/deploy/clean-deployment.md#下载后再部署)，这能够最大程度避免因网络而出现问题。
-- 尝试[校验 Office 安装文件](/zh-cn/usage/deploy/settings/basic.md#安装文件)，有时候是文件出现了问题。
+- 尝试使用[下载后再部署](/zh-cn/usage/deploy/clean-deployment.md#download-first)，这能够最大程度避免因网络而出现问题。
+- 尝试[校验 Office 安装文件](/zh-cn/usage/deploy/settings/basic.md#installation-files)，有时候是文件出现了问题。
 
 如果安装进度卡在 50-100% 之间，则表示 Office 安装过程中出现了错误。
 
 - 如果安装程序允许你忽略这个错误，那你可以选择忽略，但 VBA 或者某些功能可能不可用。
 - 尝试退出所有第三方软件，某些第三方软件可能会错误阻止安装程序的运行。
-- 尝试[移除 Office](/zh-cn/usage/toolbox/office.md#移除-office)，然后重新安装。
+- 尝试[移除 Office](/zh-cn/usage/toolbox/office.md#remove-office)，然后重新安装。
 
 如果以上步骤不起作用，您可能需要重新安装 Windows。

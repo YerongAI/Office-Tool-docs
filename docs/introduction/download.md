@@ -1,6 +1,6 @@
 # Download
 
-You can download Office Tool Plus from there sites:
+You can download Office Tool Plus from this sites:
 
 - [Yuntu mirror](https://www.officetool.plus/redirect/download.php?site=yuntu)
 - [OneDrive](https://www.officetool.plus/redirect/download.php?site=onedrive)
@@ -46,6 +46,8 @@ Extract Office Tool Plus to a normal location, such as desktop. **Do NOT run Off
 ## Run
 
 Double click `Office Tool Plus.exe` to run program. You don't need to turn off any antivirus softwares. Office Tool Plus is a safe and reliable software.
+
+Office Tool Plus is protected by a digital signature, and when you run the program, Windows will report it as a verified publisher (Yerong Lai). If the signature has been tampered with or is invalid, please stop using it and re-download Office Tool Plus from the [above site](#download).
 
 ## Uninstall
 

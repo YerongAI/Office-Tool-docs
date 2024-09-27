@@ -1,35 +1,35 @@
-# 初次安装
+# 初次安装 {#first-deploy}
 
 部署 Office 时，安装和卸载可以同时进行，因此你可以将多个步骤结合在一起，无需分开执行。
 
-## 在线安装
+## 在线安装 {#online-installation}
 
 在线安装需要使用网络数据，如果您的网络环境较差，可能会需要较长的时间完成安装。
 
 打开 Office Tool Plus，转到部署页面，以下是需要做的事情：
 
-- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#产品)
-- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#语言)
+- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#products)
+- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#languages)
 
-产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/zh-cn/usage/deploy/settings/basic.md#产品)部分。
+产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/zh-cn/usage/deploy/settings/basic.md#products)部分。
 
 ---
 
 如果有需要，您还可以检查如下配置。
 
-### 体系结构
+### 体系结构 {#architecture}
 
-如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/zh-cn/usage/deploy/settings/basic.md#体系结构)部分。
+如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/zh-cn/usage/deploy/settings/basic.md#architecture)部分。
 
-### 更新通道
+### 更新通道 {#update-channel}
 
-如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/usage/deploy/settings/basic.md#更新通道)部分。
+如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/usage/deploy/settings/basic.md#update-channel)部分。
 
-### 应用程序
+### 应用程序 {#applications}
 
-一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/zh-cn/usage/deploy/settings/basic.md#应用程序)部分。
+一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/zh-cn/usage/deploy/settings/basic.md#applications)部分。
 
-### 下载后再部署
+### 下载后再部署 {#download-first}
 
 此选项为关闭状态时，Office 将会下载时部署，打开时为下载后部署。
 
@@ -42,7 +42,7 @@
 
 配置完成且无报错后，即可开始部署 Office。Office 安装程序需要从 Office CDN 下载文件，因此网络质量可能会影响你的安装用时。
 
-## 离线安装
+## 离线安装 {#offline-installation}
 
 离线安装指的是使用已经打包好的安装文件来安装 Office。
 
@@ -62,9 +62,9 @@ Office 安装文件应该能够完整展示版本号和语言包信息，并且�
 
 安装文件加载后，请进行如下配置：
 
-- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#产品)
-- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#语言)
-- 配置[应用程序](/zh-cn/usage/deploy/settings/basic.md#应用程序)（如果需要）
+- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#products)
+- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#languages)
+- 配置[应用程序](/zh-cn/usage/deploy/settings/basic.md#applications)（如果需要）
 
 体系结构和更新通道已根据安装文件自动匹配，因此您无需再更改，除非您有多个安装文件。语言也应当与安装文件的一致，如果安装文件不包含您所添加的语言，则安装时依然需要联网，否则安装会失败。
 

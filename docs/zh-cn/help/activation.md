@@ -1,4 +1,4 @@
-# 激活问题
+# 激活问题 {#activation-questions}
 
 ## 0x80131500
 
@@ -35,18 +35,18 @@
 确保以下事项没有问题：
 
 - 网络连接正常。
-- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#测试-kms-主机可用性)
+- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#test-kms-host-reachability)
 
 然后做以下事情:
 
-- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#重置-software-protection-服务)。
+- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
 - 再次尝试激活。
 
 ## 0xC004E015
 
 > 软件授权服务报告许可证使用失败
 
-请参考[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#重建-windows-激活令牌)。
+请参考[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#rebuild-windows-activation-token)。
 
 ## 0x8004E108
 
@@ -62,11 +62,11 @@
 
 - 系统时间正确。
 - 网络连接正常。
-- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#测试-kms-主机可用性)
+- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#test-kms-host-reachability)
 
 然后做以下事情:
 
-- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#重置-software-protection-服务)。
+- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
 - 再次尝试激活。
 
 ## 0x8007007B
@@ -75,13 +75,13 @@
 
 解决方案同[0x8007000D](activation.md#_0x8007000d)。
 
-## .NET Framework 问题
+## .NET Framework 问题 {#net-framework-problem}
 
 > The native library 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll' does not have all required functions. Please update the .NET Framework.
 
 请使用 Windows Update 检查并安装所有的 .NET Framework 更新。
 
-## 没有在系统中找到有效的 Office KMS 许可证
+## 没有在系统中找到有效的 Office KMS 许可证 {#no-valid-office-kms-licenses-were-found-on-the-system}
 
 若要使用 KMS 激活，你需要为 Office 安装批量（Volume）许可证和 GVLK。
 
@@ -90,7 +90,7 @@
 - SPLA 许可证：SPLA 许可证仅能使用 MAK 进行激活，不支持 KMS 激活。
 - 预览版产品：处于预览阶段的产品没有 GVLK，因此您还需要手动安装 GVLK 才可进行 KMS 激活。
 
-## 尚无解决方案的错误
+## 尚无解决方案的错误 {#no-solutions-at-this-time}
 
 - 错误代码：0x80040154，没有注册类。
 - 错误代码：0x80070002，系统找不到指定的文件。

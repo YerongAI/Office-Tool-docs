@@ -41,7 +41,7 @@ If you specify the source path property with the `/srcpath` command, you must al
 
 :::
 
-## Deploying Office Examples
+## Command examples for deploying Office
 
 When specifying multiple applications or languages, you need to separate them with commas. Such as `Access,Lync` or `en-us,en-us`.
 

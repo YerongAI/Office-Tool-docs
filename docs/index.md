@@ -18,15 +18,15 @@ hero:
     - theme: alt
       text: Download
       link: /introduction/download
-    - theme: alt
-      text: GitHub
-      link: https://github.com/YerongAI/Office-Tool
 
 features:
   - title: Simple
+    icon: 📝
     details: Deploy Office in just a few steps.
   - title: Practical
+    icon: 💡
     details: Born for Office deployments.
   - title: Powerful
+    icon: 🚀
     details: Full support of customize.
 ---

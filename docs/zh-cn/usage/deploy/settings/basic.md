@@ -1,6 +1,6 @@
-# 基础设置
+# 基础设置 {#basic-settings}
 
-## 部署模式
+## 部署模式 {#mode}
 
 | 模式          | 说明 |
 | :--           | :-- |
@@ -11,7 +11,7 @@
 
 Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精简。
 
-## 体系结构
+## 体系结构 {#architecture}
 
 32 位的 Office 是默认的选择。运行 64 位 Windows 的计算机通常比 32 位版本拥有更多资源，例如处理能力和内存。此外，与 32 位应用程序相比，64 位应用程序可以访问更多内存。因此，如果你的方案包含大型文件和/或处理大型数据集，且你的计算机运行 64 位版 Windows，则存在下列情况时，64 位是恰当的选择：
 
@@ -29,7 +29,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 :::
 
-## 更新通道
+## 更新通道 {#update-channel}
 
 大多数情况下，只需要选择**当前通道**即可，下表列出了通道之间的区别：
 
@@ -50,9 +50,9 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-update-channels)。
 
-## 安装模块
+## 安装模块 {#module}
 
-### Office 部署工具
+### Office 部署工具 {#office-deployment-tool}
 
 Office 部署工具是微软官方工具，提供了部署 Office 的完整支持，适合所有人使用。
 
@@ -69,7 +69,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 我们建议优先使用 Office 部署工具，如果 Office 部署工具出现了无法解决的问题，或者有特殊需求，才应该选择 Office Tool Plus 作为安装模块。
 
-## 产品
+## 产品 {#products}
 
 购买了 Microsoft 365 的用户，添加产品的时候选择 Microsoft 365 产品即可，具体视你所拥有的授权而选择家庭版、个人版或企业版。
 
@@ -103,7 +103,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 :::
 
-### 应用程序
+### 应用程序 {#applications}
 
 应用程序会随你选择的产品不同而显示不同的内容。
 
@@ -120,7 +120,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信息请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-cn/deployoffice/microsoft-search-bing)。
 
-### 附加组件
+### 附加组件 {#add-ons}
 
 附加组件会随你选择的产品不同而显示不同的内容。
 
@@ -140,7 +140,7 @@ Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信�
 
 有关更多产品、应用程序和附加组件的信息，您可以访问 [Office Products Information](https://www.coolhub.top/tech-articles/products.html)。
 
-## 语言
+## 语言 {#languages}
 
 可以添加一个语言，也可以添加多个语言，列表中的首个完整类型的语言决定了 Shell UI 区域性，包括快捷方式、右键单击关联菜单和工具提示。如果决定要在初始安装后更改 Shell UI 语言，必须重新安装 Office。
 
@@ -154,7 +154,7 @@ Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信�
 
 :::
 
-### 语言类型区别
+### 语言类型 {#language-types}
 
 | 语言类型　　　　　　　| 说明 |
 | :------------------ | :--- |
@@ -163,7 +163,7 @@ Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信�
 | 部分但不包含校对工具　| 包含部分 Office 应用程序的显示语言，但不包含校对工具 |
 | 校对工具　　　　　　　| 仅包含拼写检查器 |
 
-## 安装文件
+## 安装文件 {#installation-files}
 
 默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
 

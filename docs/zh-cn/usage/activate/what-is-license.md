@@ -1,16 +1,16 @@
-# 什么是许可证？
+# 什么是许可证？ {#what-is-office-license}
 
 Office 许可证一般分为两大类，即零售许可证（Retail license）和批量许可证（Volume license），不同的许可证有不同的激活方式，也对应不同的许可期限。
 
 针对 Microsoft 365 订阅，微软还引入了 vNext 许可证。
 
-## 零售（Retail）许可证
+## 零售（Retail）许可证 {#retail-license}
 
 零售许可证只能使用产品密钥激活。
 
 目前大多数的零售许可都与微软账户绑定，在 Office 应用程序中登录对应的微软账户即可自动进行激活，因此零售版产品通常不使用 Office Tool Plus 进行激活。
 
-## 批量（Volume）许可证
+## 批量（Volume）许可证 {#volume-license}
 
 批量许可证可以使用 MAK 激活，也可以使用 KMS 激活。
 
@@ -23,7 +23,7 @@ Office LTSC 2021 SPLA 许可证不支持 KMS 激活，仅支持 MAK 激活。
 
 :::
 
-## vNext 许可证
+## vNext 许可证 {#vnext-license}
 
 vNext 许可证是 Microsoft 365 订阅专属的许可证，这些许可证由微软服务器生成，并下发给 Office 应用程序使用。这类许可证有数字签名保护，并定期进行验证。vNext 许可证中包含了微软账户的信息，并指定了 Office 应用程序的可用性。
 

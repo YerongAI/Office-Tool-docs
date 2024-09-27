@@ -83,11 +83,12 @@ function sidebarIntroduction(): DefaultTheme.SidebarItem[] {
             text: "页面",
             collapsed: false,
             items: [
-                { text: '部署', link: 'pages/deploy-page' },
-                { text: '激活', link: 'pages/activate-page' },
-                { text: '工具箱', link: 'pages/toolbox-page' },
-                { text: '文档转换', link: 'pages/convert-doc-page' },
-                { text: '哈希值校验', link: 'pages/check-hash-page' },
+                { text: '主页', link: 'pages/home' },
+                { text: '部署', link: 'pages/deploy' },
+                { text: '激活', link: 'pages/activate' },
+                { text: '工具箱', link: 'pages/toolbox' },
+                { text: '文档转换', link: 'pages/convert-doc' },
+                { text: '哈希值校验', link: 'pages/check-hash' },
             ]
         }
     ]

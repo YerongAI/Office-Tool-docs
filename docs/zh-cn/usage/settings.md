@@ -1,4 +1,4 @@
-# 程序设置
+# 程序设置 {#application-settings}
 
 在设置页面，你可以调整程序的语言、主题、背景等设置，还可以调整一些下载或者部署设置。
 
@@ -10,17 +10,17 @@
 
 :::
 
-## 外观和行为
+## 外观和行为 {#appearance-behavior}
 
-### 主题
+### 主题 {#theme}
 
 默认情况下，Office Tool Plus 会跟随 Windows 设置自动切换浅色主题（Light Blue）和深色主题（Dark White）。你也可以根据自己的喜好设置一个特定的主题。
 
-### 背景
+### 背景 {#background}
 
 默认情况下，Office Tool Plus 会根据系统环境自动选择合适的背景。Windows 11 中会选择云母效果作为背景，其他系统则是必应壁纸。如果程序检测到远程桌面会话，将会关闭所有的背景效果。你可以根据自己的喜好调整为其他背景，或使用本地图片作为程序背景，支持 PNG, JPG 和 BMP。
 
-如果你需要设置网络图片为背景图，请使用 [/setimage](/zh-cn/usage/command/application.md#程序内命令) 命令。
+如果你需要设置网络图片为背景图，请使用 [/setimage](/zh-cn/usage/command/application.md#in-application-commands) 命令。
 
 ::: warning 注意
 
@@ -30,19 +30,19 @@
 
 :::
 
-## 高级
+## 高级 {#advanced}
 
-### 硬件加速
+### 硬件加速 {#hardware-acceleration}
 
 使用硬件加速能够为程序带来更好的性能和动画效果。关闭硬件加速可能会极大降低应用程序性能，因此我们非常不建议关闭硬件加速。
 
 但如果您在使用 Office Tool Plus 的过程中遇到了窗口变全透明、加载图片时内存溢出等问题，你可以通过关闭硬件加速来缓解这些问题。
 
-你也可以通过使用[命令行](/zh-cn/usage/command/application.md#命令行命令)的方式临时关闭硬件加速。
+你也可以通过使用[命令行](/zh-cn/usage/command/application.md#commands)的方式临时关闭硬件加速。
 
-## 部署
+## 部署 {#deploy}
 
-### Office 语言显示格式
+### Office 语言显示格式 {#office-languages-display-format}
 
 默认情况下，Office Tool Plus 显示 Office 语言为本地格式，例如英语显示为 English (United States).
 
@@ -52,7 +52,7 @@
 
 本地名称、英文名称以及本地化名称由 Windows 提供数据，不同版本的 Windows 显示结果可能不同。
 
-### 显示内部产品和通道
+### 显示内部产品和通道 {#display-internal-products-and-channels}
 
 默认情况下，Office Tool Plus 不会显示非公开的产品和更新通道，例如 `ProPlusVolume` 或 `MondoVolume` 等产品，又或者 `Dofgood::DevMain` 等更新通道。
 
@@ -64,9 +64,9 @@
 
 :::
 
-## 下载
+## 下载 {#download}
 
-### 校验文件
+### 校验文件 {#verify-files}
 
 当您打开此开关后，Office Tool Plus 将会在下载 Office 安装文件后对文件进行校验，校验可以检查出版本不匹配，文件损坏等问题。
 
@@ -78,13 +78,13 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 :::
 
-### 使用 HTTPS 连接
+### 使用 HTTPS 连接 {#connect-using-https}
 
 默认情况下，Office Tool Plus 使用 HTTP 请求下载 Office 安装文件。
 
 如果您下载 Office 安装文件时进度缓慢或者出现了意料之外的错误，您可以尝试打开此开关，然后重试下载。
 
-### 引擎
+### 引擎 {#engine}
 
 下载引擎之间的区别：
 
@@ -105,6 +105,6 @@ Office 安装文件校验功能对在线部署时不起作用，仅可用于下�
 
 :::
 
-### Windows 版本
+### Windows 版本 {#windows-version}
 
 默认情况下，Office Tool Plus 自动识别当前系统版本并下载对应的 Office 版本。若要为其他系统下载 Office 安装文件，请在此处更改为对应的 Windows 版本。

@@ -1,6 +1,4 @@
-# 欢迎使用 Office Tool Plus
-
-## 介绍
+# 什么是 Office Tool Plus？ {#what-is-office-tool-plus}
 
 Office Tool Plus 是一个强大且实用的 Office 部署工具。
 
@@ -15,7 +13,7 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 
 无论你是个体还是团队，Office Tool Plus 都是你的得力小助手。
 
-## 功能
+## 功能 {#features}
 
 - 创建 Office 安装配置，支持导出到本地，或从本地或网络位置导入。
 - 下载 Office，支持所有通道的 Office，支持所有的 Office 语言。
@@ -35,7 +33,7 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 
 :::
 
-## 组件与结构
+## 组件与结构 {#components-and-structure}
 
 ``` txt
 Office Tool

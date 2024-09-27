@@ -1,4 +1,4 @@
-# 部署命令
+# 部署命令 {#deploy-commands}
 
 这些命令可以在命令行和命令框中使用，命令不区分大小写。如果命令参数中含有空格，请使用 "" (英文双引号) 将其包括起来。
 
@@ -41,7 +41,7 @@ deploy /add O365ProPlusRetail_zh-cn
 
 :::
 
-## 部署 Office 示例
+## 部署 Office 示例 {#command-examples-for-deploying-office}
 
 指定多个应用程序或语言时，你需要使用「英文逗号」将其隔开，例如 `Access,Lync` 或 `zh-cn,en-us`
 

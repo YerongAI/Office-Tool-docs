@@ -1,4 +1,4 @@
-# Shortcuts
+# Keyboard shortcuts
 
 - <kbd>F1</kbd>: Show help.
 - <kbd>Ctrl</kbd> + <kbd>1</kbd>: Navigate to Homepage.

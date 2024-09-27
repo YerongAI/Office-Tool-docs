@@ -21,15 +21,15 @@ hero:
     - theme: alt
       text: 博客
       link: https://www.coolhub.top/
-    - theme: alt
-      text: GitHub
-      link: https://github.com/YerongAI/Office-Tool
 
 features:
   - title: 简单
+    icon: 📝
     details: 只需几步配置，便可开始部署 Office.
   - title: 实用
+    icon: 💡
     details: 没有多余的东西，只为 Office 而生。
   - title: 强大
+    icon: 🚀
     details: 完整的自定义支持。
 ---

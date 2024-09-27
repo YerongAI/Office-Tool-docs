@@ -1,12 +1,12 @@
-# 修改安装
+# 修改安装 {#modify}
 
-## 更改产品或语言
+## 更改产品或语言 {#modify-products-or-languages}
 
 添加你想添加的产品或者语言，点击**卸载**将不需要的产品或语言标记为即将卸载。
 
 如果没有问题，请点击**开始部署**以确认操作。
 
-## 更改应用程序
+## 更改应用程序 {#modify-applications}
 
 ![Modify Applications](/images/zh-cn/deploy/modify-applications.png)
 
@@ -16,13 +16,13 @@
 
 如果应用程序中没有你想要的程序，比如 Access，那么新增一个产品，选择 Access 即可。
 
-## 升级现有的 Office
+## 升级现有的 Office {#upgrade-office}
 
 ![Upgrade Office](/images/zh-cn/deploy/upgrade-product.png)
 
-在另外的 PC 上下载 Office 安装文件，创建 Office ISO 或者将其拷贝到客户端计算机中。确保[安装文件](/zh-cn/usage/deploy/settings/basic.md#安装文件)已正确加载数据，如果没有，请手动选择文件进行加载。然后在部署页面添加一个与当前已安装的 Office 一摸一样的产品即可开始部署。
+在另外的 PC 上下载 Office 安装文件，创建 Office ISO 或者将其拷贝到客户端计算机中。确保[安装文件](/zh-cn/usage/deploy/settings/basic.md#installation-files)已正确加载数据，如果没有，请手动选择文件进行加载。然后在部署页面添加一个与当前已安装的 Office 一摸一样的产品即可开始部署。
 
-## 迁移体系结构
+## 迁移体系结构 {#migration-architecture}
 
 Office Tool Plus 支持将 Office 从 32 位更改为 64 位（反之亦可），自动化操作，无需过多的人工干预。
 

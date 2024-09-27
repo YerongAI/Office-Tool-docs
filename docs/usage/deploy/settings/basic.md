@@ -50,7 +50,7 @@ Each channel releases security updates (if needed) on the second Tuesday of each
 
 For more information please refer to [Overview of update channels for Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/overview-update-channels).
 
-## Modules
+## Module
 
 ### Office Deployment Tool
 
