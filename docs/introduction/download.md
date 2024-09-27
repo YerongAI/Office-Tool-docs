@@ -35,8 +35,8 @@ Differences between the architecture:
 | Architecture | x86 | x64 | ARM64 | Thunder | Remark |
 | :--          | :-- | :-- | :--   | :--     | :--    |
 | x86 (32-bit) | ✔️ | ✔️ | ✔️ | ✔️ | |
-| x64 (64-bit) | ❌ | ✔️ | ✔️ | ❌ | Better compatibility and performance for x64 platform.   |
-| ARM64        | ❌ | ❌ | ✔️ | ❌ | Better compatibility and performance for ARM64 platform. |
+| x64 (64-bit) | ❌ | ✔️ | ✔️ | ❌ | Better compatibility and performance on x64 platform.   |
+| ARM64        | ❌ | ❌ | ✔️ | ❌ | Better compatibility and performance on ARM64 platform. |
 
 > Thunder is one of the download engines.
 

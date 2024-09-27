@@ -16,8 +16,6 @@
 
 ## 测试 KMS 主机可用性 {#test-kms-host-reachability}
 
-默认情况下，Office Tool Plus 使用 TCP 连接测试 KMS 主机是否可以连通，不能检测 KMS 主机是否正常工作。
+默认情况下，Office Tool Plus 使用 TCP 连接测试 KMS 主机是否可以连接。
 
-如果 Office Tool Plus 检测到 vlmcs 组件，则会使用 vlmcs 进行更详细的检测，包括延迟以及激活结果。
-
-[点击此处](https://download.coolhub.top/Extensions/Components/)获取 vlmcs 组件
+你还可以使用 [vlmcs](https://download.coolhub.top/Extensions/Components/) 组件以测试 KMS 主机是否正常工作。

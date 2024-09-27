@@ -3,11 +3,8 @@ import { defineConfig } from 'vitepress'
 export const shared = defineConfig({
   title: 'Office Tool Plus',
 
-  lastUpdated: true,
-  cleanUrls: true,
   metaChunk: true,
 
-  /* prettier-ignore */
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#0078D4' }],

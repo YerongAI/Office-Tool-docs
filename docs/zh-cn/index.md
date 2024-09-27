@@ -6,7 +6,7 @@ hero:
   text: "一个强大且实用的 Office 部署工具"
   tagline: 快速入门和技术文档
   image:
-    src: /images/logo.webp
+    src: /images/office-tool-plus-logo-large.webp
     alt: Office Tool Plus logo
   actions:
     - theme: brand

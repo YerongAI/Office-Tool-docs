@@ -24,7 +24,7 @@ If there is a problem during activation, you can click on the blue error code di
 
 ## More info
 
-Typically, a KMS activation is valid for 180 days. After 7 days (when the remaining time is less than 173 days), the system automatically attempts to renew (reactivate), unless KMS specifies a different renewal policy.
+Typically, a KMS activation is valid for 180 days. After 7 days (when the remaining time is less than 173 days), the system automatically attempts to renew activation (reactivate), unless KMS specifies a different renewal policy.
 
 ### Active Directory 域中的 KMS 激活
 

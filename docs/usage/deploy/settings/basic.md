@@ -44,7 +44,7 @@ In most cases, `Current Channel` is the default channel. The table below lists t
 
 > The Perpetual Enterprise channel is a dedicated channel for Office 2019/2021/2024 volume products.
 
-All of the channels listed in the table are stable channels and can be used on a daily basis.
+All of the channels listed in the table are stable channels and suitable for daily use.
 
 Each channel releases security updates (if needed) on the second Tuesday of each month, which is scheduled.
 
@@ -62,10 +62,10 @@ Our module enables most of the features of the Office Deployment Tool. The follo
 
 | Functions                                     | Office Deployment Tool | Office Tool Plus |
 | :--                                           | :--                    | :--              |
-| Remove existing MSI versions of Office        | ✓ | × |
-| Install the same languages as the MSI version | ✓ | × |
-| Use internal channels                         | × | ✓ |
-| Install internal products                     | × | ✓ |
+| Remove existing MSI versions of Office        | ✔️ | ❌ |
+| Install the same languages as the MSI version | ✔️ | ❌ |
+| Use internal channels                         | ❌ | ✔️ |
+| Install internal products                     | ❌ | ✔️ |
 
 We recommend prioritizing the use of the Office Deployment Tool, and should only choose Office Tool Plus if there are issues with the Office Deployment Tool that cannot be resolved, or if there are special needs.
 

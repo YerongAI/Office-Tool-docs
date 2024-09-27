@@ -2,72 +2,73 @@
 
 ## Reset Software Protection service
 
-此功能会删除注册表中和 Software Protection 相关的一些 KMS 信息，例如 KMS 主机地址或一些续期策略。除此之外，如果 Office Tool Plus 检测到您的 Software Protection 服务被 `SppExtComObjHook.dll` 劫持，程序还会尝试解除劫持并删除 `SppExtComObjHook.dll` 文件。
+Some configuration information related to Software Protection in the registry will be deleted, such as the KMS host address and renewal policy. If Office Tool Plus detects that your Software Protection service is hooked by `SppExtComObjHook.dll`, `SppExtComObjHook.dll` will also be deleted.
 
-重置完成后，您可能需要重新设置 KMS 主机信息并重新激活 Office。
+After the reset is complete, you will need to set up the KMS host again and activate Office.
 
-::: details 适用情况
+::: details Applicable situations
 
-激活 Office 时出现以下错误代码：
+The following error occurs when activating Office:
 
-- 0x8007000D：数据无效
-- 0x8007007B：文件名、目录名或卷标语法不正确
+- 0x8007000D: The data is invalid.
+- 0x8007007B: The filename, directory name, or volume label syntax is incorrect.
 
 :::
 
 ## Rebuild Windows Activation Token
 
-此功能会尝试删除 `%SystemRoot%\System32\spp\store\2.0`（Windows Insider 为 `%SystemRoot%\System32\spp\store_test\2.0`）文件夹下的 `data.dat`, `tokens.dat` 和 `cache.dat`。
+The `data.dat`, `tokens.dat` and `cache.dat` files stored in the `%SystemRoot%\System32\spp\store\2.0` folder will be deleted.
 
-删除后，Windows 将会尝试重建这些文件，您的 Windows 激活状态可能会丢失（如果激活已绑定主板或微软账户则无需担心此问题），Office 也需要重新安装许可证并重新激活。
+Windows will try to rebuild these tokens, your Windows activation status may be lost (digital license activation will not be lost), and Office will need to reinstall the licenses.
 
-重建 Windows 激活令牌后，请稍等几分钟，然后再继续激活操作。
+Please wait a few minutes while Windows rebuilds the activation token before doing other activation operations.
 
 ::: warning Warning
 
-**除非明确要求，否则请勿随意使用此功能。**
+**Please do not use this function unless you have a clear need for it.**
 
 :::
 
-::: details 适用情况
+::: details Applicable situations
 
-激活 Office 时出现以下错误代码：
+The following error occurs when activating Office:
 
-- 0xC004E015：许可证使用失败
-- 0x8004E108：令牌存储中的令牌包含无效的哈希
+- 0xC004E015: The Software Licensing Service reported that license consumption failed.
+- 0x8004E108: The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
 
 :::
 
 ## Reset system variables
 
-此功能会重置一些系统变量，例如 `%ProgramFiles%`, `%CommonProgramFiles%` 等系统变量。某些系统变量丢失时会导致 Office 安装程序或 Click to Run 服务无法正常工作。
+Some system variables will be reset, such as `%ProgramFiles%`, `%CommonProgramFiles%` etc. When missing some system variables, the Office Installer or Click to Run service may not work property.
 
 ::: warning Warning
 
-**除非明确要求，否则请勿随意使用此功能。**
+**Please do not use this function unless you have a clear need for it.**
 
 :::
 
-::: details 适用情况
+::: details Applicable situations
 
-- 使用 Office Tool Plus 安装或移除 Office 时出现错误提示：*The path is null or empty*
+- `The path is null or empty` error occurs when you are installing or removing Office using Office Tool Plus.
 
 :::
 
 ## Repair WMI components
 
-此功能会重新注册所有 WMI 组件。
+All WMI components will be re-registered.
 
 ::: warning Warning
 
-**除非明确要求，否则请勿随意使用此功能。**
+**Please do not use this function unless you have a clear need for it.**
 
 :::
 
-::: details 适用情况
+::: details Applicable situations
 
-- 安装 Office 许可证时出现以下问题：
-  - 无效类
-  - 0x80070057：参数错误
+The following error occurs when installing Office licenses:
+
+- Invalid Class.
+- 0x80070057: The parameter is incorrect.
 
 :::
