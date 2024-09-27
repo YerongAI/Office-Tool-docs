@@ -64,6 +64,10 @@ function nav(): DefaultTheme.NavItem[] {
             text: '帮助',
             link: '/zh-cn/help/about',
             activeMatch: '/zh-cn/help/'
+        },
+        {
+            text: '联系我们',
+            link: 'https://www.coolhub.top/contact-us'
         }
     ]
 }

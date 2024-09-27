@@ -30,3 +30,10 @@ features:
     icon: 🚀
     details: Full support of customize.
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0078D4 45%, #41d1ff);
+}
+</style>

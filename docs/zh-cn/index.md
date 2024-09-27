@@ -25,7 +25,7 @@ hero:
 features:
   - title: 简单
     icon: 📝
-    details: 只需几步配置，便可开始部署 Office.
+    details: 只需几步配置，便可开始部署 Office。
   - title: 实用
     icon: 💡
     details: 没有多余的东西，只为 Office 而生。
@@ -33,3 +33,10 @@ features:
     icon: 🚀
     details: 完整的自定义支持。
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0078D4 45%, #41d1ff);
+}
+</style>

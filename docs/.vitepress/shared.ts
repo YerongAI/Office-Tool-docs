@@ -9,7 +9,7 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', href: '/logo.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#0078D4' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Office Tool Plus' }],
@@ -17,11 +17,11 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://img.lancdn.co/otp/global/x/header-x.png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '600' }],
-    ['meta', { property: 'og:url', content: 'https://otp.landian.vip/' }],
+    ['meta', { property: 'og:url', content: 'https://www.officetool.plus/' }],
   ],
 
   themeConfig: {
-    logo: '/logo.ico',
+    logo: '/favicon.ico',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' },
