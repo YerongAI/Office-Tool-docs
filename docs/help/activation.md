@@ -8,6 +8,50 @@ This error code has no meaning, please refer to the given error message to troub
 
 This error code has no meaning, please refer to the given error message to troubleshoot the problem.
 
+## 0x8004E108
+
+> The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
+
+Please refer to [Rebuild Windows Activation Token](/usage/toolbox/windows.md#rebuild-windows-activation-token).
+
+## 0x8007000D
+
+> The data is invalid.
+
+Do the following things:
+
+- Check your OS time is correct or not.
+- Check your network connection is normal.
+- Make sure the KMS host which you are using is working. [How to test?](/usage/toolbox/general.md#test-kms-host-reachability)
+
+Do the following thins:
+
+- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service).
+- Try activating again.
+
+## 0x8007007B
+
+> The filename, directory name, or volume label syntax is incorrect.
+
+Solution is same as [0x8007000D](activation.md#_0x8007000d).
+
+## 0x8007232B
+
+> DNS name does not exist.
+
+- The KMS host is not set up, please try again after setting it up.
+  - As shown in the following screenshot, if `N/A` is displayed, it means that there is no KMS host configured:
+  ![No KMS configured](/images/en-us/activation/no-kms-configured.png)
+- The KMS host address is invalid, please check and try again.
+- Try to change the DNS and try again.
+- Try to connect using different Internet or Network and try again.
+
+## 0xC004E015
+
+> The Software Licensing Service reported that license consumption failed.
+
+Solution is same as [0x8004E108](activation.md#_0x8004e108).
+
 ## 0xC004F015
 
 > The Software Licensing Service reported that the license is not installed.
@@ -42,38 +86,11 @@ Do the following thins:
 - [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service).
 - Try activating again.
 
-## 0xC004E015
+## 0xC004F075
 
-> The Software Licensing Service reported that license consumption failed.
+> The Software Licensing Service reported that the operation cannot be completed because the service is stopping.
 
-Please refer to [Rebuild Windows Activation Token](/usage/toolbox/windows.md#rebuild-windows-activation-token).
-
-## 0x8004E108
-
-> The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
-
-Solution is same as [0xC004E015](activation.md#_0xc004e015).
-
-## 0x8007000D
-
-> The data is invalid.
-
-Do the following things:
-
-- Check your OS time is correct or not.
-- Check your network connection is normal.
-- Make sure the KMS host which you are using is working. [How to test?](/usage/toolbox/general.md#test-kms-host-reachability)
-
-Do the following thins:
-
-- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service).
-- Try activating again.
-
-## 0x8007007B
-
-> The filename, directory name, or volume label syntax is incorrect.
-
-Solution is same as [0x8007000D](activation.md#_0x8007000d).
+Make sure the system service **Software Protection (sppsvc)** is running. If the service is stopped, start it manually or restart the computer.
 
 ## .NET Framework problem
 

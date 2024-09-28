@@ -19,3 +19,7 @@ When you query it, Office Tool Plus will display the description of error code. 
 By default, Office Tool Plus uses TCP connection to test whether the KMS host can be connected.
 
 You can also use the [vlmcs](https://download.coolhub.top/Extensions/Components/) component to detect whether the KMS host is working properly.
+
+Input your KMS host address, then click **Test** button.
+
+![Test KMS host](/images/en-us/toolbox/test-kms.png)

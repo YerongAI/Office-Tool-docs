@@ -19,3 +19,7 @@
 默认情况下，Office Tool Plus 使用 TCP 连接测试 KMS 主机是否可以连接。
 
 你还可以使用 [vlmcs](https://download.coolhub.top/Extensions/Components/) 组件以测试 KMS 主机是否正常工作。
+
+在地址栏中输入 KMS 主机地址，然后点击**测试**按钮即可。
+
+![Test KMS host](/images/zh-cn/toolbox/test-kms.png)

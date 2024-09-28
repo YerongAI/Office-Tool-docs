@@ -34,11 +34,11 @@ There may be a delay in dragging windows when using the Acrylic effect on Window
 
 ### Hardware acceleration
 
-使用硬件加速能够为程序带来更好的性能和动画效果。关闭硬件加速可能会极大降低应用程序性能，因此我们非常不建议关闭硬件加速。
+Using hardware acceleration can provide better performance. Disabling hardware acceleration may reduce application performance, so we do not recommend disabling hardware acceleration.
 
-但如果您在使用 Office Tool Plus 的过程中遇到了窗口变全透明、加载图片时内存溢出等问题，你可以通过关闭硬件加速来缓解这些问题。
+However, if you encounter problems such as the window is blank or memory overflow when loading picture, you can avoid these problems by disabling hardware acceleration.
 
-你也可以通过使用[命令行](/usage/command/application.md#commands)的方式临时关闭硬件加速。
+You can temporarily disable hardware acceleration via [command-line](/usage/command/application.md#commands).
 
 ## Deploy
 
@@ -68,21 +68,21 @@ If you don't know about the internal products and update channels, **DO NOT USE*
 
 ### Verify files
 
-当您打开此开关后，Office Tool Plus 将会在下载 Office 安装文件后对文件进行校验，校验可以检查出版本不匹配，文件损坏等问题。
+After enabling, Office Tool Plus will verify the files after downloading Office installation files. Verification can detect version mismatches, file corruption and other issues.
 
-如果在文件损坏的情况下继续部署 Office，可能会遇到安装进度卡住不动的问题，因此我们强烈建议您在部署之前校验 Office 安装文件是否存在问题。
+If you continue to deploy Office when the files are corrupted, the installation process may get stuck. We strongly recommend that verify the Office installation files before deployment.
 
-::: warning 注意
+::: warning Attention
 
-Office 安装文件校验功能对在线部署时不起作用，仅可用于下载模式或在`下载后再部署`已启用的情况下。
+Office installation files verification does not work for online installation, only available in **Download** mode or when **Download first then deploy** is enabled.
 
 :::
 
 ### Connect using HTTPS
 
-默认情况下，Office Tool Plus 使用 HTTP 请求下载 Office 安装文件。
+By default, Office Tool Plus uses HTTP requests to download Office installation files.
 
-如果您下载 Office 安装文件时进度缓慢或者出现了意料之外的错误，您可以尝试打开此开关，然后重试下载。
+If you're experiencing slow download speeds or unexpected errors while downloading files, you can turn on this and retrying the download.
 
 ### Engine
 

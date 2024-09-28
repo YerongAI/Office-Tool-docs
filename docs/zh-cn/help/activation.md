@@ -8,6 +8,50 @@
 
 此错误代码没有准确意义，请参考给出的错误信息进行问题排查。
 
+## 0x8004E108
+
+> 软件授权服务报告令牌存储中的令牌包含无效的哈希。
+
+请参考[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#rebuild-windows-activation-token)。
+
+## 0x8007000D
+
+> 数据无效。
+
+确保以下事项没有问题：
+
+- 系统时间正确。
+- 网络连接正常。
+- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#test-kms-host-reachability)
+
+然后做以下事情:
+
+- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
+- 再次尝试激活。
+
+## 0x8007007B
+
+> 文件名、目录名或卷标语法不正确。
+
+解决方案同[0x8007000D](activation.md#_0x8007000d)。
+
+## 0x8007232B
+
+> DNS 名称不存在。
+
+- 尚未设置 KMS 主机，请在设置之后重试。
+  - 如下截图所示，显示 `N/A` 则表示未设置 KMS 主机：
+  ![No KMS configured](/images/zh-cn/activation/no-kms-configured.png)
+- KMS 主机地址不正确，请检查，然后重试。
+- 尝试更换一个 DNS，然后重试。
+- 尝试更换一个网络，然后重试。
+
+## 0xC004E015
+
+> 软件授权服务报告许可证使用失败。
+
+解决方案同[0x8004E108](activation.md#_0x8004e108).
+
 ## 0xC004F015
 
 > 软件授权服务报告许可证未安装。
@@ -42,38 +86,11 @@
 - [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
 - 再次尝试激活。
 
-## 0xC004E015
+## 0xC004F075
 
-> 软件授权服务报告许可证使用失败
+> 软件授权服务报告无法完成该操作，因为服务已停止。
 
-请参考[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#rebuild-windows-activation-token)。
-
-## 0x8004E108
-
-> 软件授权服务报告令牌存储中的令牌包含无效的哈希
-
-解决方案同[0xC004E015](activation.md#_0xc004e015)。
-
-## 0x8007000D
-
-> 数据无效
-
-确保以下事项没有问题：
-
-- 系统时间正确。
-- 网络连接正常。
-- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/usage/toolbox/general.md#test-kms-host-reachability)
-
-然后做以下事情:
-
-- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
-- 再次尝试激活。
-
-## 0x8007007B
-
-> 文件名、目录名或卷标语法不正确
-
-解决方案同[0x8007000D](activation.md#_0x8007000d)。
+确保系统服务 **Software Protection (sppsvc)** 正在运行。如果服务已停止，请手动启动或重新启动计算机。
 
 ## .NET Framework 问题 {#net-framework-problem}
 
