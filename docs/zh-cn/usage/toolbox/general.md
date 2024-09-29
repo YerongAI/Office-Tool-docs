@@ -4,7 +4,7 @@
 
 此功能可以从微软服务器获取 Office 更新通道的版本信息，包括通道名、分支、版本号和创建时间。
 
-![查询 Office 更新通道](/images/zh-cn/toolbox/query-office-update-channel.png)
+![查询 Office 更新通道](/images/zh-cn/toolbox/query-office-update-channel.webp)
 
 若要显示内部通道，请打开[显示内部产品和通道](/zh-cn/usage/settings.md#display-internal-products-and-channels)。
 
@@ -22,4 +22,4 @@
 
 在地址栏中输入 KMS 主机地址，然后点击**测试**按钮即可。
 
-![Test KMS host](/images/zh-cn/toolbox/test-kms.png)
+![Test KMS host](/images/zh-cn/toolbox/test-kms.webp)

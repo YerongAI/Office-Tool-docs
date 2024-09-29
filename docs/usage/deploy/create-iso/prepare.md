@@ -16,7 +16,7 @@ To ensure that the Office installation files downloads completely, we recommend 
 
 Office Tool Plus downloads Office for the current OS version by default. To download Office for other Windows, change the **Settings - Download - Windows version**。
 
-![Download settings](/images/en-us/settings/download-settings.png)
+![Download settings](/images/en-us/settings/download-settings.webp)
 
 Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无需更改我们没有在教程中提到的设置。
 

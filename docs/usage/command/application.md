@@ -6,7 +6,7 @@ The commands are not case-sensitive. If a command argument contains spaces, use 
 
 These commands can be only used on command box. You can open command box via button or keyboard shortcuts <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>.
 
-![Command box](/images/en-us/command-box.png)
+![Command box](/images/en-us/command-box.webp)
 
 | Command | Instruction |  |
 | :-- | :-- | :-- |

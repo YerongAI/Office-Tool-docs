@@ -165,7 +165,7 @@ You can holding <kbd>Ctrl</kbd> to select multiple items when adding languages. 
 
 When you download Office from Office Tool Plus, Office Tool Plus will automatically detected the Office installation and displays it here.
 
-![Office installation](/images/en-us/deploy/office-installation.png)
+![Office installation](/images/en-us/deploy/office-installation.webp)
 
 ::: tip Tips
 

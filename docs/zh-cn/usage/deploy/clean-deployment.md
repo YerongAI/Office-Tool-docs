@@ -33,7 +33,7 @@
 
 此选项为关闭状态时，Office 将会下载时部署，打开时为下载后部署。
 
-![Download first](/images/zh-cn/deploy/download-first.png)
+![Download first](/images/zh-cn/deploy/download-first.webp)
 
 - 下载时部署：这个模式下无法暂停或取消。Office 安装程序会从 Office CDN 下载安装所需的文件，然后再进行安装。如果因为网络问题而导致文件无法下载，Office 安装程序会卡在一定的进度，无法继续部署。
 - 下载后部署：下载通常由 Office Tool Plus 进行，因此在开始安装前，您可以随时取消或暂停下载。下载完成后，Office 的安装不依赖网络，不会受网络影响。
@@ -52,7 +52,7 @@
 
 打开 Office Tool Plus 后，转到部署页面，确保安装文件能够正确加载并识别。如果没有，请点击**选择**按钮并根据提示选择 Office 安装文件。
 
-![Office installation](/images/zh-cn/deploy/office-installation.png)
+![Office installation](/images/zh-cn/deploy/office-installation.webp)
 
 ::: tip 提示
 

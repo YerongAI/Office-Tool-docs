@@ -41,7 +41,7 @@
 
 - 尚未设置 KMS 主机，请在设置之后重试。
   - 如下截图所示，显示 `N/A` 则表示未设置 KMS 主机：
-  ![No KMS configured](/images/zh-cn/activation/no-kms-configured.png)
+  ![No KMS configured](/images/zh-cn/activation/no-kms-configured.webp)
 - KMS 主机地址不正确，请检查，然后重试。
 - 尝试更换一个 DNS，然后重试。
 - 尝试更换一个网络，然后重试。

@@ -30,7 +30,7 @@ Office 企业版长期通道被锁定，一般情况下无法更改，也无法�
 
 Office 产品属于者指的是许可证的属于者，例如下图中的 *Yerong™ | NekoNeko*：
 
-![Product owner](/images/zh-cn/product-owner.png)
+![Product owner](/images/zh-cn/product-owner.webp)
 
 直接设置新的名称时，Office Tool Plus 会尝试更改所有 vNext 许可证和 Office 传统许可证的名称。如果您需要单独更改某个许可证的名称，请按照以下方法进行。
 
@@ -44,13 +44,13 @@ Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此�
 
 第一步，获取 vNext 许可证的用户 ID。如下图所示，转到激活页面，在 Office 许可证列表中找到你想更改的许可证，然后点击**复制用户 ID** 按钮。
 
-![Copy user ID](/images/zh-cn/activation/check-vNext-license.png)
+![Copy user ID](/images/zh-cn/activation/check-vNext-license.webp)
 
 第二步，回到工具箱，在**更改 Office 产品属于者**中按照以下格式输入 `[User ID]:[Name]`
 
 User ID 为刚才复制的用户 ID，Name 是你想设置的名字，例如：`bbbbxxx:小明`
 
-![Change product owner](/images/zh-cn/toolbox/change-license-owner.png)
+![Change product owner](/images/zh-cn/toolbox/change-license-owner.webp)
 
 填写完成后，点击**设置名称**按钮，重启你的 Office 应用程序即可看到新的名称。
 

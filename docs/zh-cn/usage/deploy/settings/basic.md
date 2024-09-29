@@ -167,7 +167,7 @@ Bing 是一个用于 Chrome 和 Edge 的浏览器插件。若要了解更多信�
 
 默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
 
-![Office installation](/images/zh-cn/deploy/office-installation.png)
+![Office installation](/images/zh-cn/deploy/office-installation.webp)
 
 ::: tip 提示
 

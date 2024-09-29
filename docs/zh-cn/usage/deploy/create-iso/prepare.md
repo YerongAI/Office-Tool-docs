@@ -16,7 +16,7 @@ Office 会固定在每个月的第二个星期二（太平洋时间）更新一�
 
 Office Tool Plus 默认下载适合当前操作系统的 Office 版本。若要下载适用于其他 Windows 的 Office 版本，请更改**设置 - 下载 - Windows 版本**。
 
-![Download settings](/images/zh-cn/settings/download-settings.png)
+![Download settings](/images/zh-cn/settings/download-settings.webp)
 
 Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无需更改我们没有在教程中提到的设置。
 

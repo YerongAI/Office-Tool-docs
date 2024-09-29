@@ -41,7 +41,7 @@ Solution is same as [0x8007000D](activation.md#_0x8007000d).
 
 - The KMS host is not set up, please try again after setting it up.
   - As shown in the following screenshot, if `N/A` is displayed, it means that there is no KMS host configured:
-  ![No KMS configured](/images/en-us/activation/no-kms-configured.png)
+  ![No KMS configured](/images/en-us/activation/no-kms-configured.webp)
 - The KMS host address is invalid, please check and try again.
 - Try to change the DNS and try again.
 - Try to connect using different Internet or Network and try again.

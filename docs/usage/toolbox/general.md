@@ -4,7 +4,7 @@
 
 You can get the version information of Office update channel from Microsoft, including the channel name, branch, version number, and creation time.
 
-![Query Office version](/images/en-us/toolbox/query-office-update-channel.png)
+![Query Office version](/images/en-us/toolbox/query-office-update-channel.webp)
 
 To display internal channels, please enable [Display internal products and channels](/usage/settings.md#display-internal-products-and-channels).
 
@@ -22,4 +22,4 @@ You can also use the [vlmcs](https://download.coolhub.top/Extensions/Components/
 
 Input your KMS host address, then click **Test** button.
 
-![Test KMS host](/images/en-us/toolbox/test-kms.png)
+![Test KMS host](/images/en-us/toolbox/test-kms.webp)

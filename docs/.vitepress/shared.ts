@@ -14,7 +14,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://img.lancdn.co/otp/global/x/header-x.png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '600' }],
-    ['meta', { property: 'og:url', content: 'https://www.officetool.plus/' }],
+    ['meta', { property: 'og:url', content: 'https://www.officetool.plus/' }]
   ],
 
   themeConfig: {

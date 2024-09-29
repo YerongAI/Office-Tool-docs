@@ -33,7 +33,7 @@ We usually recommend just selecting the applications which you need, such as the
 
 When this option is off, Office will be deployed during downloading, and when it is on, it will be deployed after downloaded.
 
-![Download first](/images/en-us/deploy/download-first.png)
+![Download first](/images/en-us/deploy/download-first.webp)
 
 - Deploy during downloading: you can't pause or cancel the installation at that moment. Office installer will download and install Office from Office CDN. If you have a bad internet connection, the installation may get stuck.
 - Deploy after downloaded: the operation is usually performed by Office Tool Plus, so you can cancel or pause the download before the installation begins. Once the download is complete, you can go offline when installing Office.
@@ -52,7 +52,7 @@ After mounting/unpacking, run Office Tool Plus from the archives. If not, [downl
 
 After opened Office Tool Plus, navigate to deploy page, make sure the installation files was loaded. If not, click `Select` button and choose the file.
 
-![Office installation](/images/en-us/deploy/office-installation.png)
+![Office installation](/images/en-us/deploy/office-installation.webp)
 
 ::: tip Tips
 

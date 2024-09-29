@@ -6,7 +6,7 @@
 
 这些命令只能在命令框中使用。命令框可以点击按钮打开，也可以按下快捷键 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 打开。
 
-![Command box](/images/zh-cn/command-box.png)
+![Command box](/images/zh-cn/command-box.webp)
 
 | 命令 | 说明 |  |
 | :-- | :-- | :-- |
