@@ -106,8 +106,3 @@ Usually, when you install the corresponding volume licenses on Office Tool Plus,
 
 - SPLA license: SPLA licenses can only be activated using MAK, KMS activation is not supported.
 - Preview products: Products in the preview do not have the GVLK, so you need to manually install the GVLK for KMS activation.
-
-## No solutions at this time
-
-- Error code: 0x80040154, Class not registered.
-- Error code: 0x80070002, The system cannot find the file specified.
