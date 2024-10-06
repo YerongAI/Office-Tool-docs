@@ -106,3 +106,7 @@
 
 - SPLA 许可证：SPLA 许可证仅能使用 MAK 进行激活，不支持 KMS 激活。
 - 预览版产品：处于预览阶段的产品没有 GVLK，因此您还需要手动安装 GVLK 才可进行 KMS 激活。
+
+## 无效类 {#invalid-class}
+
+请参考[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。

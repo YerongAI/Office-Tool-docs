@@ -106,3 +106,7 @@ Usually, when you install the corresponding volume licenses on Office Tool Plus,
 
 - SPLA license: SPLA licenses can only be activated using MAK, KMS activation is not supported.
 - Preview products: Products in the preview do not have the GVLK, so you need to manually install the GVLK for KMS activation.
+
+## Invalid Class
+
+Please refer to [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components).
