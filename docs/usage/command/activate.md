@@ -24,3 +24,4 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 | /setprt *value* | Set KMS port. Default port: 1688 | /setprt 1688 |
 | /act            | Activate Office product(s). | /act |
 | /dstatus        | Display the Office activation info (only available on command-line). | /dstatus |
+| /dinstid        | Display installation ID for offline activation (only available on command-line). | /dinstid |

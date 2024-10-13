@@ -24,3 +24,4 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 | /setprt *value* | 设置 KMS 主机端口，默认值: 1688 | /setprt 1688 |
 | /act            | 激活 Office 客户端产品 | /act |
 | /dstatus        | 显示 Office 激活信息（仅在命令行中可用） | /dstatus |
+| /dinstid        | 显示许可证的安装 ID，以用于离线激活（仅在命令行中可用） | /dinstid |
