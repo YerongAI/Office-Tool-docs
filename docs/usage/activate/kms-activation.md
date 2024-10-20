@@ -26,12 +26,12 @@ If there is a problem during activation, you can click on the blue error code di
 
 Typically, a KMS activation is valid for 180 days. After 7 days (when the remaining time is less than 173 days), the system automatically attempts to renew activation (reactivate), unless KMS specifies a different renewal policy.
 
-### Active Directory 域中的 KMS 激活
+### Active Directory-based activation
 
-为了简化大型企业中的 Windows 和 Office 激活管理，微软开发了[基于 Active Directory 的激活服务](https://learn.microsoft.com/en-us/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client)。配置好域控制器之后，加入该域的所有计算机都将会自动通过 KMS 进行激活。
+To simplify Windows and Office activation management in large enterprises, the administrators usually choose to configure an [Active Directory-based activation](https://learn.microsoft.com/en-us/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client) service. After configuring the domain controller, all computers that join the domain will automatically activate through KMS.
 
-如上所述，企业机构可以配置 AD 域并配置 KMS 激活服务以自动激活组织内的 Windows 和 Office 副本。但由于计算机加入了 AD 域，因此该计算机会受域所控制，域管理员可以针对域中的计算机进行控制，包括但不限于下发命令、安装软件、抹掉数据等。
+As mentioned above, organizations can configure an AD domain and configure the KMS activation service to automatically activate copies of Windows and Office within the organization. However, since the computer is joined to the AD domain, the domain administrator can fully control the computers in the domain, including executing commands, installing softwares, clearing data, etc.
 
-但由于理解错误，一些用户认为使用 KMS 激活会导致电脑被他人控制。
+However, some users misunderstand that using KMS activation will cause the computer to be controlled by others.
 
-正常情况下，使用 KMS 激活并不代表你的计算机就加入了 AD 域，KMS 激活可以在不加入 AD 域的情况下使用，所以你的计算机不会因此被他人所控制。
+Using KMS activation does not mean that your computer has joined the AD domain. KMS activation can be used without joining the AD domain, so your computer will not be controlled by others.

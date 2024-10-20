@@ -26,7 +26,7 @@ deploy /add O365ProPlusRetail_en-us
 | /migratearch | Migrate architecture. |  |
 | /ver *value* | Set Office version. | *value*: Office version number. |
 | /srcpath *value* | Set source path. | *value*: Local or SMB path. |
-| /fallback | Fallback to Office CDN when language packs are not found locally. | *value*: `true` or `false`. Default value is `true`. |
+| /fallback | Fallback to Office CDN when language packs are not found locally. | *value*: `true` or `false`. Default value is `false`. |
 | /display *value* | Set whether to display the Office installation screen. | *value*: `true`: visible, `false`: hidden. Default value is `true`. |
 | /acpteula | Accept the EULA on behalf of the user. |  |
 | /enableupdates | Set Office update state. | *value*: `true`: enbale, `false`: disable. |
@@ -53,7 +53,7 @@ Deploying Office 2021 Professional Plus - Volume Edition, English (US), excludin
 deploy /add ProPlus2021Volume_en-us /ProPlus2021Volume.exclapps Access,Outlook,OneNote /channel PerpetualVL2021
 ```
 
-To use local source to deploy Office, You need to specify `/srcpath` and `/ver` command. For 64-bit of Office, use `/edition` command:
+To use local source to deploy Office, You need to specify `/srcpath`, `/ver` and `/channel` command. For 64-bit of Office, use `/edition` command:
 
 ``` batch
 deploy /add O365ProPlusRetail_en-us /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx /channel Current
