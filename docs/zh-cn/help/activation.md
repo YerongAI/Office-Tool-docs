@@ -46,6 +46,12 @@
 - 尝试更换一个 DNS，然后重试。
 - 尝试更换一个网络，然后重试。
 
+## 0x80080005
+
+> 服务器运行失败。
+
+尝试[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)，然后重试激活。
+
 ## 0xC004E015
 
 > 软件授权服务报告许可证使用失败。

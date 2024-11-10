@@ -8,10 +8,10 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 获取更多信息请访问:
 
-- [Windows 7 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-7-support).
-- [Windows 8 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-8-support).
-- [Windows 8.1 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-81-support).
-- [Windows Server 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-server-support).
+- [Windows 7 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-7-support)
+- [Windows 8 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-8-support)
+- [Windows 8.1 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-81-support)
+- [Windows Server 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-server-support)
 
 ::: warning 注意
 
@@ -25,7 +25,7 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 ## The path is null or empty
 
-要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables).
+要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)。
 
 ## Office 安装进度卡住不动 {#office-installation-is-stuck}
 

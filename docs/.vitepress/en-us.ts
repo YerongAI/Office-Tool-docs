@@ -6,6 +6,12 @@ export const en_us = defineConfig({
     themeConfig: {
         nav: nav(),
 
+        socialLinks: [
+            { icon: 'telegram', link: 'https://t.me/s/otp_channel/' },
+            { icon: 'discord', link: 'https://discord.gg/TpXTgfgf2a' },
+            { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
+        ],
+
         sidebar: {
             '/introduction/': { base: '/introduction/', items: sidebarIntroduction() },
             '/usage/': { base: '/usage/', items: sidebarUsage() },

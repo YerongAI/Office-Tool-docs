@@ -21,8 +21,11 @@ export const shared = defineConfig({
     logo: '/favicon.ico',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' },
-      { icon: 'discord', link: 'https://discord.gg/TpXTgfgf2a' }
+      { icon: 'tencentqq', link: 'https://www.coolhub.top/contact-us' },
+      { icon: 'wechat', link: 'https://mp.weixin.qq.com/s/MQTr2Gj2l3Yw_R6tLKFHPQ' },
+      { icon: 'telegram', link: 'https://t.me/s/otp_channel/' },
+      { icon: 'discord', link: 'https://discord.gg/TpXTgfgf2a' },
+      { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
     ],
 
     search: {

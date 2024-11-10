@@ -6,6 +6,12 @@ export const zh_cn = defineConfig({
     themeConfig: {
         nav: nav(),
 
+        socialLinks: [
+            { icon: 'tencentqq', link: 'https://www.coolhub.top/contact-us' },
+            { icon: 'wechat', link: 'https://mp.weixin.qq.com/s/MQTr2Gj2l3Yw_R6tLKFHPQ' },
+            { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
+        ],
+
         sidebar: {
             '/zh-cn/introduction/': { base: '/zh-cn/introduction/', items: sidebarIntroduction() },
             '/zh-cn/usage/': { base: '/zh-cn/usage/', items: sidebarUsage() },
@@ -64,10 +70,6 @@ function nav(): DefaultTheme.NavItem[] {
             text: '帮助',
             link: '/zh-cn/help/about',
             activeMatch: '/zh-cn/help/'
-        },
-        {
-            text: '联系我们',
-            link: 'https://www.coolhub.top/contact-us'
         }
     ]
 }

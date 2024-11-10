@@ -19,3 +19,7 @@
 ## UCEERR_RENDERTHREADFAILURE (0x88980406)
 
 解决方案同上。
+
+## 查询错误代码描述时崩溃 {#program-crashed-when-querying-error-code-description}
+
+重启 Windows。

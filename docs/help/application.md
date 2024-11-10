@@ -19,3 +19,7 @@ Open CMD or PowerShell, and using the following command to disable hardware acce
 ## UCEERR_RENDERTHREADFAILURE (0x88980406)
 
 Solution is same as the previous item.
+
+## Program crashed when querying error code description
+
+Restart Windows.

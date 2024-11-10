@@ -46,6 +46,12 @@ Solution is same as [0x8007000D](activation.md#_0x8007000d).
 - Try to change the DNS and try again.
 - Try to connect using different Internet or Network and try again.
 
+## 0x80080005
+
+> Server execution failed.
+
+Try to [reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) and activate again.
+
 ## 0xC004E015
 
 > The Software Licensing Service reported that license consumption failed.
