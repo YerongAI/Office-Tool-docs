@@ -14,24 +14,24 @@ deploy /add O365ProPlusRetail_en-us
 
 | Command | Instruction |  |
 | :-- | :-- | :-- |
-| /add *values[]* | Add one or more products. | values: productID_languages, **productID is a required parameter**. See the [example](deploy.md#deploying-office-examples) for how to use it. |
-| /Product_ID.exclapps *values* | Set up excluded applications for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
-| /Product_ID.mak *values* | Set MAK for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
-| /rm *values[]* | Uninstall products. | values: productID_languages, usage same as `/add`. |
+| /add *values[]* | Add one or more products. | *Values*: productID_languages, **productID is a required parameter**. See the [example](deploy.md#deploying-office-examples) for how to use it. |
+| /Product_ID.exclapps *value* | Set up excluded applications for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
+| /Product_ID.mak *value* | Set MAK for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
+| /rm *values[]* | Uninstall products. | *Values*: productID_languages, usage same as `/add`. |
 | /rmall | Uninstall all products. |  |
 | /rmmsi | Uninstall all Office MSI products. |  |
-| /channel *value* | Set update channel. | *value*: channel ID. [More info](/usage/deploy/settings/basic.md#update-channel) |
-| /branch *value* | Set update channel according to branch value. The command will override the `/channel` command.  | *value*: branch of channel. [More info](/usage/toolbox/general.md#query-office-version) |
-| /edition *value* | Set architecture. | *value*: `32` or `64`, default value is `32`. |
+| /channel *value* | Set update channel. | *Value*: channel ID. [More info](/usage/deploy/settings/basic.md#update-channel) |
+| /branch *value* | Set update channel according to branch value. The command will override the `/channel` command.  | *Value*: branch of channel. [More info](/usage/toolbox/general.md#query-office-version) |
+| /edition *value* | Set architecture. | *Value*: `32` or `64`, default value is `32`. |
 | /migratearch | Migrate architecture. |  |
-| /ver *value* | Set Office version. | *value*: Office version number. |
-| /srcpath *value* | Set source path. | *value*: Local or SMB path. |
-| /fallback | Fallback to Office CDN when language packs are not found locally. | *value*: `true` or `false`. Default value is `false`. |
-| /display *value* | Set whether to display the Office installation screen. | *value*: `true`: visible, `false`: hidden. Default value is `true`. |
+| /ver *value* | Set Office version. | *Value*: Office version number. |
+| /srcpath *value* | Set source path. | *Value*: Local or SMB path. |
+| /fallback | Fallback to Office CDN when language packs are not found locally. | *Value*: `true` or `false`. Default value is `false`. |
+| /display *value* | Set whether to display the Office installation screen. | *Value*: `true`: visible, `false`: hidden. Default value is `true`. |
 | /acpteula | Accept the EULA on behalf of the user. |  |
-| /enableupdates | Set Office update state. | *value*: `true`: enbale, `false`: disable. |
-| /updatepath | Set Office update download path. | *value*: Local or SMB path. |
-| /module *value* | Set installation module. | *value*: `0`: Office Deployment Tool, `1`: Office Tool Plus. Default value is `0`. |
+| /enableupdates | Set Office update state. | *Value*: `true`: enbale, `false`: disable. |
+| /updatepath | Set Office update download path. | *Value*: Local or SMB path. |
+| /module *value* | Set installation module. | *Value*: `0`: Office Deployment Tool, `1`: Office Tool Plus. Default value is `0`. |
 | /dlfirst | Download first, then deploy. |  |
 | /shortcuts | Create desktop shortcuts. |  |
 

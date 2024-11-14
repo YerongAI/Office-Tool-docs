@@ -14,24 +14,24 @@ deploy /add O365ProPlusRetail_zh-cn
 
 | 命令 | 说明 |  |
 | :-- | :-- | :-- |
-| /add *values[]* | 添加一个或多个产品 | values: productID_languages，**其中 productID 为必需参数**。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
-| /Product_ID.exclapps *values* | 为产品设置排除的应用程序 | `Product_ID` 根据 `/add` 参数中的 productID 设置。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
-| /Product_ID.mak *values* | 为产品设置 MAK | `Product_ID` 根据 `/add` 参数中的 productID 设置。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
-| /rm *values[]* | 卸载一个或多个产品 | values: productID_languages，使用方法同 `/add` |
+| /add *values[]* | 添加一个或多个产品 | *Values*: productID_languages，**其中 productID 为必需参数**。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
+| /Product_ID.exclapps *value* | 为产品设置排除的应用程序 | `Product_ID` 根据 `/add` 参数中的 productID 设置。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
+| /Product_ID.mak *value* | 为产品设置 MAK | `Product_ID` 根据 `/add` 参数中的 productID 设置。使用方法见[部署示例](deploy.md#command-examples-for-deploying-office) |
+| /rm *values[]* | 卸载一个或多个产品 | *Values*: productID_languages，使用方法同 `/add` |
 | /rmall | 卸载全部产品 |  |
 | /rmmsi | 卸载全部 Office MSI 产品 |  |
-| /channel *value* | 设置更新通道 | *value*: 通道 ID，[更多信息](/zh-cn/usage/deploy/settings/basic.md#update-channel) |
-| /branch *value* | 根据分支名称设置更新通道，这个命令会覆盖 `/channel` 命令。 | *value*: 通道的分支名，[更多信息](/zh-cn/usage/toolbox/general.md#query-office-version) |
-| /edition *value* | 设置体系结构 | *value*: `32` 或 `64`，默认值为 `32` |
+| /channel *value* | 设置更新通道 | *Value*: 通道 ID，[更多信息](/zh-cn/usage/deploy/settings/basic.md#update-channel) |
+| /branch *value* | 根据分支名称设置更新通道，这个命令会覆盖 `/channel` 命令。 | *Value*: 通道的分支名，[更多信息](/zh-cn/usage/toolbox/general.md#query-office-version) |
+| /edition *value* | 设置体系结构 | *Value*: `32` 或 `64`，默认值为 `32` |
 | /migratearch | 迁移体系结构 |  |
-| /ver *value* | 设置 Office 版本号 | *value*: Office 版本号 |
-| /srcpath *value* | 设置源路径属性 | *value*: 本地路径、SMB 路径 |
-| /fallback | 在本地找不到语言包时回退到 Office CDN | *value*: `true` 或 `false`，默认值为 `false` |
-| /display *value* | 设置是否显示 Office 安装界面 | *value*: `true` 显示，`false` 隐藏，默认值为 `true` |
+| /ver *value* | 设置 Office 版本号 | *Value*: Office 版本号 |
+| /srcpath *value* | 设置源路径属性 | *Value*: 本地路径、SMB 路径 |
+| /fallback | 在本地找不到语言包时回退到 Office CDN | *Value*: `true` 或 `false`，默认值为 `false` |
+| /display *value* | 设置是否显示 Office 安装界面 | *Value*: `true` 显示，`false` 隐藏，默认值为 `true` |
 | /acpteula | 代表用户接受最终用户许可协议 |  |
-| /enableupdates | 是否启用 Office 更新 | *value*: `true` 启用，`false` 禁用 |
-| /updatepath | 设置 Office 更新下载路径 | *value*: 本地路径、SMB 路径 |
-| /module *value* | 设置安装模块 | *value*: `0`: Office 部署工具，`1`: Office Tool Plus。默认值为 `0` |
+| /enableupdates | 是否启用 Office 更新 | *Value*: `true` 启用，`false` 禁用 |
+| /updatepath | 设置 Office 更新下载路径 | *Value*: 本地路径、SMB 路径 |
+| /module *value* | 设置安装模块 | *Value*: `0`: Office 部署工具，`1`: Office Tool Plus。默认值为 `0` |
 | /dlfirst | 下载后再安装 |  |
 | /shortcuts | 创建桌面快捷方式 |  |
 
