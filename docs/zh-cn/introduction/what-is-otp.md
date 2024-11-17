@@ -25,11 +25,11 @@ Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以
 - 移除 Office，在 Office 无法正常卸载的情况下强制移除 Office，支持 Office 2003 - Office 最新版本。
 - 内置 Office 工具箱，包括重置设置，修复安装问题，修复激活问题等。
 - 转换 Office 文档，基于 Office COM，稳定、快速、可靠。
-- 自定义主题，打造你自己的专属 Office Tool Plus.
+- 自定义主题，打造你自己的专属 Office Tool Plus。
 
 ::: tip 注意事项
 
-1. Office Tool Plus 只提供激活管理功能，你需要拥有正版许可证才可以激活你的 Office.
+1. Office Tool Plus 只提供激活管理功能，你需要拥有正版许可证才可以激活你的 Office。
 
 :::
 

@@ -23,12 +23,12 @@ features:
   - title: Simple
     icon: 📝
     details: Deploy Office in just a few steps.
-  - title: Practical
-    icon: 💡
-    details: Born for Office deployments.
   - title: Powerful
     icon: 🚀
-    details: Full support of customize.
+    details: Rich features, full support of customize.
+  - title: Accessibility
+    icon: ❤️
+    details: Optimized for screen readers.
 ---
 
 <style>
