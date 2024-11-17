@@ -116,3 +116,9 @@ Usually, when you install the corresponding volume licenses on Office Tool Plus,
 ## Invalid Class
 
 Please refer to [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components).
+
+## We noticed you just updated your license
+
+> We noticed you just updated your license. Please reboot Microsoft Project for the changes to take effect.
+
+Please refer to [Reset Office settings to defaults](/usage/toolbox/office.md#reset-office-settings-to-defaults).

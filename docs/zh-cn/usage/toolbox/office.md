@@ -40,7 +40,7 @@ Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此�
 
 :::
 
-### 更改 vNext 许可证的属于者 {#change-owner-for-vnext-license}
+::: details 更改 vNext 许可证的属于者
 
 第一步，获取 vNext 许可证的用户 ID。如下图所示，转到激活页面，在 Office 许可证列表中找到你想更改的许可证，然后点击**复制用户 ID** 按钮。
 
@@ -54,7 +54,9 @@ User ID 为刚才复制的用户 ID，Name 是你想设置的名字，例如：`
 
 填写完成后，点击**设置名称**按钮，重启你的 Office 应用程序即可看到新的名称。
 
-### 更改 Office 传统许可证的属于者 {#change-owner-for-legacy-license}
+:::
+
+::: details 更改 Office 传统许可证的属于者
 
 在部署页面查看您已安装的产品的 ID，例如 `ProPlus2021Volume` 或 `VisioPro2021Volume`。
 
@@ -67,5 +69,16 @@ Product ID 为产品 ID，Name 是你想设置的名字，例如：`ProPlus2021V
 ::: warning 注意
 
 如果您自行安装了其他 Office 许可证并激活，请在上文中输入您安装的许可证的 ID，而不是已安装的产品的 ID。
+
+:::
+
+## 重置 Office 设置为默认设置 {#reset-office-settings-to-defaults}
+
+重置 Office 设置可以解决某些问题。请根据需要使用。
+
+::: details 适用情况
+
+- Office 许可证已通过 KMS 或 MAK 激活，但是 Office 应用程序要求使用 Microsoft 365 订阅。
+- 我们注意到你更新了你的许可证，请重新启动 Microsoft Project 以使更改生效。
 
 :::

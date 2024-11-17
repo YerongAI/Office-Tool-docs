@@ -23,6 +23,10 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 微软不允许将 Office 安装到其他位置，我们也不建议您强制更改其安装位置。
 
+强制更改安装位置容易出现问题，特别会容易遇到【操作系统当前的配置不能运行此应用程序】。
+
+如果已经遇到了问题，可以尝试卸载 Office 后，[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)，然后重新安装 Office。
+
 ## The path is null or empty
 
 要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)。
