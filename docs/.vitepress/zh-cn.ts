@@ -151,7 +151,8 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
                 { text: '键盘快捷键', link: 'command/keyboard' },
                 { text: '应用程序命令', link: 'command/application' },
                 { text: '部署命令', link: 'command/deploy' },
-                { text: '激活命令', link: 'command/activate' }
+                { text: '激活命令', link: 'command/activate' },
+                { text: '工具箱命令', link: 'command/toolbox' }
             ]
         },
         {

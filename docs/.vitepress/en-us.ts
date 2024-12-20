@@ -132,7 +132,8 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
                 { text: 'Keyboard shortcuts', link: 'command/keyboard' },
                 { text: 'Application commands', link: 'command/application' },
                 { text: 'Deploy commands', link: 'command/deploy' },
-                { text: 'Activation commands', link: 'command/activate' }
+                { text: 'Activation commands', link: 'command/activate' },
+                { text: 'Toolbox commands', link: 'command/toolbox' }
             ]
         },
         {

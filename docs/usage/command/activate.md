@@ -1,4 +1,4 @@
-# Activation Commands
+# Activation commands
 
 These commands can be used on command box and the command-line. The commands are not case-sensitive.
 
@@ -14,9 +14,8 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 
 | Command | Instruction | Usage |
 | :--     | :--     | :--       |
-| /clall            | Clear all installed Office licenses and keys. | `/clall` |
-| /cllicenses       | Clear all installed Office licenses. | `/cllicenses` |
-| /clkeys           | Clear all installed Office product keys. | `/clkeys` |
+| /unkeys           | Uninstall all installed Office product keys. | `/unkeys` |
+| /unlics           | Uninstall all installed Office licenses. | `/unlics` |
 | /inslicid *value* | Install the specified Office licenses. | `/inslicid ProPlus2021Volume` or `/inslicid ProPlus2021Volume,VisioPro2021Volume` |
 | /inpkey *value*   | Install the specified Office product key. | `/inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` |
 | /unpkey *value*   | Uninstall the specified Office product key. | `/unpkey XXXXX` |

@@ -1,4 +1,4 @@
-# Deploy Commands
+# Deploy commands
 
 These commands can be used on command box and the command-line. The commands are not case-sensitive. If a command argument contains spaces, use "" (double quotes) to include them.
 

@@ -1,4 +1,4 @@
-# Application Commands
+# Application commands
 
 The commands are not case-sensitive. If a command argument contains spaces, use "" (double quotes) to include them.
 

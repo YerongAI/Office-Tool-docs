@@ -14,9 +14,8 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 
 | 命令 | 说明 | 使用方法 |
 | :--  | :-- | :--  |
-| /clall            | 清除所有已安装的 Office 许可证和产品密钥 | `/clall` |
-| /cllicenses       | 清除所有已安装的 Office 许可证 | `/cllicenses` |
-| /clkeys           | 清除所有已安装的 Office 产品密钥 | `/clkeys` |
+| /unkeys           | 卸载所有已安装的 Office 产品密钥 | `/unkeys` |
+| /unlics           | 卸载所有已安装的 Office 许可证 | `/unlics` |
 | /inslicid *value* | 安装指定产品的 Office 许可证 | `/inslicid ProPlus2021Volume` 或 `/inslicid ProPlus2021Volume,VisioPro2021Volume` |
 | /inpkey *value*   | 安装指定的 Office 密钥 | `/inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` |
 | /unpkey *value*   | 卸载指定的 Office 密钥 | `/unpkey XXXXX` |
