@@ -14,4 +14,5 @@ toolbox /rmoffice
 
 | Command | Instruction | Usage |
 | :--     | :--     | :--       |
-| /rmoffice         | Force remove Office related components and registries. | `/rmoffice` |
+| /rmoffice         | Force remove Office related components and registries.  | `/rmoffice`  |
+| /rstsppsvc        | Reset the configuration of Software Protection service. | `/rstsppsvc` |

@@ -14,4 +14,5 @@ toolbox /rmoffice
 
 | 命令 | 说明 | 使用方法 |
 | :--     | :--     | :--       |
-| /rmoffice         | 强制移除 Office 相关组件和注册表。 | `/rmoffice` |
+| /rmoffice         | 强制移除 Office 相关组件和注册表 | `/rmoffice` |
+| /rstsppsvc        | 重置 Software Protection 服务的配置 | `/rstsppsvc` |
