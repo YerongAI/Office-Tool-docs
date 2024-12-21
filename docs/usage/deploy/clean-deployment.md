@@ -11,7 +11,7 @@ Open Office Tool Plus, go to deploy page and do the following things:
 - Add [product(s)](/usage/deploy/settings/basic.md#products).
 - Add [language(s)](/usage/deploy/settings/basic.md#languages).
 
-Add products and languages according to your needs. If you don't know what products to add, please check [products](/usage/deploy/settings/basic.md#products) section.
+Add products and languages according to your needs.
 
 ---
 
@@ -23,7 +23,7 @@ By default, 32-bit Office will be installed. For more information please check [
 
 ### Update channel
 
-If you want to install Office 2019/2021 volume products, you need to configure update channel to Office 2019/2021 Perpetual Enterprise channel. Other times just use the default channel. For more information please check [update channel](/usage/deploy/settings/basic.md#update-channel) section.
+If you want to install Office 2019/2021/2024 volume products, you need to configure update channel to Office 2019/2021/2024 Perpetual Enterprise channel. Other times just use the default channel. For more information please check [update channel](/usage/deploy/settings/basic.md#update-channel) section.
 
 ### Applications
 

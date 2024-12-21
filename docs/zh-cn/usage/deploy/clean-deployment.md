@@ -11,7 +11,7 @@
 - 添加[产品](/zh-cn/usage/deploy/settings/basic.md#products)
 - 添加[语言](/zh-cn/usage/deploy/settings/basic.md#languages)
 
-产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/zh-cn/usage/deploy/settings/basic.md#products)部分。
+产品和语言请根据自己的需求添加。
 
 ---
 
@@ -23,7 +23,7 @@
 
 ### 更新通道 {#update-channel}
 
-如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/usage/deploy/settings/basic.md#update-channel)部分。
+如果你需要安装 Office 2019/2021/2024 批量许可证产品，你需要更改通道为 Office 2019/2021/2024 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/usage/deploy/settings/basic.md#update-channel)部分。
 
 ### 应用程序 {#applications}
 
@@ -40,7 +40,7 @@
 
 ---
 
-配置完成且无报错后，即可开始部署 Office。Office 安装程序需要从 Office CDN 下载文件，因此网络质量可能会影响你的安装用时。
+配置完成且无报错后，即可开始部署 Office。
 
 ## 离线安装 {#offline-installation}
 
