@@ -18,14 +18,20 @@
 站点 1:
 
 ```powershell
-irm https://www.officetool.plus/get/?lang=zh-cn | iex
+irm officetool.plus | iex
 ```
 
 站点 2:
 
 ```powershell
-irm https://otp.landian.vip/get/?lang=zh-cn | iex
+irm otp.landian.vip | iex
 ```
+
+::: tip 提示
+
+若要访问简体中文版的脚本，可在网址后面添加参数 `/?lang=zh-cn`
+
+:::
 
 ---
 
