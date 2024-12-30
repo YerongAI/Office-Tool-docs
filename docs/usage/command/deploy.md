@@ -14,9 +14,9 @@ deploy /add O365ProPlusRetail_en-us
 
 | Command | Instruction |  |
 | :-- | :-- | :-- |
-| /add *values[]* | Add one or more products. | *Values*: productID_languages, **productID is a required parameter**. See the [example](deploy.md#deploying-office-examples) for how to use it. |
-| /Product_ID.exclapps *value* | Set up excluded applications for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
-| /Product_ID.mak *value* | Set MAK for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#deploying-office-examples) for how to use it. |
+| /add *values[]* | Add one or more products. | *Values*: productID_languages, **productID is a required parameter**. See the [example](deploy.md#command-examples-for-deploying-office) for how to use it. |
+| /Product_ID.exclapps *value* | Set up excluded applications for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#command-examples-for-deploying-office) for how to use it. |
+| /Product_ID.mak *value* | Set MAK for specific product. | `Product_ID` is set according to the productID in the `/add` parameter. See the [example](deploy.md#command-examples-for-deploying-office) for how to use it. |
 | /rm *values[]* | Uninstall products. | *Values*: productID_languages, usage same as `/add`. |
 | /rmall | Uninstall all products. |  |
 | /rmmsi | Uninstall all Office MSI products. |  |

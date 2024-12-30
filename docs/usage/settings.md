@@ -14,7 +14,7 @@ To save the changes, turn on the `Save Settings`, otherwise all settings will be
 
 ### Theme
 
-By default, Office Tool Plus automatically switches between light theme (Light Blue) and dark theme (Dark White) based on Windows settings. You can also manually select your favorite theme.
+By default, Office Tool Plus automatically switches between light theme and dark theme based on Windows settings. You can manually select your favorite theme.
 
 ### Background
 

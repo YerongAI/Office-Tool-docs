@@ -27,12 +27,6 @@ irm officetool.plus | iex
 irm otp.landian.vip | iex
 ```
 
-::: tip 提示
-
-若要访问简体中文版的脚本，可在网址后面添加参数 `/?lang=zh-cn`
-
-:::
-
 ---
 
 体系架构区别：

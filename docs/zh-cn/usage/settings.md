@@ -14,7 +14,7 @@
 
 ### 主题 {#theme}
 
-默认情况下，Office Tool Plus 会跟随 Windows 设置自动切换浅色主题（Light Blue）和深色主题（Dark White）。你也可以根据自己的喜好设置一个特定的主题。
+默认情况下，Office Tool Plus 会跟随 Windows 设置自动切换浅色主题和深色主题。你可以根据自己的喜好设置一个特定的主题。
 
 ### 背景 {#background}
 
