@@ -15,6 +15,7 @@ These commands can be only used on command box. You can open command box via but
 | `/setimage` *value* | Set the background image. | *value*: path to image file. Support BMP, PNG or JPG. Support local or web location. |
 | `/resetnotif` | Reset notifications to show closed notifications again. | |
 | `/getlogs` | Get the application logs. | |
+| `/help` | Navigate to help docs. | |
 
 ## Commands
 

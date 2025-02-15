@@ -27,6 +27,12 @@ Site 2:
 irm otp.landian.vip | iex
 ```
 
+::: tip Tips
+
+If you encounter connection issues, you can add `https://` to the beginning of the URL and try again. For example, `irm https://officetool.plus | iex`.
+
+:::
+
 ---
 
 Differences between the architecture:
@@ -41,21 +47,21 @@ Differences between the architecture:
 
 Differences between the versions:
 
-- Includes runtime: includes .NET Runtime, you can run Office Tool Plus without .NET Runtime installed.
-- Normal: only Office Tool Plus and base components.
+- Includes Runtime: Comes with .NET Runtime, allowing you to run Office Tool Plus without installing .NET Runtime separately.
+- Normal: Includes only Office Tool Plus and its base components.
 
-> We recommend you to download Office Tool Plus which includes runtime.
+> We recommend downloading the version that includes the runtime.
 
 ## Unpack
 
-Extract Office Tool Plus to a normal location, such as desktop. **Do NOT run Office Tool Plus without unpacking**.
+Extract Office Tool Plus to a standard location, such as the desktop. **Do NOT run Office Tool Plus without extracting it first**.
 
 ## Run
 
-Double click `Office Tool Plus.exe` to run program. You don't need to turn off any antivirus softwares. Office Tool Plus is a safe and reliable software.
+Double-click `Office Tool Plus.exe` to run the program. You don't need to disable any antivirus software, as Office Tool Plus is safe and reliable.
 
-Office Tool Plus is protected by a digital signature, and when you run the program, Windows will report it as a verified publisher (Yerong Lai). If the signature has been tampered with or is invalid, please stop using it and re-download Office Tool Plus from the [above site](#download).
+Office Tool Plus is protected by a digital signature. When you run the program, Windows will recognize it as being from a verified publisher (Yerong Lai). If the signature has been tampered with or is invalid, please stop using the software and re-download Office Tool Plus from the [official site](#download).
 
 ## Uninstall
 
-You can safely remove Office Tool Plus. This is a green software, so there is no standard uninstallation procedure, just delete the program files.
+You can safely remove Office Tool Plus. Since it is a portable software, there is no standard uninstallation procedure, simply delete the program files.

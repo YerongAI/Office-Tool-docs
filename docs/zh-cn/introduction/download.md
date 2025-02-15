@@ -27,6 +27,12 @@ irm officetool.plus | iex
 irm otp.landian.vip | iex
 ```
 
+::: tip 提示
+
+如果你遇到了网络连接问题，你可以在 URL 开头添加 `https://`，然后再试一次。例如：`irm https://officetool.plus | iex`。
+
+:::
+
 ---
 
 体系架构区别：

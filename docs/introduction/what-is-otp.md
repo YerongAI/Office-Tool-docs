@@ -13,21 +13,21 @@ The following products are supported:
 
 ## Features
 
-- Create Office installation configuration. The config can be exported to local, or imported from local or web.
-- Download Office, supporting `ALL` Office channels and `ALL` Office languages.
-- Install Office or modify the existing Office, such as adding new products, languages and applications, or uninstalling products and applications.
-- Create Office ISO, supports default installation config and silent installation config.
-- Activate Office. Support online activation, phone activation and KMS activation.
-- Support Office activation management, including license management, key management and KMS management.
-- Change Office update channel, support upgrading/downgrading Office without reinstalling Office.
-- Remove Office, force remove Office when it can’t be uninstalled in normal way, supports all version of Office.
-- Integrated Office tools, including resetting settings, fixing Office problems.
-- Convert Office documents, based on Office COM. it's fast and stable.
-- Personalize theme, you can build your special Office Tool Plus.
+- Create an Office installation configuration. The configuration can be exported locally or imported from a local source or the web.
+- Download Office with support for all Office channels and languages.
+- Install Office or modify an existing installation, such as adding new products, languages and applications, or uninstalling them.
+- Create an Office ISO with support for default and silent installation configurations.
+- Activate Office with support for online, phone and KMS activation.
+- Manage Office activation, including license, key and KMS management.
+- Change the Office update channel and upgrade or downgrade Office without reinstalling it.
+- Remove Office, including forced removal when it cannot be uninstalled normally, supports all Office versions.
+- Includes integrated Office tools such as resetting settings and fixing Office issues.
+- Convert Office documents using Office COM, ensuring fast and stable performance.
+- Personalize the theme and customize your own Office Tool Plus.
 
 ::: tip Attention
 
-1. Office Tool Plus only provides activation management. You need to have a genuine license to activate your products.
+- Office Tool Plus only provides activation management. You need to have a genuine license to activate your products.
 
 :::
 
@@ -38,11 +38,11 @@ Office Tool
 ├── Office Tool Plus.exe (main program)
 ├── Office Tool Plus.Console.exe (Console Helper)
 ├── hostfxr.dll (.NET Host)
-├── shared (.NET Runtime)
+├── shared (.NET Runtimes)
 └── files
     ├── setup.exe (Microsoft Office Deployment Tool)
     ├── preferences (Office applications preferences data, provided by Microsoft)
-    └── Thunder (files related to Thunder download acceleration)
+    └── Thunder (files related to Thunder engine)
 ```
 
 Usually, Office Tool Plus will download the needed components and keep it the latest version automatically.

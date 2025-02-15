@@ -15,6 +15,7 @@
 | `/setimage` *value* | 设置背景图 | *value*: 路径，支持 BMP, PNG 或 JPG。支持本地以及 HTTP 路径。 |
 | `/resetnotif` | 重置通知，以便再次显示已经关闭了的通知 | |
 | `/getlogs` | 获取应用程序的运行日志 | |
+| `/help` | 导航到帮助文档 | |
 
 ## 命令行命令 {#commands}
 
