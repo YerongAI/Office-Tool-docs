@@ -23,7 +23,7 @@ Office Tool Plus 基於 [Office 部署工具](https://docs.microsoft.com/en-us/d
 - 移除 Office，包括無法正常解除安裝時的強制移除，支援所有 Office 版本。
 - 內建 Office 工具，例如重設設定與修復 Office 問題。
 - 透過 Office COM 轉換 Office 文件，確保快速且穩定的效能。
-- 個性化佈景主題並自訂 Office Tool Plus。
+- 個人化佈景主題並自訂 Office Tool Plus。
 
 ::: tip **注意**
 - Office Tool Plus 只提供啟用管理，您需要持有合法授權才能啟用您的產品。
