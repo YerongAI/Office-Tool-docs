@@ -116,9 +116,9 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             items: [
                 { "text": "無設定檔模式", "link": "deploy/create-iso/no-config" },
                 { "text": "預設設定模式", "link": "deploy/create-iso/default-config" },
-                { "text": "使用 ISO 指令", "link": "deploy/create-iso/iso-command" },
-                { "text": "使用 /loadconfig 指令", "link": "deploy/create-iso/config-command" },
-                { "text": "使用 /deploy 指令", "link": "deploy/create-iso/deploy-command" }
+                { "text": "使用 ISO 命令", "link": "deploy/create-iso/iso-command" },
+                { "text": "使用 /loadconfig 命令", "link": "deploy/create-iso/config-command" },
+                { "text": "使用 /deploy 命令", "link": "deploy/create-iso/deploy-command" }
 
             ]
         },
