@@ -4,7 +4,7 @@
 
 ---
 
-在建立 Office ISO 之前，您需要在 Office Tool Plus 主目錄（Office Tool 資料夾）內建立一個批次檔，例如 `Setup.bat`。  
+在建立 Office ISO 之前，您需要在 Office Tool Plus 主目錄（Office Tool 資料夾）內建立一個 BAT 檔，例如 `Setup.bat`。  
 
 您可以參考[部署命令的使用方式](/usage/command/deploy.md)來撰寫自己的命令。  
 
@@ -27,11 +27,11 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 
 ::: tip 提示  
 
-`%~dp0` 代表批次檔案所在的資料夾路徑。例如，當您將 Office ISO 掛載為 E 磁碟，`%~dp0` 會自動替換為 `E:\`。  
+`%~dp0` 代表 BAT 檔所在的資料夾路徑。例如，當您將 Office ISO 掛載為 E 磁碟，`%~dp0` 會自動替換為 `E:\`。  
 
 :::
 
-批次檔必須使用英文名稱 **否則將無法識別**。  
+BAT 檔必須使用英文名稱 **否則將無法識別**。  
 
 接著，請依照 [無設定檔模式](no-config.md) 的步驟建立 Office ISO。  
 

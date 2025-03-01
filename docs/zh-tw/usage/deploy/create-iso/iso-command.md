@@ -4,7 +4,7 @@
 
 ---
 
-在建立 Office ISO 之前，您需要在 Office Tool Plus 主目錄（Office Tool 資料夾）內建立一個批次檔，例如 `Setup.bat`。  
+在建立 Office ISO 之前，您需要在 Office Tool Plus 主目錄（Office Tool 資料夾）內建立一個 BAT 檔，例如 `Setup.bat`。  
 
 以下是一些 `Setup.bat` 的範例。  
 
@@ -32,7 +32,7 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 "Office Tool Plus.Console" /isoinstall
 ```
 
-批次檔必須使用英文名稱 **否則將無法識別**。  
+BAT 檔必須使用英文名稱 **否則將無法識別**。  
 
 接著，請依照 [預設設定模式](default-config.md) 的步驟建立 Office ISO。  
 

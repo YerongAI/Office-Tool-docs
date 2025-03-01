@@ -1,7 +1,7 @@
 # 鍵盤快捷鍵
 
 - <kbd>F1</kbd>：顯示說明。
-- <kbd>Ctrl</kbd> + <kbd>1</kbd>：前往主頁。
+- <kbd>Ctrl</kbd> + <kbd>1</kbd>：前往主選單。
 - <kbd>Ctrl</kbd> + <kbd>2</kbd>：前往部署功能頁。
 - <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>2</kbd>：前往部署 - 進階設定功能頁。
 - <kbd>Ctrl</kbd> + <kbd>3</kbd>：前往啟用功能頁。
