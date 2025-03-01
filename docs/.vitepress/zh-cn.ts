@@ -117,11 +117,11 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: '准备', link: 'deploy/create-iso/prepare' },
-                { text: '不含任何配置的 ISO', link: 'deploy/create-iso/no-config' },
-                { text: '包含默认配置的 ISO', link: 'deploy/create-iso/default-config' },
-                { text: '使用 ISO 命令的 ISO', link: 'deploy/create-iso/iso-command' },
-                { text: '使用 loadconfig 命令的 ISO', link: 'deploy/create-iso/config-command' },
-                { text: '完全自定义安装的 ISO', link: 'deploy/create-iso/deploy-command' },
+                { text: '不含任何配置', link: 'deploy/create-iso/no-config' },
+                { text: '包含默认配置', link: 'deploy/create-iso/default-config' },
+                { text: '使用 ISO 命令', link: 'deploy/create-iso/iso-command' },
+                { text: '使用 loadconfig 命令', link: 'deploy/create-iso/config-command' },
+                { text: '使用 deploy 命令', link: 'deploy/create-iso/deploy-command' },
             ]
         },
         {

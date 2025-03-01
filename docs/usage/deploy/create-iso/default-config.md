@@ -1,23 +1,29 @@
-# 包含默认配置的 ISO
+# Default configuration
 
-转到部署页面，将**部署模式**更改为**创建 ISO 文件**。
+When the Office ISO contains a default configuration file, after starting Office Tool Plus, it will load the configuration of `ConfigForISO.xml`. Then Office Tool Plus will automatically jump to the deploy page to ask the user whether to deploy. Users can select Yes to start the installation now, or click No to modify the configuration and start deploy again.
 
-请根据以下指引操作：
+In this mode, Office Tool Plus will first search for the installation file specified in the XML configuration file. If it cannot be find, Office Tool Plus will automatically search for the Office installation files in the root directory of Office Tool Plus (Office Tool folder).
 
-- 添加产品，按需选择。若不添加，则无法确保后续是否正确。
-- 添加语言，按需选择。若不添加或错加，则安装时需要联网。
-- 选择体系结构，如无特殊需求，保持默认即可。
-- 选择合适的通道，如无特殊需求，保持默认即可。
-- 如果您还没有下载 Office 安装文件，请打开**下载后再部署**，否则程序会报错而无法继续。
+---
 
-确保以上几点做好后即可「开始部署」，其他高级设置可以按需更改。
+Go to the Deploy page and change the **Deployment mode** to **Create ISO file**.
 
-**Office ISO 创建完成后，ISO 内应包含 ConfigForISO.xml 文件。**
+Follow these steps:
 
-::: tip 提示
+- Add products. If you only want to install the language pack, you can ignore products.
+- Add languages. If not configured correctly, the installation may fail or require an internet connection.
+- Select the desired architecture.
+- Select the appropriate update channel.
+- Enable **Download first, then deploy**. If there is no installation file, the operation cannot continue.
 
-如果你需要创建同时包含 32 位和 64 位的 Office ISO，请在 Office 下载时将体系结构更改为 64 位（或 32 位），然后再次点击开始部署即可。Office Tool Plus 会自动添加相应的下载任务。
+Other advanced settings can be changed as needed. After completing the above steps, you can Start Deploy.
 
-挂载 Office ISO 后，您应该能从 CD-ROM 上下文菜单中看到「立即安装」选项，或者正常启动 Office Tool Plus 然后确认安装。
+**After the Office ISO is created, the `ConfigForISO.xml` file should be included automatically in the ISO.**
+
+::: tip Tip
+
+If you need to create an Office ISO that contains both 32-bit and 64-bit versions, change the architecture to 64-bit (or 32-bit) **when downloading Office**, and then click Start Deploy again.
+
+After mounting the Office ISO, you should be able to see the Install Now option from the CD-ROM context menu, or start Office Tool Plus normally and confirm the installation.
 
 :::

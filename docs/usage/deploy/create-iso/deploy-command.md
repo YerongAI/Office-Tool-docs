@@ -1,19 +1,16 @@
-# 完全自定义安装的 ISO
+# Use deploy commands
 
-创建 Office ISO 前，您需要在 Office Tool Plus 的根目录（Office Tool 文件夹）内创建批处理文件，例如 Setup.bat。
+When you use the deploy command for deployment, Office Tool Plus will deploy Office according to the parameters specified in commands. You can install any versions of Office as you want.
 
-您可以使用 [deploy](/usage/command/deploy.md) 命令完全自定义您的 Office 安装。
+---
 
-例如以下示例安装简体中文 32 位的 Microsoft 365，排除 Access, Bing, Groove, Lync, OneDrive 应用程序：
+Before creating Office ISO, you need to create a batch file, such as `Setup.bat`, in the root directory of Office Tool Plus (Office Tool folder).
 
-``` batch
-@echo off
-title Office Tool Plus - Console
+You can write your own commands by referring to the [usage of the deploy commands](/usage/command/deploy.md).
 
-"Office Tool Plus" deploy /add O365ProPlusRetail_zh-cn /O365ProPlusRetail.exclapps Access,Bing,Groove,Lync,OneDrive /srcpath %~dp0 /edition 32 /channel Current /ver 16.0.xxxxx.xxxxx
-```
+You can also generate the deploy commands after editing the configuration on the deploy page.
 
-如果您需要等待安装完成，请调用 Office Tool Plus.Console：
+Replace the deploy command with the template below.
 
 ``` batch
 @echo off
@@ -25,21 +22,21 @@ set "Apply=%*"
 cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) && fsutil dirty query %systemdrive% 1>nul 2>nul || (  cmd /u /c echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && ""%~s0"" %Apply%", "", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" && exit /B )
 
 :: Run commands.
-"Office Tool Plus.Console" deploy /add O365ProPlusRetail_zh-cn /O365ProPlusRetail.exclapps Access,Bing,Groove,Lync,OneDrive /srcpath %~dp0 /edition 32 /channel Current /ver 16.0.xxxxx.xxxxx
+"Office Tool Plus.Console" deploy /add ...
 ```
 
-::: warning 注意
+::: tip Tip
 
-请根据实际情况将 `/channel`, `/ver` 和 `/edition` 参数替换为实际值，否则安装会失败。
-
-:::
-
-::: tip 小知识
-
-`%~dp0` 在批处理中代表批处理所在的文件夹路径。例如当您挂载 Office ISO 为 E 盘时，`%~dp0` 会被自动替换为 `E:\`。
+`%~dp0` represents the folder path where the batch script is located. For example, when you mount Office ISO as drive E, `%~dp0` will be automatically replaced to `E:\`.
 
 :::
 
-批处理文件编写完成后保存，需要**使用英文命名，否则会无法识别**。
+The batch file need to be saved with English names, **otherwise it will not be recognized**.
 
-然后按照创建[不含任何配置的 ISO](no-config.md) 的步骤创建 Office ISO 即可。
+Then create Office ISO according to the steps in [No configs](no-config.md).
+
+::: tip Tip
+
+When using a batch script, you can add [other commands](/usage/command/application) as needed. You can combine multiple tasks together for deployment and activation.
+
+:::

@@ -1,12 +1,14 @@
-# 使用 ISO 命令的 ISO
+# Use ISO command
 
-创建 Office ISO 前，您需要在 Office Tool Plus 的根目录（Office Tool 文件夹）内创建批处理文件，例如 Setup.bat。
-
-以下是 Setup.bat 的一些示例。
+When deploying using the ISO command, Office Tool Plus will look for the `ConfigForISO.xml` file in the Office ISO and load it for deployment. Office Tool Plus will not display any interface and will start the Office installer.
 
 ---
 
-启动 Office Tool Plus，不等待执行完毕：
+Before creating Office ISO, you need to create a batch file, such as `Setup.bat`, in the root directory of Office Tool Plus (Office Tool folder).
+
+Here are some examples of Setup.bat.
+
+Start Office Tool Plus without wait for exit:
 
 ``` batch
 @echo off
@@ -15,7 +17,7 @@ title Office Tool Plus - Console
 "Office Tool Plus.exe" /isoinstall
 ````
 
-启动 Office Tool Plus，等待执行完毕：
+Start Office Tool Plus and wait for exit:
 
 ``` batch
 @echo off
@@ -30,6 +32,12 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 "Office Tool Plus.Console" /isoinstall
 ```
 
-批处理文件编写完成后保存，需要**使用英文命名，否则会无法识别**。
+The batch file need to be saved with English names, **otherwise it will not be recognized**.
 
-然后按照创建[包含默认配置的 ISO](default-config.md) 的步骤创建 Office ISO 即可。
+Then create Office ISO according to the steps in [Default config](default-config.md).
+
+::: tip Tip
+
+When using a batch script, you can add [other commands](/usage/command/application) as needed. You can combine multiple tasks together for deployment and activation.
+
+:::

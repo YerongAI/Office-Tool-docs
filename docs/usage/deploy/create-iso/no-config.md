@@ -1,25 +1,31 @@
-# 不含任何配置的 ISO
+# No configuration
 
-转到部署页面，将**部署模式**更改为**创建 ISO 文件**。
-
-如果您已经下载好了 Office 安装文件，或者已经选择好了一个本地的安装文件，直接开始部署即可。
+When the Office ISO does not contain any configurations, after starting Office Tool Plus, you need to manually add products and languages ​​before you can start deployment. The products and languages ​​that you can add depend on what is included in the Office ISO.
 
 ---
 
-如果您还没有下载 Office 安装文件，请根据以下指引操作：
+Go to the Deploy page and change the **Deployment mode** to **Create ISO file**.
 
-- 添加产品，按需选择。若不添加，则无法确保后续是否正确。
-- 添加语言，按需选择。若不添加或错加，则安装时需要联网。
-- 选择体系结构，如无特殊需求，保持默认即可。
-- 选择合适的通道，如无特殊需求，保持默认即可。
-- 打开**下载后再部署**，如果没有安装文件，程序会报错而无法继续。
+If you have already downloaded the Office installation files, make sure that the [Office installation files](/usage/deploy/settings/basic#installation-files) can be correctly loaded.
 
-确保以上几点做好后即可「开始部署」，其他高级设置可以按需更改。
+Make sure the product and language are both empty, then start deploy.
 
-**在下载 Office 过程中，请按下 F5 或者手动清空所有产品和语言，以确保创建的 Office ISO 不包含 ConfigForISO.xml.**
+---
 
-::: tip 提示
+If you haven't downloaded the Office installation files yet, follow these steps:
 
-如果你需要创建同时包含 32 位和 64 位的 Office ISO，请在 Office 下载时将体系结构更改为 64 位（或 32 位），然后再次点击开始部署即可。Office Tool Plus 会自动添加相应的下载任务。
+- Add products. If you only want to install the language pack, you can ignore products.
+- Add languages. If not configured correctly, the installation may fail or require an internet connection.
+- Select the desired architecture.
+- Select the appropriate update channel.
+- Enable **Download first, then deploy**. If there is no installation file, the operation cannot continue.
+
+Other advanced settings can be changed as needed. After completing the above steps, you can Start Deploy.
+
+**During the Office download process, press F5 or manually clear all products and languages ​​to ensure that the Office ISO does not contain the `ConfigForISO.xml` file.**
+
+::: tip Tip
+
+If you need to create an Office ISO that contains both 32-bit and 64-bit versions, change the architecture to 64-bit (or 32-bit) **when downloading Office**, and then click Start Deploy again.
 
 :::
