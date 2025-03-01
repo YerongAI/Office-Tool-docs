@@ -6,7 +6,7 @@
 
 ## 步驟
 
-- 在授權管理中，安裝批量授權，例如 *Office LTSC Professional Plus 2024 - 批量授權*。
+- 在授權管理中，安裝大量授權，例如 *Office LTSC Professional Plus 2024 - 大量授權*。
 - 在 KMS 管理中，設定 KMS 主機。KMS 主機可以是網域名稱或 IP 位址。
 - 在授權管理中點選 [啟用] 按鈕，然後等待產品啟用完成。
 

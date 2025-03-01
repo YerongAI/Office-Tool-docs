@@ -59,7 +59,7 @@ deploy /add ProPlus2021Volume_zh-tw /ProPlus2021Volume.exclapps Access,Outlook,O
 deploy /add O365ProPlusRetail_zh-tw /O365ProPlusRetail.exclapps Access,Outlook,OneNote /edition 64 /srcpath "D:\Test\Office Tool" /ver 16.0.xxxxx.xxxxx /channel Current
 ```
 
-若為設定 MAK 金鑰以啟用批量授權產品：
+若為設定 MAK 金鑰以啟用大量授權產品：
 
 ``` batch
 deploy /add ProPlus2021Volume_zh-tw /ProPlus2021Volume.exclapps Access,Outlook,OneNote /ProPlus2021Volume.MAK XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /channel PerpetualVL2021
