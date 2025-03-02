@@ -26,9 +26,9 @@
 
 通常，KMS 啟用的有效期為 180 天。在啟用後的 7 天（當剩餘時間少於 173 天）內，系統會自動嘗試續期（重新啟用），除非 KMS 指定了不同的續期政策。
 
-### 基於 Active Directory 的啟用 {#active-directory-based-activation}
+### 使用 Active Directory 型啟用進行啟用 {#active-directory-based-activation}
 
-為了簡化大型企業中的 Windows 和 Office 啟用管理，系統管理員通常會選擇配置 [基於 Active Directory 的啟用](https://learn.microsoft.com/zh-tw/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client) 服務。當網域控制站完成配置後，所有加入網域的電腦都會透過 KMS 自動啟用。
+為了簡化大型企業中的 Windows 和 Office 啟用管理，系統管理員通常會選擇配置 [使用 Active Directory 型啟用進行啟用](https://learn.microsoft.com/zh-tw/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client) 服務。當網域控制站完成配置後，所有加入網域的電腦都會透過 KMS 自動啟用。
 
 如上所述，組織可以配置 AD 網域並設定 KMS 啟用服務，使組織內的 Windows 和 Office 自動啟用。不過，由於電腦已加入 AD 網域，網域管理員可以完全控制網域內的電腦，包括執行命令、安裝軟體、清除資料等。
 
