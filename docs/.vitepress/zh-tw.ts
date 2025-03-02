@@ -2,12 +2,12 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh_tw = defineConfig({
     lang: 'zh-TW',
-    description: "Office Tool Plus is a powerful and useful tool for Office deployment and management.",
+    description: "Office Tool Plus，一款強大且實用的 Office 部署工具。",
     themeConfig: {
         nav: nav(),
 
         socialLinks: [
-            { icon: 'telegram', link: 'https://t.me/s/otp_channel/' },
+            { icon: 'telegram', link: 'https://t.me/ot_channel_tw/' },
             { icon: 'discord', link: 'https://discord.gg/TpXTgfgf2a' },
             { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
         ],
@@ -87,7 +87,7 @@ function sidebarIntroduction(): DefaultTheme.SidebarItem[] {
             text: "頁面",
             collapsed: false,
             items: [
-                { text: '主頁', link: 'pages/home' },
+                { text: '主選單', link: 'pages/home' },
                 { text: '部署', link: 'pages/deploy' },
                 { text: '啟用', link: 'pages/activate' },
                 { text: '工具箱', link: 'pages/toolbox' },

@@ -23,7 +23,7 @@
 
 ### 更新通道 {#update-channel}
 
-如果您要安裝 Office 2019/2021/2024 的大量授權版本，則需要將更新通道設定為 **Office 2019/2021/2024 永久企業版通道**。其他情況下，請使用預設通道。如需更多資訊，請參閱[更新通道](/zh-tw/usage/deploy/settings/basic.md#update-channel)章節。
+如果您要安裝 Office 2019/2021/2024 的大量授權版本，則需要將更新通道設定為 Office 2019/2021/2024 永久企業版通道。其他情況下，請使用預設通道。如需更多資訊，請參閱[更新通道](/zh-tw/usage/deploy/settings/basic.md#update-channel)章節。
 
 ### 應用程式 {#applications}
 
@@ -35,8 +35,8 @@
 
 ![先下載後安裝](/images/zh-tw/deploy/download-first.webp)
 
-- **下載過程中部署**：此時無法暫停或取消安裝。Office 安裝程式將直接從 Office CDN 下載並安裝 Office。如果您的網路連線不佳，安裝過程可能會卡住。
-- **下載完成後部署**：此操作通常由 Office Tool Plus 執行，因此您可以在安裝開始前暫停或取消下載。一旦下載完成，您可以離線安裝 Office。
+- 下載過程中部署：此時無法暫停或取消安裝。Office 安裝程式將直接從 Office CDN 下載並安裝 Office。如果您的網路連線不佳，安裝過程可能會卡住。
+- 下載完成後部署：此操作通常由 Office Tool Plus 執行，因此您可以在安裝開始前暫停或取消下載。一旦下載完成，您可以離線安裝 Office。
 
 ---
 
@@ -50,7 +50,7 @@
 
 掛載/解壓縮後，從安裝檔案執行 Office Tool Plus。如果尚未安裝，請先[下載](/zh-tw/introduction/download) Office Tool Plus。
 
-開啟 Office Tool Plus 後，前往 [部署] 功能頁，並確保安裝檔案已載入。如果未載入，請按一下 **[選取]** 按鈕，然後選擇安裝檔案。
+開啟 Office Tool Plus 後，前往 [部署] 功能頁，並確保安裝檔案已載入。如果未載入，請按一下 [選取] 按鈕，然後選擇安裝檔案。
 
 ![Office 安裝](/images/zh-tw/deploy/office-installation.webp)
 
@@ -70,4 +70,4 @@ Office 安裝檔案應完整顯示版本號與語言資訊，且不應出現錯�
 
 如果 Office Tool Plus 在新增產品時提示該產品無法安裝於所選通道，則表示您下載的 Office 安裝檔案不支援該產品。請選擇不同的產品，或下載其他 Office 安裝檔案。
 
-如果一切無誤，請按一下 **[開始部署]**，立即開始安裝。
+如果一切無誤，請按一下 [開始部署]，立即開始安裝。
