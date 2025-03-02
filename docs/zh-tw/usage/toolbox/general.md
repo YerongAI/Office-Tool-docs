@@ -2,7 +2,7 @@
 
 ## 查詢 Office 版本 {#query-office-version}
 
-您可以從 Microsoft 取得 Office 更新通道的版本資訊，包括通道名稱、分支、版本號和建立時間。
+您可以從 Microsoft 取得 Office 更新通道的版本資訊，包括通道名稱、分支、版本編號和建立時間。
 
 ![查詢 Office 版本](/images/zh-tw/toolbox/query-office-update-channel.webp)
 

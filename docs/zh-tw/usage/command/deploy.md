@@ -24,7 +24,7 @@ deploy /add O365ProPlusRetail_zh-tw
 | `/branch` *value* | 根據分支值設定更新通道，會覆蓋 `/channel` 設定。 | *Value*: 通道的分支值。[更多資訊](/zh-tw/usage/toolbox/general.md#query-office-version) |
 | `/edition` *value* | 設定架構版本。 | *Value*: `32` 或 `64`，預設為 `32`。 |
 | `/migratearch` | 變更架構（從 32 位元轉換為 64 位元，反之亦然）。 | 無參數 |
-| `/ver` *value* | 設定 Office 版本。 | *Value*: Office 版本號。 |
+| `/ver` *value* | 設定 Office 版本。 | *Value*: Office 版本編號。 |
 | `/srcpath` *value* | 設定來源路徑。 | *Value*: 本機或 SMB 路徑。 |
 | `/fallback` | 當本機找不到語言套件時，是否返回至 Office CDN。 | *Value*: `true` 或 `false`，預設為 `false`。 |
 | `/display` *value* | 設定是否顯示 Office 安裝畫面。 | *Value*: `true`: 可見, `false`: 隱藏，預設為 `true`。 |
