@@ -1,4 +1,4 @@
-# 部署命令
+# 部署命令 {#deploy-commands}
 
 這些命令可用於命令框或命令提示字元（CMD）。命令不區分大小寫。如果命令參數包含空格，請使用 `""`（雙引號）包裹。
 
@@ -20,8 +20,8 @@ deploy /add O365ProPlusRetail_zh-tw
 | `/rm` *values[]* | 移除產品。 | *Values*: `產品ID_語言`，使用方式與 `/add` 相同。 |
 | `/rmall` | 移除所有產品。 | 無參數 |
 | `/rmmsi` | 移除所有 MSI 版本的 Office。 | 無參數 |
-| `/channel` *value* | 設定更新通道。 | *Value*: 通道 ID。[更多資訊](/usage/deploy/settings/basic.md#update-channel) |
-| `/branch` *value* | 根據分支值設定更新通道，會覆蓋 `/channel` 設定。 | *Value*: 通道的分支值。[更多資訊](/usage/toolbox/general.md#query-office-version) |
+| `/channel` *value* | 設定更新通道。 | *Value*: 通道 ID。[更多資訊](/zh-tw/usage/deploy/settings/basic.md#update-channel) |
+| `/branch` *value* | 根據分支值設定更新通道，會覆蓋 `/channel` 設定。 | *Value*: 通道的分支值。[更多資訊](/zh-tw/usage/toolbox/general.md#query-office-version) |
 | `/edition` *value* | 設定架構版本。 | *Value*: `32` 或 `64`，預設為 `32`。 |
 | `/migratearch` | 變更架構（從 32 位元轉換為 64 位元，反之亦然）。 | 無參數 |
 | `/ver` *value* | 設定 Office 版本。 | *Value*: Office 版本號。 |
@@ -41,7 +41,7 @@ deploy /add O365ProPlusRetail_zh-tw
 
 :::
 
-## 部署 Office 的命令範例
+## 部署 Office 的命令範例 {#command-examples-for-deploying-office}
 
 當指定多個應用程式或語言時，請使用逗號 `,` 分隔。例如：`Access,Lync` 或 `zh-tw,ja-jp`。
 

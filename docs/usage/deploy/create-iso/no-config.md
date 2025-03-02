@@ -1,4 +1,4 @@
-# No configuration
+# No configurations
 
 When the Office ISO does not contain any configurations, after starting Office Tool Plus, you need to manually add products and languages ​​before you can start deployment. The products and languages ​​that you can add depend on what is included in the Office ISO.
 

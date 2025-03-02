@@ -1,4 +1,4 @@
-# 不含任何配置
+# 不含任何配置 {#no-configurations}
 
 Office ISO 中不含任何配置文件时，启动 Office Tool Plus 后，您需要手动添加产品和语言后才可以开始部署，具体能够添加的产品和语言取决于 Office ISO 内包含的内容。
 

@@ -1,4 +1,4 @@
-# 使用 deploy 命令
+# 使用 deploy 命令 {#use-deploy-commands}
 
 使用 deploy 命令进行部署时，Office Tool Plus 将会完全根据 deploy 命令中的参数进行部署，您可以根据需求完全自定义安装 Office。
 

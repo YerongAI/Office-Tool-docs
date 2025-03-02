@@ -1,6 +1,6 @@
-# 基礎設定
+# 基礎設定 {#basic-settings}
 
-## 模式
+## 模式 {#mode}
 
 | 模式             | 說明 |
 | :--             | :-- |
@@ -11,7 +11,7 @@
 
 Office 安裝檔案包含 Office、Visio 和 Project，並由 Microsoft 提供。
 
-## 架構
+## 架構 {#architecture}
 
 預設情況下，Office 會安裝 **32 位元版本**。相較於 32 位元系統，運行 64 位元 Windows 的電腦通常具有更多的資源，例如更強的處理能力和更大的記憶體。此外，64 位元應用程式可以存取比 32 位元應用程式更多的記憶體。因此，如果您的工作涉及大型文件或處理大量資料，且電腦運行 64 位元 Windows，則建議安裝 **64 位元 Office**，特別是在以下情況：
 
@@ -21,7 +21,7 @@ Office 安裝檔案包含 Office、Visio 和 Project，並由 Microsoft 提供�
 - 您正在開發 Microsoft 365 解決方案，例如增益集或文件級自訂功能，64 位元版本可以提供更好的相容性。
 - 您在 Access 中使用 **大數據類型**。雖然 32 位元 Access 也支援，但使用 32 位元 VBA 庫可能會產生意外結果，而 64 位元 VBA 提供 **LongLong** 資料類型，完全支援大數據。
 
-如需更多資訊，請參閱 [選擇 64 位元或 32 位元 Office](https://support.microsoft.com/en-us/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)。
+如需更多資訊，請參閱 [選擇 64 位元或 32 位元 Office](https://support.microsoft.com/zh-tw/office/choose-between-the-64-bit-or-32-bit-version-of-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)。
 
 ::: tip 提示
 
@@ -29,7 +29,7 @@ Office 安裝檔案包含 Office、Visio 和 Project，並由 Microsoft 提供�
 
 :::
 
-## 更新通道
+## 更新通道 {#update-channel}
 
 在大多數情況下，**「目前通道」(Current Channel)** 是預設通道。以下是各通道的差異：
 
@@ -46,11 +46,11 @@ Office 安裝檔案包含 Office、Visio 和 Project，並由 Microsoft 提供�
 
 所有通道都屬於 **穩定版本**，適合日常使用。此外，每個通道的 **安全性更新**（如果有）都會在 **每月第二個星期二** 進行釋出。
 
-如需更多資訊，請參閱 [Microsoft 365 應用程式的更新通道概述](https://docs.microsoft.com/en-us/deployoffice/overview-update-channels)。
+如需更多資訊，請參閱 [Microsoft 365 應用程式的更新通道概述](https://docs.microsoft.com/zh-tw/deployoffice/overview-update-channels)。
 
-## 模組
+## 模組 {#module}
 
-### Office 部署工具 (ODT)
+### Office 部署工具 (ODT) {#office-deployment-tool}
 
 Office 部署工具 (ODT) 是 Microsoft 官方提供的 Office 部署工具，支援完整的 Office 安裝與管理功能。
 
@@ -67,7 +67,7 @@ Office Tool Plus 啟用了 Office 部署工具的大部分功能。以下是兩�
 
 > **建議優先使用 Office 部署工具**，如果 Office 部署工具無法解決某些問題，或有特殊需求時，才選擇使用 Office Tool Plus。
 
-## 產品
+## 產品 {#products}
 
 如果您擁有 **正版 Office 授權**，請安裝您購買的 Office 版本。
 
@@ -99,7 +99,7 @@ Office Tool Plus 啟用了 Office 部署工具的大部分功能。以下是兩�
 
 :::
 
-### 應用程式
+### 應用程式 {#applications}
 
 應用程式列表會根據您選擇的產品而變動。
 
@@ -114,9 +114,9 @@ Office Tool Plus 啟用了 Office 部署工具的大部分功能。以下是兩�
 
 某些應用程式（例如 **Teams** 和 **OneDrive**）可能需要重新啟動電腦才能完成安裝。
 
-Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請參閱 [Microsoft Search in Bing 和 Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/en-us/deployoffice/microsoft-search-bing)。
+Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請參閱 [Microsoft Search in Bing 和 Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/zh-tw/deployoffice/microsoft-search-bing)。
 
-### 附加元件
+### 附加元件 {#add-ons}
 
 附加元件的項目會根據您選擇的產品而有所不同。
 
@@ -130,12 +130,13 @@ Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請�
 - `OSM` 代表 **Telemetry Dashboard**。
 - `OSMUX` 代表 **Telemetry Log for Office**。
 
-瞭解更多關於 [PowerPivot](https://support.microsoft.com/en-us/office/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed)。
+瞭解更多關於 [PowerPivot](https://support.microsoft.com/zh-tw/office/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed)。
 
-瞭解更多關於 [Power View](https://support.microsoft.com/en-us/office/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6)。
+瞭解更多關於 [Power View](https://support.microsoft.com/zh-tw/office/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6)。
 
 如需更多關於產品、應用程式和附加元件的資訊，請參閱 [Office 產品資訊](https://www.coolhub.top/tech-articles/products.html)。
-## 語言
+
+## 語言 {#languages}
 
 您可以新增一種或多種語言。列表中的第一個完整語言將作為 **Shell UI 語言**，包含捷徑、右鍵選單和工具提示。如果安裝後想變更 Shell UI 語言，則需要重新安裝 Office。
 
@@ -143,18 +144,20 @@ Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請�
 
 > **僅安裝校訂工具 (Proofing Tools)**，則語言將作為拼字檢查工具，而不會變更 Office 介面語言。
 
-### 語言類型
+### 語言類型 {#language-types}
 
-| 類型               | 說明 |
+| 類型              | 說明 |
 | :--               | :-- |
 | 完整版            | 包含 **顯示語言** 和 **校訂工具**。 |
 | 部分語言          | 部分 Office 應用程式的 **顯示語言**，包含 **校訂工具**。 |
 | 無校訂工具的部分語言 | 部分 Office 應用程式的 **顯示語言**，不包含 **校訂工具**。 |
 | 校訂工具          | 只包含 **拼字檢查工具**。 |
 
-## 安裝檔案
+## 安裝檔案 {#installation-files}
 
 當您使用 Office Tool Plus 下載 Office 時，Office Tool Plus 會自動偵測安裝內容，並顯示在此處。
+
+![Office installation](/images/zh-tw/deploy/office-installation.webp)
 
 ::: tip 提示
 

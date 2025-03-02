@@ -1,4 +1,4 @@
-# 啟用問答集
+# 啟用問答集 {#activation-questions}
 
 ## 0x80131500
 
@@ -22,11 +22,11 @@
 
 - 檢查您的作業系統時間是否正確。
 - 檢查您的網路連線是否正常。
-- 確保您使用的 KMS 主機可以正常運作。[如何測試？](/usage/toolbox/general.md#test-kms-host-reachability)
+- 確保您使用的 KMS 主機可以正常運作。[如何測試？](/zh-tw/usage/toolbox/general.md#test-kms-host-reachability)
 
 請執行以下操作：
 
-- [重設軟體保護服務](/usage/toolbox/windows.md#reset-software-protection-service)。
+- [重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
 - 嘗試再次啟用。
 
 ## 0x8007007B
@@ -41,7 +41,7 @@
 
 - KMS 主機尚未設定，請先設定後再嘗試啟用。
   - 如下圖所示，如果顯示 `N/A`，則代表未配置 KMS 主機：
-  ![No KMS configured](/images/en-us/activation/no-kms-configured.webp)
+  ![No KMS configured](/images/zh-tw/activation/no-kms-configured.webp)
 - KMS 主機地址無效，請檢查並重新嘗試。
 - 嘗試更改 DNS 並重試。
 - 嘗試使用不同的網路進行連線並重試。
@@ -50,7 +50,7 @@
 
 > 伺服器執行失敗。
 
-請嘗試[重設軟體保護服務](/usage/toolbox/windows.md#reset-software-protection-service)，然後再次啟用。
+請嘗試[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)，然後再次啟用。
 
 ## 0xC004E015
 
@@ -85,11 +85,11 @@
 請嘗試以下方法：
 
 - 檢查您的網路連線是否正常。
-- 確保您使用的 KMS 主機可以正常運作。[如何測試？](/usage/toolbox/general.md#test-kms-host-reachability)
+- 確保您使用的 KMS 主機可以正常運作。[如何測試？](/zh-tw/usage/toolbox/general.md#test-kms-host-reachability)
 
 請執行以下操作：
 
-- [重設軟體保護服務](/usage/toolbox/windows.md#reset-software-protection-service)。
+- [重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
 - 嘗試再次啟用。
 
 ## 0xC004F075
@@ -98,13 +98,13 @@
 
 請確保系統服務 **Software Protection (sppsvc)** 正在執行。如果該服務已停止，請手動啟動或重新啟動電腦。
 
-## .NET Framework 問題
+## .NET Framework 問題 {#net-framework-problem}
 
 > 無法找到所需函式於 `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll`，請更新 .NET Framework。
 
 請透過 Windows Update 檢查並安裝所有 .NET Framework 更新。
 
-## 找不到有效的 Office KMS 授權
+## 找不到有效的 Office KMS 授權 {#no-valid-office-kms-licenses-were-found-on-the-system}
 
 若要使用 KMS 啟用 Office，您需要安裝 Office 的大量授權 (Volume License) 和 GVLK (Generic Volume License Key)。
 
@@ -113,12 +113,12 @@
 - **SPLA 授權**：SPLA 授權只能使用 MAK 啟用，不支援 KMS 啟用。
 - **預覽版本**：預覽版產品沒有內建 GVLK，因此需要手動安裝 GVLK 來進行 KMS 啟用。
 
-## 無效的類別 (Invalid Class)
+## 無效的類別 {#invalid-class}
 
-請參考 [修復 WMI 元件](/usage/toolbox/windows.md#repair-wmi-components)。
+請參考 [修復 WMI 元件](/zh-tw/usage/toolbox/windows.md#repair-wmi-components)。
 
-## 我們偵測到您剛更新了授權
+## 我們偵測到您剛更新了授權 {#we-noticed-you-just-updated-your-license}
 
 > 我們偵測到您剛更新了授權。請重新啟動 Microsoft Project 以使變更生效。
 
-請參考 [重設 Office 設定為預設值](/usage/toolbox/office.md#reset-office-settings-to-defaults)。
+請參考 [重設 Office 設定為預設值](/zh-tw/usage/toolbox/office.md#reset-office-settings-to-defaults)。

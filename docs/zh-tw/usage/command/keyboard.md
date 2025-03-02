@@ -1,4 +1,4 @@
-# 鍵盤快捷鍵
+# 鍵盤快捷鍵 {#keyboard-shortcuts}
 
 - <kbd>F1</kbd>：顯示說明。
 - <kbd>Ctrl</kbd> + <kbd>1</kbd>：前往主選單。
@@ -14,7 +14,7 @@
 - <kbd>Alt</kbd> + <kbd>←</kbd>：返回上一頁。
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>：開啟命令框。
 
-## 部署功能頁
+## 部署功能頁 {#deploy-page}
 
 - <kbd>F5</kbd> 或 <kbd>Ctrl</kbd> + <kbd>R</kbd>：重新載入 Office 資訊並重置設定。
 - <kbd>Ctrl</kbd> + <kbd>I</kbd>：從網路匯入設定。
@@ -22,7 +22,7 @@
 - <kbd>Ctrl</kbd> + <kbd>S</kbd>：將設定儲存至本機。
 - <kbd>Ctrl</kbd> + <kbd>E</kbd>：檢視 XML 代碼。
 
-## 啟用功能頁
+## 啟用功能頁 {#activate-page}
 
 - <kbd>Ctrl</kbd> + <kbd>D</kbd>：重新整理 Office 授權列表。
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>：重新整理 Office 授權列表並載入所有授權。

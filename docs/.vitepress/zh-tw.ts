@@ -114,11 +114,12 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             text: '建立 Office ISO',
             collapsed: false,
             items: [
-                { "text": "無設定檔模式", "link": "deploy/create-iso/no-config" },
-                { "text": "預設設定模式", "link": "deploy/create-iso/default-config" },
-                { "text": "使用 ISO 命令", "link": "deploy/create-iso/iso-command" },
-                { "text": "使用 /loadconfig 命令", "link": "deploy/create-iso/config-command" },
-                { "text": "使用 /deploy 命令", "link": "deploy/create-iso/deploy-command" }
+                { text: '前置作業', link: 'deploy/create-iso/prepare' },
+                { text: "無設定檔模式", link: "deploy/create-iso/no-config" },
+                { text: "預設設定模式", link: "deploy/create-iso/default-config" },
+                { text: "使用 ISO 命令", link: "deploy/create-iso/iso-command" },
+                { text: "使用 /loadconfig 命令", link: "deploy/create-iso/config-command" },
+                { text: "使用 /deploy 命令", link: "deploy/create-iso/deploy-command" }
 
             ]
         },
@@ -126,40 +127,40 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             text: '啟用',
             collapsed: false,
             items: [
-                { "text": "什麼是 Office 授權？", "link": "activate/what-is-license" },
-                { "text": "啟用管理", "link": "activate/manage" },
-                { "text": "線上啟用", "link": "activate/online-activation" },
-                { "text": "電話啟用", "link": "activate/phone-activation" },
-                { "text": "KMS 啟用", "link": "activate/kms-activation" }
+                { text: "什麼是 Office 授權？", link: "activate/what-is-license" },
+                { text: "啟用管理", link: "activate/manage" },
+                { text: "線上啟用", link: "activate/online-activation" },
+                { text: "電話啟用", link: "activate/phone-activation" },
+                { text: "KMS 啟用", link: "activate/kms-activation" }
             ]
         },
         {
             text: '工具箱',
             collapsed: false,
             items: [
-                { "text": "一般工具", "link": "toolbox/general" },
-                { "text": "Office 工具", "link": "toolbox/office" },
-                { "text": "Windows 工具", "link": "toolbox/windows" }
+                { text: "一般工具", link: "toolbox/general" },
+                { text: "Office 工具", link: "toolbox/office" },
+                { text: "Windows 工具", link: "toolbox/windows" }
             ]
         },
         {
             text: '命令',
             collapsed: false,
             items: [
-                { "text": "鍵盤快速鍵", "link": "command/keyboard" },
-                { "text": "程式命令", "link": "command/application" },
-                { "text": "部署命令", "link": "command/deploy" },
-                { "text": "啟用命令", "link": "command/activate" },
-                { "text": "工具箱命令", "link": "command/toolbox" }
+                { text: "鍵盤快速鍵", link: "command/keyboard" },
+                { text: "程式命令", link: "command/application" },
+                { text: "部署命令", link: "command/deploy" },
+                { text: "啟用命令", link: "command/activate" },
+                { text: "工具箱命令", link: "command/toolbox" }
             ]
         },
         {
             text: '其它',
             collapsed: false,
             items: [
-                { "text": "雜湊碼檢查" },
-                { "text": "程式設定", "link": "settings" },
-                { "text": "更新" }
+                { text: "雜湊碼檢查" },
+                { text: "程式設定", link: "settings" },
+                { text: "更新" }
             ]
         }
     ]

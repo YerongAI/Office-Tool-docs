@@ -1,12 +1,12 @@
-# 程式命令
+# 程式命令 {#application-commands}
 
 命令不區分大小寫。如果命令參數包含空格，請使用 `""`（雙引號）將其包括起来。
 
-## 程式內命令
+## 程式內命令 {#in-application-commands}
 
 這些命令只能在命令框中使用。您可以透過按鈕或快捷鍵 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> 開啟命令框。
 
-![Command box](/images/en-us/command-box.webp)
+![Command box](/images/zh-tw/command-box.webp)
 
 | 命令 | 說明 | 參數 |
 | :-- | :-- | :-- |
@@ -17,7 +17,7 @@
 | `/getlogs` | 取得程式記錄檔。 | 無 |
 | `/help` | 重新導向至說明文件。 | 無 |
 
-## 命令列命令
+## 命令列命令 {#commands}
 
 這些命令只能在命令提示字元 (CMD) 或 PowerShell 中使用。
 
@@ -29,7 +29,7 @@
 | `/edition` *value* | 覆寫 XML 設定中的客戶端版本屬性，必須與 `/loadconfig` 命令一起使用。 | *value*: `32` 或 `64`。 |
 | `/enablehwacc` *value* | 啟用硬體加速。 | *value*: `true` 或 `false`，預設為 `true`。 |
 
-## Office Tool Plus Console Helper
+## Office Tool Plus Console Helper {#office-tool-plus-console-helper}
 
 Office Tool Plus.Console 是一個命令列程式。當透過 `Office Tool Plus` 執行命令時，Shell 不會等待程序完成；但透過 `Office Tool Plus.Console` 執行命令時，Shell 會等待程序結束並支援日誌輸出。
 
@@ -41,7 +41,7 @@ Office Tool Plus.Console 是一個命令列程式。當透過 `Office Tool Plus`
 
 ::: tip 提示
 
-`deploy` 和 `ospp` 命令會自動啟用日誌輸出，無需額外指定 `/log`。  
+`deploy` 和 `ospp` 命令會自動啟用日誌輸出，無需額外指定 `/log`。
 `deploy` 和 `ospp` 命令不應與其他命令混合使用，否則可能無法正常運作。
 
 :::

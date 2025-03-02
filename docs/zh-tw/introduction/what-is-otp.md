@@ -1,4 +1,4 @@
-# **什麼是 Office Tool Plus？**
+# 什麼是 Office Tool Plus？ {#what-is-office-tool-plus}
 
 Office Tool Plus 是一款強大且實用的 Office 部署工具。
 
@@ -11,7 +11,7 @@ Office Tool Plus 基於 [Office 部署工具](https://docs.microsoft.com/en-us/d
 - Visio 2016、2019、2021、2024 及 Visio Online Plan 2。
 - Project 2016、2019、2021、2024 及 Project Online Desktop Client。
 
-## **功能特色**
+## 功能特色 {#features}
 
 - 建立 Office 安裝配置，配置可匯出至本機或從本機來源及網路匯入。
 - 支援下載所有 Office 更新通道及語言版本。
@@ -25,11 +25,13 @@ Office Tool Plus 基於 [Office 部署工具](https://docs.microsoft.com/en-us/d
 - 透過 Office COM 轉換 Office 文件，確保快速且穩定的效能。
 - 個人化佈景主題並自訂 Office Tool Plus。
 
-::: tip **注意**
+::: tip 注意
+
 - Office Tool Plus 只提供啟用管理，您需要持有合法授權才能啟用您的產品。
+
 :::
 
-## **組件與架構**
+## 組件與架構 {#components-and-structure}
 
 ```txt
 Office Tool

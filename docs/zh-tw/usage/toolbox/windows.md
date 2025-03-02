@@ -1,6 +1,6 @@
-# Windows 工具
+# Windows 工具 {#windows-tools}
 
-## 重設軟體保護服務 (Software Protection Service)
+## 重設軟體保護服務 {#reset-software-protection-service}
 
 此操作將刪除登錄中的部分與軟體保護相關的配置資訊，例如 KMS 主機位址與續約策略。如果 Office Tool Plus 偵測到您的軟體保護服務已被 `SppExtComObjHook.dll` 劫持，該 DLL 也將被刪除。
 
@@ -15,7 +15,7 @@
 
 :::
 
-## 重建 Windows 啟用權杖 (Windows Activation Token)
+## 重建 Windows 啟用權杖 {#rebuild-windows-activation-token}
 
 此操作將刪除 `%SystemRoot%\System32\spp\store\2.0` 資料夾內的 `data.dat`、`tokens.dat` 和 `cache.dat` 檔案。
 
@@ -38,7 +38,7 @@ Windows 會嘗試重建這些權杖，您的 Windows 啟用狀態可能會遺失
 
 :::
 
-## 重設系統變數 (System Variables)
+## 重設系統變數 {#reset-system-variables}
 
 此操作將重設部分系統變數，例如 `%ProgramFiles%`、`%CommonProgramFiles%` 等。如果某些系統變數缺失，可能會導致 Office 安裝程式或 Click-to-Run 服務無法正常運作。
 
@@ -54,7 +54,7 @@ Windows 會嘗試重建這些權杖，您的 Windows 啟用狀態可能會遺失
 
 :::
 
-## 修復 WMI 元件 (Windows Management Instrumentation, WMI)
+## 修復 WMI 元件 {#repair-wmi-components}
 
 此操作將重新註冊所有 WMI 元件。
 

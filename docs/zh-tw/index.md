@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: 開始使用
-      link: /zh-TW/introduction/what-is-otp
+      link: /zh-tw/introduction/what-is-otp
     - theme: alt
       text: 官方網站
       link: https://otp.landian.vip/
     - theme: alt
       text: 下載
-      link: /zh-TW/introduction/download
+      link: /zh-tw/introduction/download
     - theme: alt
       text: 台灣管理團隊
       link: https://www.cotpear.com/office-tool-taiwan-official-website-html/

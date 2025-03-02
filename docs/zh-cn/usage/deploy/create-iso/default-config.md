@@ -1,4 +1,4 @@
-# 包含默认配置
+# 包含默认配置 {#default-configuration}
 
 Office ISO 中包含默认配置文件时，启动 Office Tool Plus 后将会读取 `ConfigForISO.xml` 的配置并进行加载，然后程序将自动跳转到部署页面询问用户是否进行部署。用户可以选择【是】启动安装程序，也可以点击【否】，然后修改配置、重新开始部署。
 
