@@ -1,4 +1,4 @@
-# 使用 loadconfig 命令
+# 使用 loadconfig 命令 {#use-loadconfig-commands}
 
 使用 loadconfig 命令进行部署时，Office Tool Plus 将会根据命令指定的参数加载 XML 文件并进行部署。XML 配置中的一些参数可以通过其它命令修改，以便可以安装不同版本的 Office。
 

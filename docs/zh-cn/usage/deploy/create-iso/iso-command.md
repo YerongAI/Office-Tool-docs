@@ -1,4 +1,4 @@
-# 使用 ISO 命令
+# 使用 ISO 命令 {#use-iso-command}
 
 使用 ISO 命令进行部署时，Office Tool Plus 将会在 Office ISO 中查找 `ConfigForISO.xml` 文件并加载以进行部署。Office Tool Plus 将不会显示任何界面并直接启动 Office 安装程序。
 

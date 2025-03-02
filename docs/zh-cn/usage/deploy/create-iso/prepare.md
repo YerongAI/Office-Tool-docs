@@ -1,4 +1,4 @@
-# 前期准备
+# 前期准备 {#prepare}
 
 使用 Office Tool Plus 创建 ISO 映像文件会将 Office Tool Plus 和 Office 安装文件一起打包。
 
@@ -10,7 +10,7 @@ Office 会固定在每个月的第二个星期二（太平洋时间）更新一�
 - 创建 Office ISO 文件。
 - 测试 Office ISO 是否和预期的一样工作。
 
-## 注意事项
+## 注意事项 {#notices}
 
 Office Tool Plus 默认下载适合当前操作系统的 Office 版本。若要下载适用于其他 Windows 的 Office 版本，请更改**设置 - 下载 - Windows 版本**。
 
@@ -18,13 +18,13 @@ Office Tool Plus 默认下载适合当前操作系统的 Office 版本。若要�
 
 Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无需更改我们没有在教程中提到的设置。
 
-## 获取合适的 Office Tool Plus 版本
+## 获取合适的 Office Tool Plus 版本 {#download-the-appropriate-office-tool-plus}
 
 我们建议您[下载](/zh-cn/introduction/download)包含框架的 Office Tool Plus。不需要在客户端上安装 .NET Desktop Runtime 即可运行 Office Tool Plus。
 
 最佳做法是根据 Office 的体系结构选择合适的 Office Tool Plus 版本。例如您正在创建 64 位的 Office 镜像，则建议使用 64 位的 Office Tool Plus。如果不确定，可以选择 32 位的 Office Tool Plus。
 
-## 创建 Office ISO
+## 创建 Office ISO {#create-office-iso}
 
 您可以根据需要选择下列方式创建 Office ISO 文件：
 
@@ -34,6 +34,6 @@ Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无�
 4. [使用 loadConfig 命令](config-command.md)：程序会根据您指定的命令创建配置并直接开始部署。
 5. [使用 deploy 命令](deploy-command.md)：程序会根据您指定的命令创建配置并直接开始部署。
 
-## 完成之后
+## 完成之后 {#the-end}
 
 当你完成了 Office ISO 的创建后，我们建议您在虚拟机内测试 Office ISO 是否和您预期的一样工作。
