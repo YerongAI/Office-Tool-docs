@@ -27,3 +27,9 @@ If you need to create an Office ISO that contains both 32-bit and 64-bit version
 After mounting the Office ISO, you should be able to see the Install Now option from the CD-ROM context menu, or start Office Tool Plus normally and confirm the installation.
 
 :::
+
+::: tip Tip
+
+If you need to fully customize `ConfigForISO.xml`, you can also write your own and put the file in the Office Tool folder in advance. Office Tool Plus will skip creating a new `ConfigForISO.xml` and use the file you specified.
+
+:::
