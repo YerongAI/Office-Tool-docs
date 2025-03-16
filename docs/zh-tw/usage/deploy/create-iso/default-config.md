@@ -27,9 +27,3 @@
 掛載 Office ISO 後，您應該可以在 CD-ROM 右鍵選單中看到 [立即安裝] 選項，或正常啟動 Office Tool Plus 來確認安裝。
 
 :::
-
-::: tip 提示
-
-如果您需要完全自定义 `ConfigForISO.xml`，您也可以自行编写并将文件提前放入 Office Tool 文件夹中。Office Tool Plus 将会跳过创建新的 `ConfigForISO.xml`，并使用您指定的文件。
-
-:::

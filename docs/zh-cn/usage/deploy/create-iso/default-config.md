@@ -27,9 +27,3 @@ Office ISO 中包含默认配置文件时，启动 Office Tool Plus 后将会读
 挂载 Office ISO 后，您应该能从 CD-ROM 上下文菜单中看到「立即安装」选项，或者正常启动 Office Tool Plus 然后确认安装。
 
 :::
-
-::: tip 提示
-
-如果您需要完全自定义 `ConfigForISO.xml`，您也可以自行编写并将文件提前放入 Office Tool 文件夹中。Office Tool Plus 将会跳过创建新的 `ConfigForISO.xml`，并使用您指定的文件。
-
-:::
