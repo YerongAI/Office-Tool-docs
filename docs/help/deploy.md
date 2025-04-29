@@ -8,10 +8,11 @@ If you still want to install Microsoft 365 Apps on your PC, please use **Current
 
 For more information please visit:
 
-- [Windows 7 end of support and Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/endofsupport/windows-7-support).
-- [Windows 8 end of support and Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/endofsupport/windows-8-support).
-- [Windows 8.1 end of support and Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/endofsupport/windows-81-support).
-- [Windows Server end of support and Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support).
+- [Windows 7 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-7-support).
+- [Windows 8 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-8-support).
+- [Windows 8.1 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-81-support).
+- [Windows 10 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support).
+- [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support).
 
 ::: warning Notice
 

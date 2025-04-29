@@ -8,10 +8,11 @@ Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。
 
 欲了解更多資訊，請參閱：
 
-- [Windows 7 終止支援與 Microsoft 365 應用程式](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-7-support)
-- [Windows 8 終止支援與 Microsoft 365 應用程式](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-8-support)
-- [Windows 8.1 終止支援與 Microsoft 365 應用程式](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-81-support)
-- [Windows Server 終止支援與 Microsoft 365 應用程式](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-server-support)
+- [Windows 7 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-7-support)
+- [Windows 8 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-8-support)
+- [Windows 8.1 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-81-support)
+- [Windows 10 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-10-support)
+- [Windows Server 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-server-support)
 
 ::: warning 注意
 

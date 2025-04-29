@@ -8,10 +8,11 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 获取更多信息请访问:
 
-- [Windows 7 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-7-support)
-- [Windows 8 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-8-support)
-- [Windows 8.1 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-81-support)
-- [Windows Server 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-server-support)
+- [Windows 7 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-7-support)
+- [Windows 8 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-8-support)
+- [Windows 8.1 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-81-support)
+- [Windows 10 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-10-support)
+- [Windows Server 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-server-support)
 
 ::: warning 注意
 
