@@ -1,5 +1,11 @@
 # 激活问题 {#activation-questions}
 
+::: tip 提示
+
+激活 Office 前，请确保 Windows 已正确激活。
+
+:::
+
 ## 0x80131500
 
 此错误代码没有准确意义，请参考给出的错误信息进行问题排查。
@@ -120,5 +126,11 @@
 ## 我们注意到你更新了你的许可证 {#we-noticed-you-just-updated-your-license}
 
 > 我们注意到你更新了你的许可证，请重新启动 Microsoft Project 以使更改生效。
+
+请参考[重置 Office 设置为默认设置](/zh-cn/usage/toolbox/office.md#reset-office-settings-to-defaults)。
+
+## 你存储的凭据似乎已过期
+
+> 你存储的凭据似乎已过期。请使用你用于 Office 的账户登录，以便我们可以验证你的订阅。
 
 请参考[重置 Office 设置为默认设置](/zh-cn/usage/toolbox/office.md#reset-office-settings-to-defaults)。

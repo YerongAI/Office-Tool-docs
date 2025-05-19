@@ -1,5 +1,11 @@
 # 啟用問答集 {#activation-questions}
 
+::: tip Tip
+
+Before activating Office, make sure Windows is activated.
+
+:::
+
 ## 0x80131500
 
 此錯誤代碼沒有特定意義，請參考錯誤訊息內容來排除問題。

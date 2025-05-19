@@ -1,5 +1,11 @@
 # Activation Questions
 
+::: tip Tip
+
+Before activating Office, make sure Windows is activated.
+
+:::
+
 ## 0x80131500
 
 This error code has no meaning, please refer to the given error message to troubleshoot the problem.
