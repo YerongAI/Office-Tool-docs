@@ -11,27 +11,20 @@
 | [NJU Mirror](https://www.officetool.plus/redirect/download.php?site=nju) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nju&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nju&type=runtime&arch=x86) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nju&type=runtime&arch=arm64) |
 | [LZU Mirror](https://www.officetool.plus/redirect/download.php?site=lzu) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=lzu&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=lzu&type=runtime&arch=x86) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=lzu&type=runtime&arch=arm64) |
 | [NYIST Mirror](https://www.officetool.plus/redirect/download.php?site=nyist) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nyist&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nyist&type=runtime&arch=x86) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=nyist&type=runtime&arch=arm64) |
-| [JCUT Mirror](https://www.officetool.plus/redirect/download.php?site=jcut) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=jcut&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=jcut&type=runtime&arch=x86) | [<svg xmlns="http://www.w3.org/2000/svg" width="24"  viewBox="0 0 24 24"><title>下載</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=jcut&type=runtime&arch=arm64) |
 
 或使用 PowerShell 下載 Office Tool Plus：
 
 站點 1：
 
 ```powershell
-irm officetool.plus | iex
+irm https://officetool.plus | iex
 ```
 
 站點 2：
 
 ```powershell
-irm otp.landian.vip | iex
+irm https://otp.landian.vip | iex
 ```
-
-::: tip 提示
-
-如果遇到連線問題，您可以在 URL 前加上 `https://` 再嘗試。例如：`irm https://officetool.plus | iex`。
-
-:::
 
 ---
 
