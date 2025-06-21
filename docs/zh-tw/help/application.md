@@ -1,5 +1,7 @@
 # 程式問答集 {#application-questions}
 
+某些時候您可以透過重新啟動 Windows 來解決問題。
+
 ## 記憶體不足，無法繼續執行程式 {#insufficient-memory-to-continue-the-execution-of-the-program}
 
 請斷開網路，然後重新開啟 Office Tool Plus。
@@ -19,7 +21,3 @@
 ## UCEERR_RENDERTHREADFAILURE (0x88980406)
 
 解決方案與前一項相同。
-
-## 查詢錯誤碼描述時程式崩潰 {#program-crashed-when-querying-error-code-description}
-
-請重新啟動 Windows。

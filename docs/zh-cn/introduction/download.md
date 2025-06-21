@@ -14,16 +14,8 @@
 
 或者使用 PowerShell 下载 Office Tool Plus:
 
-站点 1:
-
 ```powershell
 irm https://officetool.plus | iex
-```
-
-站点 2:
-
-```powershell
-irm https://otp.landian.vip | iex
 ```
 
 ---

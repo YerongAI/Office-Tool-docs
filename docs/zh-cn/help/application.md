@@ -1,5 +1,7 @@
 # 程序问题 {#application-questions}
 
+某些时候您可以通过重新启动 Windows 来解决问题。
+
 ## Insufficient memory to continue the execution of the program
 
 断开网络连接，然后重新打开 Office Tool Plus.
@@ -19,7 +21,3 @@
 ## UCEERR_RENDERTHREADFAILURE (0x88980406)
 
 解决方案同上。
-
-## 查询错误代码描述时崩溃 {#program-crashed-when-querying-error-code-description}
-
-重启 Windows。

@@ -68,7 +68,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '帮助',
-            link: '/zh-cn/help/about',
+            link: '/zh-cn/help/application',
             activeMatch: '/zh-cn/help/'
         }
     ]
@@ -173,7 +173,6 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             text: '帮助',
             collapsed: false,
             items: [
-                { text: '关于', link: 'about' },
                 { text: '程序问题', link: 'application' },
                 { text: '部署问题', link: 'deploy' },
                 { text: '激活问题', link: 'activation' },

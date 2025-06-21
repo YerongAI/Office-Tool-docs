@@ -66,7 +66,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '取得協助',
-            link: '/zh-tw/help/about',
+            link: '/zh-tw/help/application',
             activeMatch: '/zh-tw/help/'
         }
     ]
@@ -172,7 +172,6 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             text: '取得協助',
             collapsed: false,
             items: [
-                { text: '關於問答集', link: 'about' },
                 { text: '程式問答集', link: 'application' },
                 { text: '部署問答集', link: 'deploy' },
                 { text: '啟用問答集', link: 'activation' }

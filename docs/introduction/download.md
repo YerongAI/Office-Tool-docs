@@ -14,16 +14,8 @@ You can download Office Tool Plus from these sites:
 
 Or download Office Tool Plus using PowerShell:
 
-Site 1:
-
 ```powershell
 irm https://officetool.plus | iex
-```
-
-Site 2:
-
-```powershell
-irm https://otp.landian.vip | iex
 ```
 
 ---

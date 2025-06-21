@@ -49,7 +49,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: 'Help',
-            link: '/help/about',
+            link: '/help/application',
             activeMatch: '/help/'
         }
     ]
@@ -154,7 +154,6 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             text: 'Help',
             collapsed: false,
             items: [
-                { text: 'About', link: 'about' },
                 { text: 'Application', link: 'application' },
                 { text: 'Deploy', link: 'deploy' },
                 { text: 'Activation', link: 'activation' }
