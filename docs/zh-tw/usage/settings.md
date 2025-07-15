@@ -97,8 +97,8 @@ Office 檔案驗證僅適用於 **[下載]** 模式或 **[先下載後部署]**�
 | 下載引擎                 | x86 | x64 & ARM64 | 進度顯示 | 支援 Proxy | 支援暫停/續傳 | 可取消下載 |
 | :--                      | :-- | :--         | :--      | :--        | :--           | :--       |
 | Thunder              | ✓   | ×           | ✓        | ✓         | ✓             | ✓         |
-| bezzad.Downloader    | ✓   | ✓           | ✓        | ×         | ✓             | ✓         |
-| Office Tool Plus     | ✓   | ✓           | ✓        | ×         | ×             | ✓         |
+| bezzad.Downloader    | ✓   | ✓           | ✓        | ✓         | ✓             | ✓         |
+| Office Tool Plus     | ✓   | ✓           | ✓        | ✓         | ×             | ✓         |
 | Office 部署工具       | ✓ | ✓           | ×        | ×         | ×             | ×         |
 
 預設下載引擎為 *bezzad.Downloader*。

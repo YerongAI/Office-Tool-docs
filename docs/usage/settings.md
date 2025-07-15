@@ -91,8 +91,8 @@ Differences between engines:
 | Engine                 | x86 | x64 & ARM64 | Progress | Proxy | Pause & continue | Cancellation |
 | :--                    | :-- | :--         | :--      | :--   | :--              | :--          |
 | Thunder                | ✓ | × | ✓ | ✓ | ✓ | ✓ |
-| bezzad.Downloader      | ✓ | ✓ | ✓ | × | ✓ | ✓ |
-| Office Tool Plus       | ✓ | ✓ | ✓ | × | × | ✓ |
+| bezzad.Downloader      | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Office Tool Plus       | ✓ | ✓ | ✓ | ✓ | × | ✓ |
 | Office Deployment Tool | ✓ | ✓ | × | × | × | × |
 
 The default engine is *bezzad.Downloader*.

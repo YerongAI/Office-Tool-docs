@@ -42,4 +42,4 @@ If Office installation progress is stuck between 50-100%, it means that an error
 - Try to close or exit all third-party software. Some third-party software may incorrectly prevent the installer from running.
 - Try to [remove Office](/usage/toolbox/office.md#remove-office), then try to install again.
 
-If the above suggestions does not work, you may need to reinstall Windows.
+If the above steps do not work, you can collect the Office installation logs on the Toolbox page and analyze them to find out the problem. You can also choose to contact us to help you analyze the problem. Our team can provide very professional technical support.
