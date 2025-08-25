@@ -32,7 +32,7 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)。
 
-## 很抱歉，访问所需的文件时遇到问题
+## 很抱歉，访问所需的文件时遇到问题 {#ran-into-a-problem-accessing-a-required-file}
 
 如果 Office 安装进度在 50% 左右时出现此问题，请检查电脑上是否安装了以下软件：
 
