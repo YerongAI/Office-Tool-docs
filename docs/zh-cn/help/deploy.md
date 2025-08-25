@@ -32,6 +32,17 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 要修复这个错误，请在工具箱页面[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)。
 
+## 很抱歉，访问所需的文件时遇到问题
+
+如果 Office 安装进度在 50% 左右时出现此问题，请检查电脑上是否安装了以下软件：
+
+- WinZips
+- Win解压缩
+- 联想应用商店
+- 360 安全卫士
+
+如果系统中安装有上述软件，请卸载后，重新启动系统，然后再次部署 Office。
+
 ## Office 安装进度卡住不动 {#office-installation-is-stuck}
 
 如果安装进度卡在 0-49% 之间，则表示 Office 安装程序无法获取所需文件。
