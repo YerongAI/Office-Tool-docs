@@ -122,15 +122,3 @@
 ## 无效类 {#invalid-class}
 
 请参考[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
-
-## 我们注意到你更新了你的许可证 {#we-noticed-you-just-updated-your-license}
-
-> 我们注意到你更新了你的许可证，请重新启动 Microsoft Project 以使更改生效。
-
-请参考[重置 Office 设置为默认设置](/zh-cn/usage/toolbox/office.md#reset-office-settings-to-defaults)。
-
-## 你存储的凭据似乎已过期
-
-> 你存储的凭据似乎已过期。请使用你用于 Office 的账户登录，以便我们可以验证你的订阅。
-
-请参考[重置 Office 设置为默认设置](/zh-cn/usage/toolbox/office.md#reset-office-settings-to-defaults)。

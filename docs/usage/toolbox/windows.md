@@ -1,5 +1,13 @@
 # Windows tools
 
+Windows tools is located on `Toolbox` page -> `Windows tools` section.
+
+## Environment variables manager
+
+Environment variables manager is designed to view or fix some missing or incorrect variables. It doesn't support to edit or remove any variables.
+
+If one or more variables is missing or incorrect, you will get a notification about error. Simply click "Reset" button to fix them.
+
 ## Reset Software Protection service
 
 Some configuration information related to Software Protection in the registry will be deleted, such as the KMS host address and renewal policy. If Office Tool Plus detects that your Software Protection service is hooked by `SppExtComObjHook.dll`, `SppExtComObjHook.dll` will also be deleted.
@@ -35,22 +43,6 @@ The following error occurs when activating Office:
 
 - 0xC004E015: The Software Licensing Service reported that license consumption failed.
 - 0x8004E108: The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
-
-:::
-
-## Reset system variables
-
-Some system variables will be reset, such as `%ProgramFiles%`, `%CommonProgramFiles%` etc. When missing some system variables, the Office Installer or Click to Run service may not work property.
-
-::: warning Warning
-
-**Please do not use this function unless you have a clear need for it.**
-
-:::
-
-::: details Applicable situations
-
-- `The path is null or empty` error occurs when you are installing or removing Office using Office Tool Plus.
 
 :::
 

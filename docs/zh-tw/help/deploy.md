@@ -24,10 +24,6 @@ Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。
 
 Microsoft 不允許將 Office 安裝至其他路徑，我們也不建議強制更改安裝路徑。
 
-## 路徑為空值或無效
-
-要解決此問題，請前往 **工具箱** 功能頁，並[重設系統變數](/zh-tw/usage/toolbox/windows.md#reset-system-variables)。
-
 ## Office 安裝卡住
 
 若 Office 安裝進度停滯在 0-49%：

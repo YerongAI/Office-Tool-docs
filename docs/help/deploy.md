@@ -24,10 +24,6 @@ You can't install newer version of Office on Windows 7 even you changed the inst
 
 Microsoft does not allow Office to be installed in other path, nor do we recommend that you force change it.
 
-## The path is null or empty
-
-To fix the problem, go to Toolbox page and [reset system variables](/usage/toolbox/windows.md#reset-system-variables).
-
 ## Office installation is stuck
 
 If Office installation progress is stuck between 0-49%, it means that the Office installer could not get the required files.

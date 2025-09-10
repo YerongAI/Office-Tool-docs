@@ -1,5 +1,13 @@
 # Windows 工具 {#windows-tools}
 
+Windows 工具位于 `工具箱`页面 -> `Windows 工具`部分。
+
+## 环境变量管理器 {#environment-variables-manager}
+
+环境变量管理器旨在用于查看或修复一些缺失或错误的变量。它不支持编辑或删除任何变量。
+
+如果一个或多个变量缺失或错误，您将收到错误通知。只需点击“重置”按钮即可修复这些错误。
+
 ## 重置 Software Protection 服务 {#reset-software-protection-service}
 
 注册表中和 Software Protection 相关的一些配置信息将会被删除，例如 KMS 主机地址和续期策略。如果 Office Tool Plus 检测到您的 Software Protection 服务被 `SppExtComObjHook.dll` 劫持，`SppExtComObjHook.dll` 也将会被一并删除。
@@ -35,22 +43,6 @@ Windows 将会尝试重建这些文件，您的 Windows 激活状态可能会丢
 
 - 0xC004E015：许可证使用失败
 - 0x8004E108：令牌存储中的令牌包含无效的哈希
-
-:::
-
-## 重置系统变量 {#reset-system-variables}
-
-一些系统变量将会被重置，例如 `%ProgramFiles%`, `%CommonProgramFiles%` 等系统变量。某些系统变量丢失时会导致 Office 安装程序或 Click to Run 服务无法正常工作。
-
-::: warning 注意
-
-**除非明确要求，否则请勿随意使用此功能。**
-
-:::
-
-::: details 适用情况
-
-- 使用 Office Tool Plus 安装或移除 Office 时出现错误提示：`The path is null or empty`
 
 :::
 

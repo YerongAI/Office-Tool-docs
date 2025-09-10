@@ -1,5 +1,7 @@
 # Office 工具 {#office-tools}
 
+Office 工具位于 `工具箱`页面 -> `Office 工具`部分。
+
 ## 移除 Office {#remove-office}
 
 此功能支持移除所有版本的 Office.

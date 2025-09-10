@@ -174,7 +174,8 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '程式問答集', link: 'application' },
                 { text: '部署問答集', link: 'deploy' },
-                { text: '啟用問答集', link: 'activation' }
+                { text: '啟用問答集', link: 'activation' },
+                { text: 'Office 問答集', link: 'office' }
             ]
         }
     ]

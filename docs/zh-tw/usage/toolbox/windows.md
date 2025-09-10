@@ -1,5 +1,13 @@
 # Windows 工具 {#windows-tools}
 
+Windows tools is located on `Toolbox` page -> `Windows tools` section.
+
+## Environment variables manager {#environment-variables-manager}
+
+Environment variables manager is designed to view or fix some missing or incorrect variables. It doesn't support to edit or remove any variables.
+
+If one or more variables is missing or incorrect, you will get a notification about error. Simply click "Reset" button to fix them.
+
 ## 重設軟體保護服務 {#reset-software-protection-service}
 
 此操作將刪除登錄中的部分與軟體保護相關的配置資訊，例如 KMS 主機位址與續約策略。如果 Office Tool Plus 偵測到您的軟體保護服務已被 `SppExtComObjHook.dll` 劫持，該 DLL 也將被刪除。
@@ -35,22 +43,6 @@ Windows 會嘗試重建這些權杖，您的 Windows 啟用狀態可能會遺失
 
 - **0xC004E015**：軟體授權服務報告指出授權使用失敗。
 - **0x8004E108**：軟體授權服務報告指出權杖存放中的權杖包含不正確的雜湊值。
-
-:::
-
-## 重設系統變數 {#reset-system-variables}
-
-此操作將重設部分系統變數，例如 `%ProgramFiles%`、`%CommonProgramFiles%` 等。如果某些系統變數缺失，可能會導致 Office 安裝程式或 Click-to-Run 服務無法正常運作。
-
-::: warning 警告
-
-**請勿在沒有明確需求的情況下使用此功能。**
-
-:::
-
-::: details 適用情境
-
-當使用 Office Tool Plus 安裝或移除 Office 時，出現 `The path is null or empty` 錯誤。
 
 :::
 

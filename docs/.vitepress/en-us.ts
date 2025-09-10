@@ -156,7 +156,8 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: 'Application', link: 'application' },
                 { text: 'Deploy', link: 'deploy' },
-                { text: 'Activation', link: 'activation' }
+                { text: 'Activation', link: 'activation' },
+                { text: 'Office', link: 'office' }
             ]
         }
     ]

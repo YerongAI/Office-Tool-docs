@@ -1,5 +1,7 @@
 # Office tools
 
+Office tools is located on `Toolbox` page -> `Office tools` section.
+
 ## Remove Office
 
 Support to remove all versions of Office.
@@ -28,47 +30,47 @@ The Office Perpetual Enterprise channel is locked and cannot be changed, nor can
 
 ## Change Office product owner
 
-Office 产品属于者指的是许可证的属于者，例如下图中的 *Yerong™ | NekoNeko*：
+The Office product owner refers to the owner of the license, as shown in the image below with *Yerong™ | NekoNeko*:
 
 ![Product owner](/images/en-us/product-owner.webp)
 
-直接设置新的名称时，Office Tool Plus 会尝试更改所有 vNext 许可证和 Office 传统许可证的名称。如果您需要单独更改某个许可证的名称，请按照以下方法进行。
+When setting a new name directly, Office Tool Plus will attempt to change the names of all vNext licenses and Office legacy licenses. If you need to change the name of a specific license individually, please follow the methods below.
 
 ::: warning Notice
 
-Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此您需要为安装的许可证单独设置名称。
+Office Tool Plus cannot identify Office legacy licenses that you have installed manually, so you need to set the name for the installed licenses separately.
 
 :::
 
 ::: details Change owner for vNext license
 
-第一步，获取 vNext 许可证的用户 ID。如下图所示，转到激活页面，在 Office 许可证列表中找到你想更改的许可证，然后点击`Copy user ID` 按钮。
+Step 1: Get the user ID of the vNext license. As shown in the image below, go to the Activation page, find the license you want to change in the Office license list, and click the `Copy user ID` button.
 
 ![Copy user ID](/images/en-us/activation/check-vNext-license.webp)
 
-第二步，回到工具箱，在`Change Office product owner`中按照以下格式输入 `[User ID]:[Name]`
+Step 2: Return to the toolbox, and in `Change Office product owner`, enter the following format: `[User ID]:[Name]`
 
-User ID 为刚才复制的用户 ID，Name 是你想设置的名字，例如：`bbbbxxx:James`
+User ID is the user ID you just copied, and Name is the name you want to set, for example: `bbbbxxx:James`
 
 ![Change product owner](/images/en-us/toolbox/change-license-owner.webp)
 
-填写完成后，点击`Set name`按钮，重启你的 Office 应用程序即可看到新的名称。
+After filling in, click the `Set name` button, and restart your Office applications to see the new name.
 
 :::
 
 ::: details Change owner for legacy license
 
-在部署页面查看您已安装的产品的 ID，例如 `ProPlus2021Volume` 或 `VisioPro2021Volume`。
+Check the product ID of your installed products on the deployment page, such as `ProPlus2021Volume` or `VisioPro2021Volume`.
 
-然后回到工具箱，在`Change Office product owner`中按照以下格式输入 `[Product ID]:[Name]`
+Then return to the toolbox, and in `Change Office product owner`, enter the following format: `[Product ID]:[Name]`
 
-Product ID 为产品 ID，Name 是你想设置的名字，例如：`ProPlus2021Volume:James`
+Product ID is the product ID, and Name is the name you want to set, for example: `ProPlus2021Volume:James`
 
-填写完成后，点击`Set name`按钮，重启你的 Office 应用程序即可看到新的名称。
+After filling in, click the `Set name` button, and restart your Office applications to see the new name.
 
 ::: warning Notice
 
-如果您自行安装了其他 Office 许可证并激活，请在上文中输入您安装的许可证的 ID，而不是已安装的产品的 ID。
+If you have manually installed and activated other Office licenses, please enter the ID of the license you installed in the above text, not the ID of the installed products.
 
 :::
 

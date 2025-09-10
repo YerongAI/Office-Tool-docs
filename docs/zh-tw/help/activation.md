@@ -122,9 +122,3 @@ Before activating Office, make sure Windows is activated.
 ## 無效的類別 {#invalid-class}
 
 請參考 [修復 WMI 元件](/zh-tw/usage/toolbox/windows.md#repair-wmi-components)。
-
-## 我們偵測到您剛更新了授權 {#we-noticed-you-just-updated-your-license}
-
-> 我們偵測到您剛更新了授權。請重新啟動 Microsoft Project 以使變更生效。
-
-請參考 [重設 Office 設定為預設值](/zh-tw/usage/toolbox/office.md#reset-office-settings-to-defaults)。
