@@ -18,7 +18,7 @@ Before activating Office, make sure Windows is activated.
 
 > 軟體授權服務報告指出權杖存放中的權杖包含不正確的雜湊。
 
-請參考 [重建 Windows 啟用權杖](/zh-tw/usage/toolbox/windows.md#rebuild-windows-activation-token)。
+請在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重建 Windows 啟用權杖](/zh-tw/usage/toolbox/windows.md#rebuild-windows-activation-token)。
 
 ## 0x8007000D
 
@@ -32,7 +32,7 @@ Before activating Office, make sure Windows is activated.
 
 請執行以下操作：
 
-- [重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
+- 在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
 - 嘗試再次啟用。
 
 ## 0x8007007B
@@ -56,7 +56,7 @@ Before activating Office, make sure Windows is activated.
 
 > 伺服器執行失敗。
 
-請嘗試[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)，然後再次啟用。
+請嘗試在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)，然後再次啟用。
 
 ## 0xC004E015
 
@@ -95,7 +95,7 @@ Before activating Office, make sure Windows is activated.
 
 請執行以下操作：
 
-- [重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
+- 在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
 - 嘗試再次啟用。
 
 ## 0xC004F075
@@ -121,4 +121,8 @@ Before activating Office, make sure Windows is activated.
 
 ## 無效的類別 {#invalid-class}
 
-請參考 [修復 WMI 元件](/zh-tw/usage/toolbox/windows.md#repair-wmi-components)。
+Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
+
+## Invalid namespace {#invalid-namespace}
+
+Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.

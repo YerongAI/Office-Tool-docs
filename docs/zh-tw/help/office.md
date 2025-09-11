@@ -1,6 +1,6 @@
 # Office questions
 
-## Word could not create the work file
+## Word could not create the work file {#word-could-not-create-the-work-file}
 
 > Word could not create the work file. Check the temp environment variable.
 

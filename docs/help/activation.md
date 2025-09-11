@@ -18,7 +18,7 @@ This error code has no meaning, please refer to the given error message to troub
 
 > The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
 
-Please refer to [Rebuild Windows Activation Token](/usage/toolbox/windows.md#rebuild-windows-activation-token).
+[Rebuild Windows Activation Token](/usage/toolbox/windows.md#rebuild-windows-activation-token) on the [Toolbox](/usage/toolbox/windows.md) page.
 
 ## 0x8007000D
 
@@ -32,7 +32,7 @@ Do the following things:
 
 Do the following thins:
 
-- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service).
+- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) on the [Toolbox](/usage/toolbox/windows.md) page.
 - Try activating again.
 
 ## 0x8007007B
@@ -56,7 +56,7 @@ Solution is same as [0x8007000D](activation.md#_0x8007000d).
 
 > Server execution failed.
 
-Try to [reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) and activate again.
+Try to [reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) on the [Toolbox](/usage/toolbox/windows.md) page and activate again.
 
 ## 0xC004E015
 
@@ -95,7 +95,7 @@ Do the following things:
 
 Do the following thins:
 
-- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service).
+- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) on the [Toolbox](/usage/toolbox/windows.md) page.
 - Try activating again.
 
 ## 0xC004F075
@@ -119,6 +119,10 @@ Usually, when you install the corresponding volume licenses on Office Tool Plus,
 - SPLA license: SPLA licenses can only be activated using MAK, KMS activation is not supported.
 - Preview products: Products in the preview do not have the GVLK, so you need to manually install the GVLK for KMS activation.
 
-## Invalid Class
+## Invalid class
 
-Please refer to [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components).
+Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.
+
+## Invalid namespace
+
+Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.

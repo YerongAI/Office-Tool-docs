@@ -18,7 +18,7 @@
 
 > 软件授权服务报告令牌存储中的令牌包含无效的哈希。
 
-请参考[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#rebuild-windows-activation-token)。
+在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[重建 Windows 激活令牌](/zh-cn/usage/toolbox/windows.md#rebuild-windows-activation-token)。
 
 ## 0x8007000D
 
@@ -32,7 +32,7 @@
 
 然后做以下事情:
 
-- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
+- 在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
 - 再次尝试激活。
 
 ## 0x8007007B
@@ -56,7 +56,7 @@
 
 > 服务器运行失败。
 
-尝试[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)，然后重试激活。
+尝试在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)，然后重试激活。
 
 ## 0xC004E015
 
@@ -95,7 +95,7 @@
 
 然后做以下事情:
 
-- [重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
+- 在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
 - 再次尝试激活。
 
 ## 0xC004F075
@@ -121,4 +121,8 @@
 
 ## 无效类 {#invalid-class}
 
-请参考[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
+请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
+
+## 无效命名空间 {#invalid-namespace}
+
+请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
