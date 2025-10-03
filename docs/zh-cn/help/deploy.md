@@ -26,18 +26,18 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 强制更改安装位置容易出现问题，特别会容易遇到【操作系统当前的配置不能运行此应用程序】。
 
-如果已经遇到了问题，可以尝试卸载 Office 后，[重置系统变量](/zh-cn/usage/toolbox/windows.md#reset-system-variables)，然后重新安装 Office。
+如果已经遇到了问题，可以尝试卸载 Office 后，转到[工具箱](/zh-cn/usage/toolbox/windows.md)页面，点击[环境变量管理器](/zh-cn/usage/toolbox/windows.md#environment-variables-manager)，然后重置系统变量，最后重新安装 Office。
 
 ## 很抱歉，访问所需的文件时遇到问题 {#ran-into-a-problem-accessing-a-required-file}
 
-如果 Office 安装进度在 50% 左右时出现此问题，请检查电脑上是否安装了以下软件：
+如果 Office 安装进度在 50% 左右时出现此问题，请检查系统中是否安装了以下软件：
 
 - WinZips
 - Win解压缩
 - 联想应用商店
 - 360 安全卫士
 
-如果系统中安装有上述软件，请卸载后，重新启动系统，然后再次部署 Office。
+如果系统中安装有上述软件，请卸载这些软件，然后重新启动系统，再次部署 Office。
 
 ## Office 安装进度卡住不动 {#office-installation-is-stuck}
 
