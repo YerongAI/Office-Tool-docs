@@ -24,6 +24,12 @@ You can't install newer version of Office on Windows 7 even you changed the inst
 
 Microsoft does not allow Office to be installed in other path, nor do we recommend that you force change it.
 
+## These installation files contains errors
+
+Try to delete installation files on [Installation files](/usage/deploy/settings/basic.md#installation-files) panel, and download again.
+
+If the problem persists, try to [Enable HTTPS connection](/usage/settings.md#connect-using-https), or switch to a different network, then try again.
+
 ## Office installation is stuck
 
 If Office installation progress is stuck between 0-49%, it means that the Office installer could not get the required files.

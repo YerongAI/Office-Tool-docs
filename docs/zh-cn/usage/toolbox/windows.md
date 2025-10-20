@@ -1,6 +1,6 @@
 # Windows 工具 {#windows-tools}
 
-Windows 工具位于 `工具箱`页面 -> `Windows 工具`部分。
+Windows 工具位于`工具箱`页面 -> `Windows 工具`部分。
 
 ## 环境变量管理器 {#environment-variables-manager}
 

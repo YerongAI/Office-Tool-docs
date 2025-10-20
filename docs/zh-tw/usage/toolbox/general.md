@@ -22,4 +22,10 @@
 
 輸入您的 KMS 主機位址，然後按一下 **[測試]** 按鈕。
 
+::: info Note
+
+Please replace `kms.example.com` to your KMS host address.
+
+:::
+
 ![測試 KMS 主機](/images/zh-tw/toolbox/test-kms.webp)

@@ -24,6 +24,12 @@ Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。
 
 Microsoft 不允許將 Office 安裝至其他路徑，我們也不建議強制更改安裝路徑。
 
+## These installation files contains errors {#these-installation-files-contains-errors}
+
+Try to delete installation files on [Installation files](/zh-tw/usage/deploy/settings/basic.md#installation-files) panel, and download again.
+
+If the problem persists, try to [Enable HTTPS connection](/zh-tw/usage/settings.md#connect-using-https), or switch to a different network, then try again.
+
 ## Office 安裝卡住
 
 若 Office 安裝進度停滯在 0-49%：

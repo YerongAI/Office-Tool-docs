@@ -29,6 +29,15 @@ features:
   - title: 強大
     icon: 🚀
     details: 功能豐富，完全支援自訂配置。
+  - title: Convenient
+    icon: 💯
+    details: Best UI for everything.
+  - title: Free
+    icon: ⭐
+    details: No Ads, no data is collected.
+  - title: Safe
+    icon: 💡
+    details: Digital signatures, ensure system security.
   - title: 無障礙
     icon: ❤️
     details: 最佳化螢幕閱讀器體驗。

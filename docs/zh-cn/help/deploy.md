@@ -28,6 +28,12 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 如果已经遇到了问题，可以尝试卸载 Office 后，转到[工具箱](/zh-cn/usage/toolbox/windows.md)页面，点击[环境变量管理器](/zh-cn/usage/toolbox/windows.md#environment-variables-manager)，然后重置系统变量，最后重新安装 Office。
 
+## 该安装文件包含错误 {#these-installation-files-contains-errors}
+
+在[安装文件](/zh-cn/usage/deploy/settings/basic.md#installation-files)管理面板中删除有问题的安装文件，然后重试下载。
+
+如果问题依旧存在，请尝试[启用 HTTPS 连接](/zh-cn/usage/settings.md#connect-using-https)，或更换一个网络，然后重试下载。
+
 ## 很抱歉，访问所需的文件时遇到问题 {#ran-into-a-problem-accessing-a-required-file}
 
 > 很抱歉，访问所需的文件时遇到问题。请检查安装源是否具有正确权限，然后重试。

@@ -26,6 +26,15 @@ features:
   - title: Powerful
     icon: 🚀
     details: Rich features, full support of customize.
+  - title: Convenient
+    icon: 💯
+    details: Best UI for everything.
+  - title: Free
+    icon: ⭐
+    details: No Ads, no data is collected.
+  - title: Safe
+    icon: 💡
+    details: Digital signatures, ensure system security.
   - title: Accessibility
     icon: ❤️
     details: Optimized for screen readers.

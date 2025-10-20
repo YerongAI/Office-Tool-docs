@@ -22,4 +22,10 @@ You can also use the [vlmcs](https://download.coolhub.top/Extensions/Components/
 
 Input your KMS host address, then click **Test** button.
 
+::: info Note
+
+Please replace `kms.example.com` to your KMS host address.
+
+:::
+
 ![Test KMS host](/images/en-us/toolbox/test-kms.webp)

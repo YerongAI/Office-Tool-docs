@@ -22,4 +22,10 @@
 
 在地址栏中输入 KMS 主机地址，然后点击**测试**按钮即可。
 
+::: info 注意
+
+请将 `kms.example.com` 替换为你的 KMS 主机地址。
+
+:::
+
 ![Test KMS host](/images/zh-cn/toolbox/test-kms.webp)
