@@ -1,5 +1,7 @@
 # 部署問答集 {#deploy-questions}
 
+Here you can find the causes and solutions for most Office installation problems. If you are unable to resolve the issue yourself, you can also contact us for assistance in analyzing/solving the problem; our team can provide highly professional technical support.
+
 ## Windows 終止支援與 Microsoft 365 應用程式 {#windows-end-of-support-and-microsoft-365-apps}
 
 Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。Microsoft 強烈建議您升級至受支援的作業系統，以獲得更好的使用體驗。
@@ -48,4 +50,4 @@ If the problem persists, try to [Enable HTTPS connection](/zh-tw/usage/settings.
 - 嘗試關閉或退出所有第三方軟體，某些第三方軟體可能會錯誤地阻擋安裝程式運作。
 - 嘗試[移除 Office](/zh-tw/usage/toolbox/office.md#remove-office)，然後重新安裝。
 
-如果以上步骤不起作用，您可以在工具箱页面收集 Office 安装日志，然后进行分析以找出问题所在。您也可以选择联系我们帮助您分析问题，我们的团队可以提供非常专业的技术支持。
+如果以上步骤不起作用，您可以在工具箱页面收集 Office 安装日志，然后进行分析以找出问题所在。

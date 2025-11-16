@@ -1,5 +1,7 @@
 # Deploy Questions
 
+Here you can find the causes and solutions for most Office installation problems. If you are unable to resolve the issue yourself, you can also contact us for assistance in analyzing/solving the problem; our team can provide highly professional technical support.
+
 ## Windows end of support and Microsoft 365 Apps
 
 Microsoft 365 Apps may not install or run correctly on older systems. Microsoft strongly recommend you move to a supported operating system for better experience.
@@ -44,4 +46,4 @@ If Office installation progress is stuck between 50-100%, it means that an error
 - Try to close or exit all third-party software. Some third-party software may incorrectly prevent the installer from running.
 - Try to [remove Office](/usage/toolbox/office.md#remove-office), then try to install again.
 
-If the above steps do not work, you can collect the Office installation logs on the Toolbox page and analyze them to find out the problem. You can also choose to contact us to help you analyze the problem. Our team can provide very professional technical support.
+If the above steps do not work, you can collect the Office installation logs on the Toolbox page and analyze them to find out the problem.
