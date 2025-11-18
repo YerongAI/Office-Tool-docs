@@ -44,17 +44,11 @@ Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此�
 
 ::: details 更改 vNext 许可证的属于者
 
-第一步，获取 vNext 许可证的用户 ID。如下图所示，转到激活页面，在 Office 许可证列表中找到你想更改的许可证，然后点击**复制用户 ID** 按钮。
+你现在可以直接从许可证列表中设置属于者名称了。
 
-![Copy user ID](/images/zh-cn/activation/check-vNext-license.webp)
+![设置 vNext 许可证名称](/images/zh-cn/activation/set-vNext-license-name.webp)
 
-第二步，回到工具箱，在**更改 Office 产品属于者**中按照以下格式输入 `[User ID]:[Name]`
-
-User ID 为刚才复制的用户 ID，Name 是你想设置的名字，例如：`bbbbxxx:小明`
-
-![Change product owner](/images/zh-cn/toolbox/change-license-owner.webp)
-
-填写完成后，点击**设置名称**按钮，重启你的 Office 应用程序即可看到新的名称。
+在许可证列表中，找到你想更改名称的许可证。点击**设置名称**按钮，输入新的名称。之后，重启你的 Office 应用程序即可看到新的名称。
 
 :::
 

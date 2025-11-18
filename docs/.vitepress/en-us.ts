@@ -24,7 +24,6 @@ export const en_us = defineConfig({
         },
 
         footer: {
-            message: '<a href="https://github.com/YerongAI/Office-Tool?tab=MIT-1-ov-file#readme" target="_blank">MIT</a> Licensed',
             copyright: `Copyright © 2016 - ${new Date().getFullYear()} <a href="https://www.officetool.plus/" target="_blank">Yerong</a> All Rights Reserved.`
         },
 

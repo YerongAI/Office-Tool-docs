@@ -1,6 +1,6 @@
 node_modules
 .vscode
-/docs/.vitepress/temp/
+/docs/.vitepress/.temp/
 /docs/.vitepress/dist/
 /docs/.vitepress/cache/
 /docs/.vitepress/head.ts

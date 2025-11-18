@@ -7,7 +7,7 @@ export const zh_tw = defineConfig({
         nav: nav(),
 
         socialLinks: [
-            { icon: 'telegram', link: 'https://t.me/ot_channel_tw/' },
+            { icon: 'telegram', link: 'https://t.me/s/otp_channel/' },
             { icon: 'discord', link: 'https://discord.gg/TpXTgfgf2a' },
             { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
         ],
@@ -24,7 +24,6 @@ export const zh_tw = defineConfig({
         },
 
         footer: {
-            message: '<a href="https://github.com/YerongAI/Office-Tool?tab=MIT-1-ov-file#readme" target="_blank">MIT</a> Licensed',
             copyright: `Copyright © 2016 - ${new Date().getFullYear()} <a href="https://www.officetool.plus/" target="_blank">Yerong</a> All Rights Reserved.`
         },
 

@@ -44,21 +44,11 @@ Office Tool Plus 無法識別您自行安裝的傳統 Office 授權，因此您�
 
 ::: details 變更 vNext 授權的擁有者
 
-1. **取得 vNext 授權的使用者 ID**
-   如下圖所示，前往啟用功能頁，在 Office 授權列表中找到您要變更的授權，然後點選 `複製使用者識別碼` 按鈕。
+You can now set the name directly in the licenses list.
 
-   ![Copy user ID](/images/zh-tw/activation/check-vNext-license.webp)
+![Set vNext license name](/images/en-us/activation/set-vNext-license-name.webp)
 
-2. **輸入新的擁有者名稱**
-   返回工具箱，在 `變更 Office 產品擁有者` 中按照以下格式輸入 `[使用者 ID]:[名稱]`
-
-   - `使用者 ID` 為剛剛複製的使用者 ID
-   - `名稱` 為您想要設定的名稱，例如：`bbbbxxx:James`
-
-   ![Change product owner](/images/zh-tw/toolbox/change-license-owner.webp)
-
-3. **套用變更**
-   填寫完成後，點選 `設定名稱` 按鈕，然後重新啟動您的 Office 應用程式，即可看到新的名稱。
+In the license list, find the license whose name you want to change. Click the `Set name` button, input the new name for the license. After that, restart your Office applications to see the new name.
 
 :::
 

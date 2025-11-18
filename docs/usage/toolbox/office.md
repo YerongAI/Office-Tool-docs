@@ -44,17 +44,11 @@ Office Tool Plus cannot identify Office legacy licenses that you have installed 
 
 ::: details Change owner for vNext license
 
-Step 1: Get the user ID of the vNext license. As shown in the image below, go to the Activation page, find the license you want to change in the Office license list, and click the `Copy user ID` button.
+You can now set the name directly in the licenses list.
 
-![Copy user ID](/images/en-us/activation/check-vNext-license.webp)
+![Set vNext license name](/images/en-us/activation/set-vNext-license-name.webp)
 
-Step 2: Return to the toolbox, and in `Change Office product owner`, enter the following format: `[User ID]:[Name]`
-
-User ID is the user ID you just copied, and Name is the name you want to set, for example: `bbbbxxx:James`
-
-![Change product owner](/images/en-us/toolbox/change-license-owner.webp)
-
-After filling in, click the `Set name` button, and restart your Office applications to see the new name.
+In the license list, find the license whose name you want to change. Click the `Set name` button, input the new name for the license. After that, restart your Office applications to see the new name.
 
 :::
 
