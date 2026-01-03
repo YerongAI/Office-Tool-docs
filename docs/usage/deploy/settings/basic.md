@@ -113,10 +113,9 @@ We recommend you to select the apps which you can understand, such as Word, Powe
 
 - `Groove` stands for **OneDrive for Business**.
 - `Lync` stands for **Skype for Business**.
+- `M365Companion` stands for [Microsoft 365 companion apps](https://learn.microsoft.com/en-us/microsoft-365-apps/companions/overview).
 
 Some applications may require a reboot to complete the installation, such as *Teams* and *OneDrive*.
-
-Bing is a extension for Chrome and Edge etc. For more information please visit [Microsoft Search in Bing and Microsoft 365 Apps for enterprise](https://docs.microsoft.com/en-us/deployoffice/microsoft-search-bing).
 
 ### Add-ons
 
@@ -136,7 +135,7 @@ Learn more about [PowerPivot](https://support.microsoft.com/en-us/office/power-p
 
 Learn more about [Power View](https://support.microsoft.com/en-us/office/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6).
 
-For more information about products, applications and add-ons, you can view [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
+Learn more about [products, applications and add-ons](/office/product.md).
 
 ## Languages
 
@@ -160,6 +159,8 @@ You can holding <kbd>Ctrl</kbd> to select multiple items when adding languages. 
 | Partial                        | Includes display language for some Office applications and includes proofing tools.         |
 | Partial without proofing tools | Includes display language for some Office applications but does not include proofing tools. |
 | Proofing tools                 | Only include spell checker.                                                                 |
+
+Learn more about [languages](/office/language.md).
 
 ## Installation files
 

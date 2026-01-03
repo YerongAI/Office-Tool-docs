@@ -15,7 +15,8 @@ export const zh_cn = defineConfig({
         sidebar: {
             '/zh-cn/introduction/': { base: '/zh-cn/introduction/', items: sidebarIntroduction() },
             '/zh-cn/usage/': { base: '/zh-cn/usage/', items: sidebarUsage() },
-            '/zh-cn/help/': { base: '/zh-cn/help/', items: sidebarHelp() }
+            '/zh-cn/help/': { base: '/zh-cn/help/', items: sidebarHelp() },
+            '/zh-cn/office/': { base: '/zh-cn/office/', items: sidebarOffice() }
         },
 
         editLink: {
@@ -176,6 +177,21 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: '部署问题', link: 'deploy' },
                 { text: '激活问题', link: 'activation' },
                 { text: 'Office 问题', link: 'office' }
+            ]
+        }
+    ]
+}
+
+function sidebarOffice(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Office 数据',
+            collapsed: false,
+            items: [
+                { text: '更新通道', link: 'channel' },
+                { text: '语言', link: 'language' },
+                { text: '产品', link: 'product' },
+                { text: '产品密钥', link: 'product-key' }
             ]
         }
     ]

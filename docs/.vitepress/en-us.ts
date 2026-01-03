@@ -15,7 +15,8 @@ export const en_us = defineConfig({
         sidebar: {
             '/introduction/': { base: '/introduction/', items: sidebarIntroduction() },
             '/usage/': { base: '/usage/', items: sidebarUsage() },
-            '/help/': { base: '/help/', items: sidebarHelp() }
+            '/help/': { base: '/help/', items: sidebarHelp() },
+            '/office/': { base: '/office/', items: sidebarOffice() }
         },
 
         editLink: {
@@ -157,6 +158,21 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: 'Deploy', link: 'deploy' },
                 { text: 'Activation', link: 'activation' },
                 { text: 'Office', link: 'office' }
+            ]
+        }
+    ]
+}
+
+function sidebarOffice(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Office Data',
+            collapsed: false,
+            items: [
+                { text: 'Update channel', link: 'channel' },
+                { text: 'Language', link: 'language' },
+                { text: 'Product', link: 'product' },
+                { text: 'Product Key', link: 'product-key' }
             ]
         }
     ]

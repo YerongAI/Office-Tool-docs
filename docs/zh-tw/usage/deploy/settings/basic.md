@@ -111,10 +111,9 @@ Office Tool Plus 啟用了 Office 部署工具的大部分功能。以下是兩�
 
 - `Groove` 代表 **OneDrive for Business**。
 - `Lync` 代表 **Skype for Business**。
+- `M365Companion` 代表 [Microsoft 365 companion apps](https://learn.microsoft.com/zh-tw/microsoft-365-apps/companions/overview)。
 
 某些應用程式（例如 **Teams** 和 **OneDrive**）可能需要重新啟動電腦才能完成安裝。
-
-Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請參閱 [Microsoft Search in Bing 和 Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/zh-tw/deployoffice/microsoft-search-bing)。
 
 ### 附加元件 {#add-ons}
 
@@ -134,7 +133,7 @@ Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請�
 
 瞭解更多關於 [Power View](https://support.microsoft.com/zh-tw/office/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6)。
 
-如需更多關於產品、應用程式和附加元件的資訊，請參閱 [Office 產品資訊](https://www.coolhub.top/tech-articles/products.html)。
+瞭解更多關於[產品、應用程式和附加元件](/zh-tw/office/product.md)的資訊。
 
 ## 語言 {#languages}
 
@@ -152,6 +151,8 @@ Bing 是 Chrome 和 Edge 等瀏覽器的擴充功能。如需更多資訊，請�
 | 部分語言          | 部分 Office 應用程式的 **顯示語言**，包含 **校訂工具**。 |
 | 無校訂工具的部分語言 | 部分 Office 應用程式的 **顯示語言**，不包含 **校訂工具**。 |
 | 校訂工具          | 只包含 **拼字檢查工具**。 |
+
+瞭解更多關於[語言](/zh-tw/office/language.md)的資訊。
 
 ## 安裝檔案 {#installation-files}
 

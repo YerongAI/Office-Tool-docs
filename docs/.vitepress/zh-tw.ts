@@ -15,7 +15,8 @@ export const zh_tw = defineConfig({
         sidebar: {
             '/zh-tw/introduction/': { base: '/zh-tw/introduction/', items: sidebarIntroduction() },
             '/zh-tw/usage/': { base: '/zh-tw/usage/', items: sidebarUsage() },
-            '/zh-tw/help/': { base: '/zh-tw/help/', items: sidebarHelp() }
+            '/zh-tw/help/': { base: '/zh-tw/help/', items: sidebarHelp() },
+            '/zh-tw/office/': { base: '/zh-tw/office/', items: sidebarOffice() }
         },
 
         editLink: {
@@ -175,6 +176,21 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: '部署問答集', link: 'deploy' },
                 { text: '啟用問答集', link: 'activation' },
                 { text: 'Office 問答集', link: 'office' }
+            ]
+        }
+    ]
+}
+
+function sidebarOffice(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Office 資料',
+            collapsed: false,
+            items: [
+                { text: '更新頻道', link: 'channel' },
+                { text: '語言', link: 'language' },
+                { text: '產品', link: 'product' },
+                { text: '產品金鑰', link: 'product-key' }
             ]
         }
     ]
