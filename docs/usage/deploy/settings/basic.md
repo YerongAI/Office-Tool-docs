@@ -48,7 +48,7 @@ All of the channels listed in the table are stable channels and suitable for dai
 
 Each channel releases security updates (if needed) on the second Tuesday of each month, which is scheduled.
 
-For more information please refer to [Overview of update channels for Microsoft 365 Apps](https://docs.microsoft.com/en-us/deployoffice/overview-update-channels).
+For more information please refer to [Overview of update channels for Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/updates/overview-update-channels).
 
 ## Module
 
@@ -73,25 +73,28 @@ We recommend prioritizing the use of the Office Deployment Tool, and should only
 
 If you have a genuine Office license, install your own purchased version of Office.
 
-If you want to use KMS or MAK to activate Office, install volume license products, such as Office 2019 Volume License or Office 2021 Volume License.
+If you want to use KMS or MAK to activate Office, install volume license products, such as Office 2024 Volume License.
 
 > Not sure if you have a genuine Office license? Login your [personal account](https://account.microsoft.com/services/) or your [enterprise account](https://portal.office.com/account/?ref=MeControl#subscriptions) to check.
 
-::: details Office 365 Plan
+::: details Subscription Plans
 
-| Office 365 Plan                   | Product ID             |
+| Subscription Plan                 | Product ID             |
 | --------------------------------- | :--------------------: |
 | Microsoft 365 Apps for enterprise | O365ProPlusRetail      |
+| Microsoft 365 Apps for business   | O365BusinessRetail     |
+| Microsoft 365 E3                  | O365ProPlusRetail      |
+| Microsoft 365 E5                  | O365ProPlusRetail      |
+| Microsoft 365 Business Standard   | O365BusinessRetail     |
+| Microsoft 365 Business Premium    | O365BusinessRetail     |
 | Office 365 Enterprise E3          | O365ProPlusRetail      |
-| Office 365 Enterprise E4          | O365ProPlusRetail      |
 | Office 365 Enterprise E5          | O365ProPlusRetail      |
 | Office 365 Midsize                | O365ProPlusRetail      |
 | Office 365 Business               | O365BusinessRetail     |
 | Office 365 Business Premium       | O365BusinessRetail     |
 | Office Small Business Premium     | O365SmallBusPremRetail |
-| Microsoft 365 E3                  | O365ProPlusRetail      |
-| Microsoft 365 E5                  | O365ProPlusRetail      |
-| Microsoft 365 Business            | O365BusinessRetail     |
+
+For `EEANoTeams` used in the European region, these products are equivalent to deselecting Teams during installation. When using these products, please replace the product ID with the option that does not include EEANoTeams, for example: `O365ProPlusEEANoTeamsRetail` -> `O365ProPlusRetail`.
 
 :::
 

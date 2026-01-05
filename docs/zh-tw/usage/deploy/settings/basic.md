@@ -46,7 +46,7 @@ Office 安裝檔案包含 Office、Visio 和 Project，並由 Microsoft 提供�
 
 所有通道都屬於 **穩定版本**，適合日常使用。此外，每個通道的 **安全性更新**（如果有）都會在 **每月第二個星期二** 進行釋出。
 
-如需更多資訊，請參閱 [Microsoft 365 應用程式的更新通道概述](https://docs.microsoft.com/zh-tw/deployoffice/overview-update-channels)。
+如需更多資訊，請參閱 [Microsoft 365 應用程式的更新通道概述](https://learn.microsoft.com/zh-tw/microsoft-365-apps/updates/overview-update-channels)。
 
 ## 模組 {#module}
 
@@ -71,25 +71,28 @@ Office Tool Plus 啟用了 Office 部署工具的大部分功能。以下是兩�
 
 如果您擁有 **正版 Office 授權**，請安裝您購買的 Office 版本。
 
-如果您要使用 **KMS 或 MAK** 啟用 Office，請選擇大量授權產品，例如 **Office 2019/2021 Volume License**。
+如果您要使用 **KMS 或 MAK** 啟用 Office，請選擇大量授權產品，例如 **Office 2024 Volume License**。
 
 > **不確定是否擁有正版授權？** 請登入您的 [個人帳戶](https://account.microsoft.com/services/) 或 [企業帳戶](https://portal.office.com/account/?ref=MeControl#subscriptions) 來查看您的 Office 授權。
 
-::: details Office 365 方案
+::: details Subscription Plans
 
-| Office 365 方案                   | 產品識別碼              |
+| Subscription Plan                 | Product ID             |
 | --------------------------------- | :--------------------: |
-| Microsoft 365 Apps 企業版         | O365ProPlusRetail      |
-| Office 365 企業版 E3              | O365ProPlusRetail      |
-| Office 365 企業版 E4              | O365ProPlusRetail      |
-| Office 365 企業版 E5              | O365ProPlusRetail      |
-| Office 365 中小型企業版            | O365ProPlusRetail      |
-| Office 365 商務版                 | O365BusinessRetail     |
-| Office 365 商務進階版              | O365BusinessRetail     |
-| Office 小型企業進階版              | O365SmallBusPremRetail |
+| Microsoft 365 Apps for enterprise | O365ProPlusRetail      |
+| Microsoft 365 Apps for business   | O365BusinessRetail     |
 | Microsoft 365 E3                  | O365ProPlusRetail      |
 | Microsoft 365 E5                  | O365ProPlusRetail      |
-| Microsoft 365 企業版               | O365BusinessRetail     |
+| Microsoft 365 Business Standard   | O365BusinessRetail     |
+| Microsoft 365 Business Premium    | O365BusinessRetail     |
+| Office 365 Enterprise E3          | O365ProPlusRetail      |
+| Office 365 Enterprise E5          | O365ProPlusRetail      |
+| Office 365 Midsize                | O365ProPlusRetail      |
+| Office 365 Business               | O365BusinessRetail     |
+| Office 365 Business Premium       | O365BusinessRetail     |
+| Office Small Business Premium     | O365SmallBusPremRetail |
+
+For `EEANoTeams` used in the European region, these products are equivalent to deselecting Teams during installation. When using these products, please replace the product ID with the option that does not include EEANoTeams, for example: `O365ProPlusEEANoTeamsRetail` -> `O365ProPlusRetail`.
 
 :::
 

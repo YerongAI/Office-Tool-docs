@@ -33,11 +33,11 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 大多数情况下，只需要选择**当前通道**即可，下表列出了通道之间的区别：
 
-| 通道                   | 通道 ID           | 发布频率          | 功能更新    |
-| --------------------- | ----------------- | ----------------- | ----------- |
-| 当前通道               | Current           | 每个月至少一次    | 同发布频率   |
-| 半年度企业通道         | SemiAnnual        | 每月的第二个星期二 | 一月和七月   |
-| 月度企业通道           | MonthlyEnterprise | 每月的第二个星期二 | 同发布频率   |
+| 通道                   | 通道 ID           | 发布频率           | 功能更新    |
+| :--------------------- | :---------------- | :----------------- | :---------- |
+| 当前通道               | Current           | 每个月至少一次     | 同发布频率  |
+| 半年度企业通道         | SemiAnnual        | 每月的第二个星期二 | 一月和七月  |
+| 月度企业通道           | MonthlyEnterprise | 每月的第二个星期二 | 同发布频率  |
 | Office 2019 企业长期版 | PerpetualVL2019   | 每月的第二个星期二 | 无          |
 | Office 2021 企业长期版 | PerpetualVL2021   | 每月的第二个星期二 | 无          |
 | Office 2024 企业长期版 | PerpetualVL2024   | 每月的第二个星期二 | 无          |
@@ -48,7 +48,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 每个通道都会在每个月的第二个星期二发布安全更新（如果需要），这是设定好的计划。
 
-如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-update-channels)。
+如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://learn.microsoft.com/zh-cn/microsoft-365-apps/updates/overview-update-channels)。
 
 ## 安装模块 {#module}
 
@@ -71,29 +71,30 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 ## 产品 {#products}
 
-购买了 Microsoft 365 的用户，添加产品的时候选择 Microsoft 365 产品即可，具体视你所拥有的授权而选择家庭版、个人版或企业版。
+购买了正版授权的用户，根据所购买的版本安装对应版本的 Office 即可。
 
-购买了 Office 2019/2021 的用户，按照自己购买的版本选择即可，例如家庭和学生版，或者专业增强版。
-
-如果需要使用 KMS 或 MAK 激活，请安装批量许可证产品，例如 Office 2019 批量许可证或 Office 2021 批量许可证。
+如果需要使用 KMS 或 MAK 激活，请安装批量许可证产品，例如 Office 2024 批量许可证。
 
 > 不确定自己是否拥有 Office 授权？登录你的[个人账户](https://account.microsoft.com/services/)或者[企业账户](https://portal.office.com/account/?ref=MeControl#subscriptions)进行验证。
 
-::: details Office 365 产品对照表
+::: details 订阅计划
 
-| 订阅计划        | 产品 ID  |
-| ------------- |:-------------:|
-| 适用于企业的 Microsoft 365 应用 | O365ProPlusRetail |
-| Office 365 企业版 E3 | O365ProPlusRetail |
-| Office 365 企业版 E4 | O365ProPlusRetail |
-| Office 365 企业版 E5 | O365ProPlusRetail |
-| Office 365 中型企业版 | O365ProPlusRetail |
-| Microsoft 365 应用商业版 | O365BusinessRetail |
-| Microsoft 365 商业标准版 | O365BusinessRetail |
-| Office 小型企业高级版 | O365SmallBusPremRetail |
-| Microsoft 365 E3 | O365ProPlusRetail |
-| Microsoft 365 E5 | O365ProPlusRetail |
-| Microsoft 365 商业高级版 | O365BusinessRetail |
+| 订阅计划                          | 产品 ID                |
+| --------------------------------- | :--------------------: |
+| Microsoft 365 Apps for enterprise | O365ProPlusRetail      |
+| Microsoft 365 Apps for business   | O365BusinessRetail     |
+| Microsoft 365 E3                  | O365ProPlusRetail      |
+| Microsoft 365 E5                  | O365ProPlusRetail      |
+| Microsoft 365 Business Standard   | O365BusinessRetail     |
+| Microsoft 365 Business Premium    | O365BusinessRetail     |
+| Office 365 Enterprise E3          | O365ProPlusRetail      |
+| Office 365 Enterprise E5          | O365ProPlusRetail      |
+| Office 365 Midsize                | O365ProPlusRetail      |
+| Office 365 Business               | O365BusinessRetail     |
+| Office 365 Business Premium       | O365BusinessRetail     |
+| Office Small Business Premium     | O365SmallBusPremRetail |
+
+对于欧洲地区所使用的 `EEANoTeams` 选项，这些产品相当于在安装过程中取消选择 Teams。使用这些产品时，请将其替换为不包含 `EEANoTeams` 的选项，例如：`O365ProPlusEEANoTeamsRetail` -> `O365ProPlusRetail`。
 
 :::
 

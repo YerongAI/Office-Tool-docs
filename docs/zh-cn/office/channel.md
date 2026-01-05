@@ -25,13 +25,13 @@ aside: false
 | ~~Insiders::FRDC~~ | ~~b8f9b850-328d-4355-9145-c59439a0c4cf~~ | ~~Semi-Annual Enterprise Channel (Preview)~~ | ~~SemiAnnualPreview~~ |
 | Insiders::CC | 64256afe-f5d9-4f86-8936-8840a6a4f5be | Current Channel (Preview) | CurrentPreview |
 | Insiders::DevMain | 5440fd1f-7ecb-4221-8110-145efaa6372f | Beta Channel | BetaChannel |
-| Microsoft::LTSC | 1d2d2ea6-1680-4c56-ac58-a441c8c24ff | Office 2019 Perpetual Enterprise Channel | |
+| Microsoft::LTSC | 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 | Office 2019 Perpetual Enterprise Channel | |
 | Microsoft::LTSC2021 | 86752282-5841-4120-ac80-db03ae6b5fdb | Office 2021 Perpetual Enterprise Channel | |
 | Microsoft::LTSC2024 | c02d8fe6-5242-4da8-972f-82ee55e00671 | Office 2024 Perpetual Enterprise Channel | |
 | Microsoft::DC | f4f024c8-d611-4748-a7e0-02b6e754c0fe | Semi-Annual Enterprise Channel | |
 | ~~Microsoft::FRDC~~ | ~~9a3b7ff2-58ed-40fd-add5-1e5158059d1c~~ | ~~Semi-Annual Enterprise Channel (Preview)~~ | |
 | Microsoft::CC | 5462eee5-1e97-495b-9370-853cd873bb07 | Beta Channel | |
-| Microsoft::DevMain | b61285dd-d9f7-41f2-9757-8f61cba4e9c | Beta Channel | |
+| Microsoft::DevMain | b61285dd-d9f7-41f2-9757-8f61cba4e9c8 | Beta Channel | |
 | ~~Dogfood::DCEXT~~ | ~~c4a7726f-06ea-48e2-a13a-9d78849eb706~~ | ~~Semi-Annual Enterprise Channel~~ | |
 | ~~Dogfood::FRDC~~ | ~~834504cc-dc55-4c6d-9e71-e024d0253f6d~~ | ~~Semi-Annual Enterprise Channel (Preview)~~ | |
 | Dogfood::CC | f3260cf1-a92c-4c75-b02e-d64c0a86a968 | Beta Channel | |
