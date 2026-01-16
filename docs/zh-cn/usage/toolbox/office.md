@@ -34,11 +34,11 @@ Office 产品属于者指的是许可证的属于者，例如下图中的 *Yeron
 
 ![Product owner](/images/zh-cn/product-owner.webp)
 
-直接设置新的名称时，Office Tool Plus 会尝试更改所有 vNext 许可证和 Office 传统许可证的名称。如果您需要单独更改某个许可证的名称，请按照以下方法进行。
+直接设置新的名称时，Office Tool Plus 会尝试更改所有已安装的 Office 产品的名称。如果您需要更改某个许可证的名称，请按照以下方法进行。
 
 ::: warning 注意
 
-Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此您需要为安装的许可证单独设置名称。
+Office Tool Plus 无法识别您自行安装的 Office 传统许可证，因此您需要手动为安装的许可证设置名称。
 
 :::
 

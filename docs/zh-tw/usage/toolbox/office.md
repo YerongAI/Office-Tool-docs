@@ -34,7 +34,7 @@ Office 產品擁有者指的是授權的歸屬者，例如下圖中的 *Yerong�
 
 ![Product owner](/images/zh-tw/product-owner.webp)
 
-當您直接設定新的名稱時，Office Tool Plus 會嘗試更改所有 vNext 授權與傳統 Office 授權的名稱。如果您需要單獨更改特定授權的名稱，請參考以下方法。
+當您直接設定新的名稱時，Office Tool Plus 會嘗試更改所有已安裝的 Office 產品的名稱。如果您需要單獨更改特定授權的名稱，請參考以下方法。
 
 ::: warning 注意
 

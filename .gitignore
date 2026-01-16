@@ -1,8 +1,8 @@
 node_modules
 .vscode
+.env
 /docs/.vitepress/.temp/
 /docs/.vitepress/dist/
 /docs/.vitepress/cache/
-/docs/.vitepress/head.ts
 /docs/useterms/*
 /docs/*/useterms/*

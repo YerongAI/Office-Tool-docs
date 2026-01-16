@@ -34,27 +34,27 @@ Visio and Project can coexist with any of the Office suites.
 | HomeBusiness2019Retail | Office Home and Business 2019 | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | PowerPivot | Office19R |
 | HomeBusiness2021Retail | Office Home and Business 2021 | Excel, OneDrive, OneNote, Outlook, PowerPoint, Teams, Word | PowerPivot | Office21R |
 | HomeBusiness2024Retail | Office Home and Business 2024 | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | PowerPivot | Office24R |
-| HomeBusinessPipcRetail | Office Home and Business Premium | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | Office16 |
-| HomeBusinessRetail | Office Home and Business 2016 | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | Office16R |
+| HomeBusinessPipcRetail | Office Home and Business Premium | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | | Office16R |
+| HomeBusinessRetail | Office Home and Business 2016 | Excel, OneDrive, OneNote, Outlook, PowerPoint, Word | | Office16R |
 | HomeStudent2019Retail | Office Home and Student 2019 | Excel, OneDrive, OneNote, PowerPoint, Word | PowerPivot | Office19R |
 | HomeStudent2021Retail | Office Home and Student 2021 | Excel, OneDrive, OneNote, PowerPoint, Teams, Word | PowerPivot | Office21R |
-| HomeStudentRetail | Office Home and Student 2016 | Excel, OneDrive, OneNote, PowerPoint, Word | Office16R |
-| HomeStudentVNextRetail | Office Home and Student 2016 | Excel, OneDrive, OneNote, PowerPoint, Word | Office16 |
+| HomeStudentRetail | Office Home and Student 2016 | Excel, OneDrive, OneNote, PowerPoint, Word | | Office16R |
+| HomeStudentVNextRetail | Office Home and Student 2016 | Excel, OneDrive, OneNote, PowerPoint, Word | | Office16R |
 | MondoRetail | Office Mondo 2016 | Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Project, Publisher, Visio, Word | DCF, MondoOnly, OSM, OSMUX, PowerPivot | Office16R |
-| MondoVolume | Office Mondo 2016 | Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Project, Publisher, Visio, Word | DCF, MondoOnly, OSM, OSMUX, PowerPivot | Office16R |
+| MondoVolume | Office Mondo 2016 | Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Project, Publisher, Visio, Word | DCF, MondoOnly, OSM, OSMUX, PowerPivot | Office16 |
 | O365AppsBasicRetail | Microsoft 365 Apps Basic | Excel, M365Companion, OneDrive, OneNote, PowerPoint, Word | PowerPivot | M365 |
 | O365BusinessRetail | Microsoft 365 Apps for business | Access, Excel, Groove, Lync, M365Companion, OneDrive, OneNote, Outlook, OutlookForWindows, PowerPoint, Publisher, Teams, Word | PowerPivot | M365 |
 | O365EduCloudRetail | Microsoft 365 | Excel, M365Companion, OneDrive, OneNote, PowerPoint, Word | PowerPivot | M365 |
 | O365HomePremRetail | Microsoft 365 | Access, Excel, M365Companion, OneDrive, OneNote, Outlook, OutlookForWindows, PowerPoint, Publisher, Word | PowerPivot | M365 |
 | O365ProPlusRetail | Microsoft 365 Apps for enterprise | Access, Excel, Groove, Lync, M365Companion, OneDrive, OneNote, Outlook, OutlookForWindows, PowerPoint, Publisher, Teams, Word | DCF, OSM, OSMUX, PowerPivot | M365 |
 | O365SmallBusPremRetail | Microsoft 365 Small Business Premium | Access, Excel, Groove, Lync, M365Companion, OneDrive, OneNote, Outlook, OutlookForWindows, PowerPoint, Publisher, Teams, Word | PowerPivot | M365 |
-| Personal2019Retail | Office Personal 2019 | Excel, OneDrive, Outlook, Word | Office19R |
-| Personal2021Retail | Office Personal 2021 | Excel, OneDrive, Outlook, Teams, Word | Office21R |
-| PersonalPipcRetail | Office Personal Premium | Excel, OneDrive, Outlook, Word | Office16 |
-| PersonalRetail | Office Personal 2016 | Excel, OneDrive, Outlook, Word | Office16R |
+| Personal2019Retail | Office Personal 2019 | Excel, OneDrive, Outlook, Word | | Office19R |
+| Personal2021Retail | Office Personal 2021 | Excel, OneDrive, Outlook, Teams, Word | | Office21R |
+| PersonalPipcRetail | Office Personal Premium | Excel, OneDrive, Outlook, Word | | Office16R |
+| PersonalRetail | Office Personal 2016 | Excel, OneDrive, Outlook, Word | | Office16R |
 | Professional2019Retail | Office Professional 2019 | Access, Excel, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | PowerPivot, PowerView | Office19R |
 | Professional2021Retail | Office Professional 2021 | Access, Excel, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Teams, Word | PowerPivot | Office21R |
-| ProfessionalPipcRetail | Office Professional Premium | Access, Excel, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | |
+| ProfessionalPipcRetail | Office Professional Premium | Access, Excel, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | | Office16R |
 | ProfessionalRetail | Office Professional 2016 | Access, Excel, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | PowerPivot, PowerView | Office16R |
 | ProPlus2019Retail | Office Professional Plus 2019 | Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | DCF, OSM, OSMUX, PowerPivot, PowerView | Office19R |
 | ProPlus2019Volume | Office Professional Plus 2019 | Access, Excel, Groove, Lync, OneDrive, OneNote, Outlook, PowerPoint, Publisher, Word | DCF, OSM, OSMUX, PowerPivot, PowerView | Office19 |
@@ -177,7 +177,7 @@ Visio and Project can coexist with any of the Office suites.
 | SkypeforBusinessEntryRetail | Skype for Business Basic 2016 | OneDrive | | Office16R |
 | SkypeforBusinessRetail | Skype for Business 2016 | OneDrive | | Office16R |
 | SkypeforBusinessVolume | Skype for Business 2016 | OneDrive | | Office16 |
-| SkypeServiceBypassRetail | Skype for Business 2016 | OneDrive | | Office16 |
+| SkypeServiceBypassRetail | Skype for Business 2016 | OneDrive | | Office16R |
 | Word2019Retail | Word 2019 | OneDrive | | Office19R |
 | Word2019Volume | Word 2019 | OneDrive | | Office19 |
 | Word2021Retail | Word 2021 | OneDrive | | Office21R |

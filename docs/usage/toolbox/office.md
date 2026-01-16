@@ -34,11 +34,11 @@ The Office product owner refers to the owner of the license, as shown in the ima
 
 ![Product owner](/images/en-us/product-owner.webp)
 
-When setting a new name directly, Office Tool Plus will attempt to change the names of all vNext licenses and Office legacy licenses. If you need to change the name of a specific license individually, please follow the methods below.
+When setting a new name directly, Office Tool Plus will attempt to change the names of all installed Office products. If you need to change the name of a specific license individually, please follow the methods below.
 
 ::: warning Notice
 
-Office Tool Plus cannot identify Office legacy licenses that you have installed manually, so you need to set the name for the installed licenses separately.
+Office Tool Plus cannot identify Office legacy licenses that you have installed manually, so you need to set the name for the installed licenses manually.
 
 :::
 
