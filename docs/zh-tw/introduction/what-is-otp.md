@@ -2,7 +2,7 @@
 
 Office Tool Plus 是一款強大且實用的 Office 部署工具。
 
-Office Tool Plus 基於 [Office 部署工具](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool) 開發，能夠輕鬆部署 Office。它整合了 `Thunder` 及 [Downloader](https://github.com/bezzad/Downloader) 下載引擎，使您可以更快速地下載 Office。此外，您還可以使用 Office Tool Plus 提供的小工具來管理與啟用 Office。
+Office Tool Plus 基於 [Office 部署工具](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool) 開發，能夠輕鬆部署 Office。它整合了 [Downloader](https://github.com/bezzad/Downloader) 下載引擎，使您可以更快速地下載 Office。此外，您還可以使用 Office Tool Plus 提供的小工具來管理與啟用 Office。
 
 支援的產品包括：
 
@@ -41,8 +41,7 @@ Office Tool
 ├── shared (.NET 執行環境)
 └── files
     ├── setup.exe (Microsoft Office 部署工具)
-    ├── preferences (Office 應用程式設定數據，來自 Microsoft)
-    └── Thunder (Thunder 下載引擎相關檔案)
+    └── preferences (Office 應用程式設定數據，來自 Microsoft)
 ```
 
 正常情況下，Office Tool Plus 會自動下載所需的元件並保持最新版本。

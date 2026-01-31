@@ -2,7 +2,7 @@
 
 Office Tool Plus 是一个强大且实用的 Office 部署工具。
 
-Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以很方便的部署 Office，其内置迅雷云加速开放平台和 [Downloader](https://github.com/bezzad/Downloader) 引擎可帮助您更快地下载 Office。你也可以使用 Office Tool Plus 的其他功能、小工具快捷、方便地激活和管理 Office 哦！
+Office Tool Plus 基于 [Office 部署工具](https://aka.ms/ODT)制作，可以很方便的部署 Office，其内置 [Downloader](https://github.com/bezzad/Downloader) 引擎可帮助您更快地下载 Office。你也可以使用 Office Tool Plus 的其他功能、小工具快捷、方便地激活和管理 Office 哦！
 
 支持下列产品：
 
@@ -43,8 +43,7 @@ Office Tool
 ├── shared (.NET Runtimes)
 └── files
     ├── setup.exe (微软 Office 部署工具)
-    ├── preferences (Office 应用程序首选项数据，由微软提供)
-    └── Thunder (迅雷云加速开放平台相关文件)
+    └── preferences (Office 应用程序首选项数据，由微软提供)
 ```
 
 通常情况下，Office Tool Plus 会自动下载缺失的组件并自动保持其为最新版本。如果某些组件丢失或者无法自动下载，建议重新下载 Office Tool Plus 以解决问题。

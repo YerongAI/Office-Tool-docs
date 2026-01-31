@@ -2,7 +2,7 @@
 
 Office Tool Plus is a powerful and useful tool for Office Deployment.
 
-Office Tool Plus is made based on [Office Deployment Tool](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool). It can deploy Office easily. It has integrated the `Thunder` and [Downloader](https://github.com/bezzad/Downloader) engine so that you can download Office faster. Certainly, you can use the little functions provided by Office Tool Plus to manage and activate Office.
+Office Tool Plus is made based on [Office Deployment Tool](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool). It can deploy Office easily. It has integrated the [Downloader](https://github.com/bezzad/Downloader) engine so that you can download Office faster. Certainly, you can use the little functions provided by Office Tool Plus to manage and activate Office.
 
 The following products are supported:
 
@@ -41,8 +41,7 @@ Office Tool
 ├── shared (.NET Runtimes)
 └── files
     ├── setup.exe (Microsoft Office Deployment Tool)
-    ├── preferences (Office applications preferences data, provided by Microsoft)
-    └── Thunder (files related to Thunder engine)
+    └── preferences (Office applications preferences data, provided by Microsoft)
 ```
 
 Usually, Office Tool Plus will download the needed components and keep it the latest version automatically.

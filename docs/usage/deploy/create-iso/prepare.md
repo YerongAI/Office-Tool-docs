@@ -22,7 +22,7 @@ Office Tool Plus automatically adjusts some settings when working in ISO mode. Y
 
 We recommend that you [download](/introduction/download) Office Tool Plus which includes the runtimes.
 
-The best practice is to choose the appropriate Office Tool Plus version based on the architecture of Office. For example, if you are creating a 64-bit Office image, it is recommended to use the 64-bit Office Tool Plus. If you are not sure, you can choose the 32-bit Office Tool Plus.
+The best practice is to choose the appropriate Office Tool Plus version based on the architecture of Office. For example, if you are creating a 64-bit Office image, it is recommended to use the 64-bit Office Tool Plus.
 
 ## Create Office ISO
 

@@ -22,7 +22,7 @@ Office Tool Plus 在 ISO 模式下會自動調整某些設定。您無需更改�
 
 我們建議您下載[包含執行時元件的 Office Tool Plus](/zh-tw/introduction/download)。
 
-最佳實踐是根據 Office 的架構選擇適當的 Office Tool Plus 版本。例如，若要建立 64 位元的 Office 映像檔，建議使用 64 位元的 Office Tool Plus。如果您不確定，則可以選擇 32 位元的 Office Tool Plus。
+最佳實踐是根據 Office 的架構選擇適當的 Office Tool Plus 版本。例如，若要建立 64 位元的 Office 映像檔，建議使用 64 位元的 Office Tool Plus。
 
 ## 建立 Office ISO {#create-office-iso}
 

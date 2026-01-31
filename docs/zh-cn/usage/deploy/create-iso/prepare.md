@@ -22,7 +22,7 @@ Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无�
 
 我们建议您[下载](/zh-cn/introduction/download)包含框架的 Office Tool Plus。不需要在客户端上安装 .NET Desktop Runtime 即可运行 Office Tool Plus。
 
-最佳做法是根据 Office 的体系结构选择合适的 Office Tool Plus 版本。例如您正在创建 64 位的 Office 镜像，则建议使用 64 位的 Office Tool Plus。如果不确定，可以选择 32 位的 Office Tool Plus。
+最佳做法是根据 Office 的体系结构选择合适的 Office Tool Plus 版本。例如您正在创建 64 位的 Office 镜像，则建议使用 64 位的 Office Tool Plus。
 
 ## 创建 Office ISO {#create-office-iso}
 

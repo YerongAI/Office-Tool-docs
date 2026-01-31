@@ -20,7 +20,7 @@ hero:
       link: /zh-cn/introduction/download
     - theme: alt
       text: 博客
-      link: https://www.coolhub.top/
+      link: https://blog.yerong.org/
 
 features:
   - title: 简单
