@@ -7,7 +7,7 @@ export const zh_cn = defineConfig({
         nav: nav(),
 
         socialLinks: [
-            { icon: 'tencentqq', link: 'https://blog.yerong.org/contact-us' },
+            { icon: 'tencentqq', link: 'https://blog.yerong.org/contact-us.html' },
             { icon: 'wechat', link: 'https://mp.weixin.qq.com/s/MQTr2Gj2l3Yw_R6tLKFHPQ' },
             { icon: 'github', link: 'https://github.com/YerongAI/Office-Tool' }
         ],
