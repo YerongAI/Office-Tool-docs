@@ -14,7 +14,7 @@ Screen resolution: 1024 x 768 or higher.
 
 ## Runtime
 
-- [.NET 8.0 Desktop Runtime x64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe).
-- [.NET 8.0 Desktop Runtime ARM64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-arm64.exe).
+- [.NET 10.0 Desktop Runtime x64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-x64.exe).
+- [.NET 10.0 Desktop Runtime ARM64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-arm64.exe).
 
 You can download Office Tool Plus, which includes .NET Runtime and can run Office Tool Plus without requiring a separate .NET Runtime installation.

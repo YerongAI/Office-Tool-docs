@@ -14,7 +14,7 @@
 
 ## 執行環境 {#runtime}
 
-- [.NET 8.0 Desktop Runtime x64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)
-- [.NET 8.0 Desktop Runtime ARM64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-arm64.exe)
+- [.NET 10.0 Desktop Runtime x64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-x64.exe).
+- [.NET 10.0 Desktop Runtime ARM64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-arm64.exe).
 
 您可以下載包含 .NET Runtime 的 Office Tool Plus，無需額外安裝 .NET Runtime 也能執行 Office Tool Plus。

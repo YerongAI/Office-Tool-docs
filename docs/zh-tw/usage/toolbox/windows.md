@@ -10,7 +10,7 @@ If one or more variables is missing or incorrect, you will get a notification ab
 
 ## 重設軟體保護服務 {#reset-software-protection-service}
 
-此操作將刪除登錄中的部分與軟體保護相關的配置資訊，例如 KMS 主機位址與續約策略。如果 Office Tool Plus 偵測到您的軟體保護服務已被 `SppExtComObjHook.dll` 劫持，該 DLL 也將被刪除。
+此操作將刪除登錄中的部分與軟體保護相關的配置資訊，例如 KMS 主機位址與續約策略。
 
 重設完成後，您需要重新設定 KMS 主機並啟用 Office。
 

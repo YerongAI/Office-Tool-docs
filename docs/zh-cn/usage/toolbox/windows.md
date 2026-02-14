@@ -10,7 +10,7 @@ Windows 工具位于`工具箱`页面 -> `Windows 工具`部分。
 
 ## 重置 Software Protection 服务 {#reset-software-protection-service}
 
-注册表中和 Software Protection 相关的一些配置信息将会被删除，例如 KMS 主机地址和续期策略。如果 Office Tool Plus 检测到您的 Software Protection 服务被 `SppExtComObjHook.dll` 劫持，`SppExtComObjHook.dll` 也将会被一并删除。
+注册表中和 Software Protection 相关的一些配置信息将会被删除，例如 KMS 主机地址和续期策略。
 
 重置完成后，您需要重新设置 KMS 主机并激活 Office。
 

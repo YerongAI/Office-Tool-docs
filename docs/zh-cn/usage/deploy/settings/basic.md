@@ -116,7 +116,6 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 - `Groove` 代表的是 **OneDrive for Business**。
 - `Lync` 代表的是 **Skype for Business**。
-- `M365Companion` 代表的是 [Microsoft 365 companion apps](https://learn.microsoft.com/zh-cn/microsoft-365-apps/companions/overview)。
 
 某些应用程序可能需要重启才能完成安装，例如 *Teams* 和 *OneDrive*。
 

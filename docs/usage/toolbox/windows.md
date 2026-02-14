@@ -10,7 +10,7 @@ If one or more variables is missing or incorrect, you will get a notification ab
 
 ## Reset Software Protection service
 
-Some configuration information related to Software Protection in the registry will be deleted, such as the KMS host address and renewal policy. If Office Tool Plus detects that your Software Protection service is hooked by `SppExtComObjHook.dll`, `SppExtComObjHook.dll` will also be deleted.
+Some configuration information related to Software Protection in the registry will be deleted, such as the KMS host address and renewal policy.
 
 After the reset is complete, you will need to set up the KMS host again and activate Office.
 

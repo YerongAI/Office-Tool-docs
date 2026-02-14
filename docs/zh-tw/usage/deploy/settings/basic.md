@@ -114,7 +114,6 @@ For `EEANoTeams` used in the European region, these products are equivalent to d
 
 - `Groove` 代表 **OneDrive for Business**。
 - `Lync` 代表 **Skype for Business**。
-- `M365Companion` 代表 [Microsoft 365 companion apps](https://learn.microsoft.com/zh-tw/microsoft-365-apps/companions/overview)。
 
 某些應用程式（例如 **Teams** 和 **OneDrive**）可能需要重新啟動電腦才能完成安裝。
 

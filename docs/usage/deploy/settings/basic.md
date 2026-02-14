@@ -116,7 +116,6 @@ We recommend you to select the apps which you can understand, such as Word, Powe
 
 - `Groove` stands for **OneDrive for Business**.
 - `Lync` stands for **Skype for Business**.
-- `M365Companion` stands for [Microsoft 365 companion apps](https://learn.microsoft.com/en-us/microsoft-365-apps/companions/overview).
 
 Some applications may require a reboot to complete the installation, such as *Teams* and *OneDrive*.
 
