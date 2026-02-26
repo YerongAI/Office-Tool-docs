@@ -2,11 +2,11 @@
 
 某些時候您可以透過重新啟動 Windows 來解決問題。
 
-## 記憶體不足，無法繼續執行程式 {#insufficient-memory-to-continue-the-execution-of-the-program}
+## Application cannot run on earlier version of Windows 10 {#application-cannot-run-on-earlier-version-of-windows-10}
 
-請斷開網路，然後重新開啟 Office Tool Plus。
+Use Windows Update to install all available updates, and restart Windows to finish installation.
 
-如果 Office Tool Plus 可正常運作，再重新連接網路。
+After that, try to run Office Tool Plus again.
 
 ## Office Tool Plus 視窗顯示空白 {#the-window-of-office-tool-plus-is-blank}
 

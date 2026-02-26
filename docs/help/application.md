@@ -2,11 +2,11 @@
 
 Sometimes you can resolve issues by restarting Windows.
 
-## Insufficient memory to continue the execution of the program
+## Application cannot run on earlier version of Windows 10
 
-Disconnect network, then open Office Tool Plus again.
+Use Windows Update to install all available updates, and restart Windows to finish installation.
 
-If Office Tool Plus is working, reconnect to network.
+After that, try to run Office Tool Plus again.
 
 ## The window of Office Tool Plus is blank
 
