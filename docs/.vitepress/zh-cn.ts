@@ -176,7 +176,8 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: '程序问题', link: 'application' },
                 { text: '部署问题', link: 'deploy' },
                 { text: '激活问题', link: 'activation' },
-                { text: 'Office 问题', link: 'office' }
+                { text: 'Office 问题', link: 'office' },
+                { text: '修复 WPA 注册表', link: 'fix-wpa-registry' }
             ]
         }
     ]

@@ -40,15 +40,7 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 > 很抱歉，访问所需的文件时遇到问题。请检查安装源是否具有正确权限，然后重试。
 
-如果在刚开始部署 Office 时就出现了这个问题，请检查 `%ProgramData%\Microsoft` 文件夹是否有正确权限。
-
-`Microsoft` 文件夹所有者应为 SYSTEM，允许 SYSTEM 和 Administrators 完全控制，允许 Users 和 Everyone 读取和执行。
-
-如果权限不正确，请修正权限后，再重试部署 Office。
-
----
-
-如果 Office 安装进度在 50% 左右时出现此问题，请检查系统中是否安装了以下软件：
+请检查系统中是否安装了以下软件：
 
 - WinZips
 - Win解压缩

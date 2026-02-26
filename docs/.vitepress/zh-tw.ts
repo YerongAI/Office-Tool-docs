@@ -175,7 +175,8 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: '程式問答集', link: 'application' },
                 { text: '部署問答集', link: 'deploy' },
                 { text: '啟用問答集', link: 'activation' },
-                { text: 'Office 問答集', link: 'office' }
+                { text: 'Office 問答集', link: 'office' },
+                { text: '修復 WPA 登錄', link: 'fix-wpa-registry' }
             ]
         }
     ]

@@ -157,7 +157,8 @@ function sidebarHelp(): DefaultTheme.SidebarItem[] {
                 { text: 'Application', link: 'application' },
                 { text: 'Deploy', link: 'deploy' },
                 { text: 'Activation', link: 'activation' },
-                { text: 'Office', link: 'office' }
+                { text: 'Office', link: 'office' },
+                { text: 'Fix WPA Registry', link: 'fix-wpa-registry' }
             ]
         }
     ]
