@@ -49,6 +49,18 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 如果系统中安装有上述软件，请卸载这些软件，然后重新启动系统，再次部署 Office。
 
+## 如何终止 Office 安装程序 {#how-to-terminate-office-installer}
+
+**注意：强行终止 Office 安装程序可能会造成数据丢失或其他问题，请谨慎操作。**
+
+如果您因为任何原因需要终止 Office 安装程序，请在工具箱页面[移除 Office](/zh-cn/usage/toolbox/office.html)，然后重新部署 Office。
+
+::: warning 注意
+
+如果 Office 安装程序卡在 `We're getting things ready...`，请通过任务管理器强行结束对应的 setup.exe 进程。
+
+:::
+
 ## Office 安装进度卡住不动 {#office-installation-is-stuck}
 
 如果安装进度卡在 0-49% 之间，则表示 Office 安装程序无法获取所需文件。

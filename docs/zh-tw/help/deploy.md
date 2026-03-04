@@ -32,6 +32,18 @@ Try to delete installation files on [Installation files](/zh-tw/usage/deploy/set
 
 If the problem persists, try to [Enable HTTPS connection](/zh-tw/usage/settings.md#connect-using-https), or switch to a different network, then try again.
 
+## 如何終止 Office 安裝程式 {#how-to-terminate-office-installer}
+
+**注意：強制終止 Office 安裝程式可能會導致資料遺失或其他問題，請謹慎操作。**
+
+如果您因任何原因需要終止 Office 安裝程式，請前往工具箱頁面[移除 Office](/zh-tw/usage/toolbox/office.md)，然後重新部署 Office。
+
+::: warning 注意
+
+如果 Office 安裝程式卡在 `We're getting things ready...`，請透過工作管理員強制結束對應的 setup.exe 進程。
+
+:::
+
 ## Office 安裝卡住
 
 若 Office 安裝進度停滯在 0-49%：

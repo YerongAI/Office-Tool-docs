@@ -32,6 +32,18 @@ Try to delete installation files on [Installation files](/usage/deploy/settings/
 
 If the problem persists, try to [Enable HTTPS connection](/usage/settings.md#connect-using-https), or switch to a different network, then try again.
 
+## How to terminate Office installer
+
+**Note: Forcing to terminate Office installer may cause data loss or other problems, please operate with caution.**
+
+If you need to terminate Office installer for any reason, please go to Toolbox page to [Remove Office](/usage/toolbox/office.md), then deploy Office again.
+
+::: warning Notice
+
+If Office installer is stuck at `We're getting things ready...`, please force end the corresponding setup.exe process through Task Manager.
+
+:::
+
 ## Office installation is stuck
 
 If Office installation progress is stuck between 0-49%, it means that the Office installer could not get the required files.
