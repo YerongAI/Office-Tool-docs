@@ -72,6 +72,8 @@ Product ID 为产品 ID，Name 是你想设置的名字，例如：`ProPlus2021V
 
 重置 Office 设置可以解决某些问题。请根据需要使用。
 
+![重置 Office 为默认设置的截图](/images/zh-cn/toolbox/reset-office-to-default-settings.webp)
+
 ::: details 适用情况
 
 - Office 许可证已通过 KMS 或 MAK 激活，但是 Office 应用程序要求使用 Microsoft 365 订阅。

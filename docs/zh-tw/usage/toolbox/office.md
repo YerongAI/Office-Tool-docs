@@ -76,6 +76,8 @@ In the license list, find the license whose name you want to change. Click the `
 
 重設 Office 設定可以解決某些問題，請視需求使用。
 
+![Screenshot of Reset Office settings to defaults](/images/en-us/toolbox/reset-office-to-default-settings.webp)
+
 ::: details 適用情境
 
 - Office 授權已透過 KMS 或 MAK 啟用，但 Office 應用程式仍要求 Microsoft 365 訂閱。

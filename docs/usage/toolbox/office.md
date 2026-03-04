@@ -72,6 +72,8 @@ If you have manually installed and activated other Office licenses, please enter
 
 Resetting Office settings can resolve some issues. Use as needed.
 
+![Screenshot of Reset Office settings to defaults](/images/en-us/toolbox/reset-office-to-default-settings.webp)
+
 ::: details Applicable situations
 
 - The Office license is activated via KMS or MAK, but Office applications require a Microsoft 365 subscription.
