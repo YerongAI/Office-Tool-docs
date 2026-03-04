@@ -63,7 +63,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '使用方法',
-            link: '/zh-cn/usage/deploy/clean-deployment',
+            link: '/zh-cn/usage/deploy/first-deployment',
             activeMatch: '/zh-cn/usage/'
         },
         {
@@ -106,7 +106,8 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             text: '部署',
             collapsed: false,
             items: [
-                { text: '初次安装', link: 'deploy/clean-deployment' },
+                { text: '初次安装', link: 'deploy/first-deployment' },
+                { text: '干净安装', link: 'deploy/clean-deployment' },
                 { text: '修改安装', link: 'deploy/modify-deployment' },
                 { text: '基础设置', link: 'deploy/settings/basic' },
                 { text: '高级设置', link: 'deploy/settings/advanced' }

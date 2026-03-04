@@ -1,73 +1,25 @@
-# 初次安装 {#first-deploy}
+# 干净安装
 
-部署 Office 时，安装和卸载可以同时进行，因此你可以将多个步骤结合在一起，无需分开执行。
+若要执行干净安装，请参照以下步骤处理。
 
-## 在线安装 {#online-installation}
+## 卸载 Office
 
-在线安装需要使用网络数据，如果您的网络环境较差，可能会需要较长的时间完成安装。
+卸载 Office 可以通过两种方式操作：
 
-打开 Office Tool Plus，转到部署页面，以下是需要做的事情：
+- 通过 [Windows 设置](ms-settings:appsfeatures-app)或控制面板卸载，此步骤只能清理单一产品或语言。
+- 在 Office Tool Plus 的[部署页面](/zh-cn/usage/deploy/modify-deployment.md)，将部分或所有产品/语言标记为卸载，然后点击开始部署以确认卸载。
 
-- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#products)
-- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#languages)
+::: warning 注意
 
-产品和语言请根据自己的需求添加。
-
----
-
-如果有需要，您还可以检查如下配置。
-
-### 体系结构 {#architecture}
-
-如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/zh-cn/usage/deploy/settings/basic.md#architecture)部分。
-
-### 更新通道 {#update-channel}
-
-如果你需要安装 Office 2019/2021/2024 批量许可证产品，你需要更改通道为 Office 2019/2021/2024 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/usage/deploy/settings/basic.md#update-channel)部分。
-
-### 应用程序 {#applications}
-
-一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/zh-cn/usage/deploy/settings/basic.md#applications)部分。
-
-### 下载后再部署 {#download-first}
-
-此选项为关闭状态时，Office 将会下载时部署，打开时为下载后部署。
-
-![Download first](/images/zh-cn/deploy/download-first.webp)
-
-- 下载时部署：这个模式下无法暂停或取消。Office 安装程序会从 Office CDN 下载安装所需的文件，然后再进行安装。如果因为网络问题而导致文件无法下载，Office 安装程序会卡在一定的进度，无法继续部署。
-- 下载后部署：下载通常由 Office Tool Plus 进行，因此在开始安装前，您可以随时取消或暂停下载。下载完成后，Office 的安装不依赖网络，不会受网络影响。
-
----
-
-配置完成且无报错后，即可开始部署 Office。
-
-## 离线安装 {#offline-installation}
-
-离线安装指的是使用已经打包好的安装文件来安装 Office。
-
-如果您的文件类型是镜像文件（.iso），请双击打开、挂载，您也可以将其解压到某个文件夹中。如果您的文件类型是压缩包（例如 .zip, .7z, .rar），请将其解压到某个文件夹中。
-
-挂载/解压后，如果文件中包含 Office Tool Plus，请双击并打开 Office Tool Plus。如果没有，请先[下载](/zh-cn/introduction/download.md)并打开 Office Tool Plus 然后再继续操作。
-
-打开 Office Tool Plus 后，转到部署页面，确保安装文件能够正确加载并识别。如果没有，请点击**选择**按钮并根据提示选择 Office 安装文件。
-
-![Office installation](/images/zh-cn/deploy/office-installation.webp)
-
-::: tip 提示
-
-Office 安装文件应该能够完整展示版本号和语言包信息，并且没有错误消息。如果安装文件不包含语言，或者仅包含校对工具，则安装的时候依然需要联网，否则会安装失败。
+如果您无法通过正常方式卸载 Office，您可以在工具箱页面[强制移除 Office](/zh-cn/usage/toolbox/office.md)。强制移除 Office 会同时清理激活信息和 Office 应用程序设置，因此您无需再执行下列操作，除非您跳过了这些项目。
 
 :::
 
-安装文件加载后，请进行如下配置：
+## 清理更多项目
 
-- 添加[产品](/zh-cn/usage/deploy/settings/basic.md#products)
-- 添加[语言](/zh-cn/usage/deploy/settings/basic.md#languages)
-- 配置[应用程序](/zh-cn/usage/deploy/settings/basic.md#applications)（如果需要）
+- [清理 Office 的激活信息](/zh-cn/usage/activate/manage.md#clear-activation)：如果不清理这些信息，Office 安装完毕后仍然会显示之前的激活信息。
+- [重置 Office 为默认设置](/zh-cn/usage/toolbox/office.md#reset-office-settings-to-defaults)：如果不清理这些信息，Office 仍将使用之前的设置，例如语言、主题等应用程序设置。
 
-体系结构和更新通道已根据安装文件自动匹配，因此您无需再更改，除非您有多个安装文件。语言也应当与安装文件的一致，如果安装文件不包含您所添加的语言，则安装时依然需要联网，否则安装会失败。
+## 重新安装 Office
 
-如果您在添加产品时，程序提示此产品无法安装在选定的通道上，则代表您所下载的 Office 安装文件无法安装您所选择的产品。请选择另外的产品，或下载另外的 Office 安装文件。
-
-配置完成且无报错后，即可开始部署 Office。
+清理完成后，按照[初次安装](/zh-cn/usage/deploy/first-deployment.md)的方式安装新的 Office 即可。

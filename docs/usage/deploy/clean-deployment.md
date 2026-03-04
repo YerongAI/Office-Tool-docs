@@ -1,73 +1,25 @@
-# First deploy
+# Clean deployment
 
-When deploying Office, installation and uninstallation can occur simultaneously, so you can combine multiple steps without having to perform them separately.
+To perform a clean deployment, follow the steps below.
 
-## Online installation
+## Uninstall Office
 
-Online installation requires Internet connection. If you have a bad connection installation may take longer to complete.
+There are two ways to uninstall Office:
 
-Open Office Tool Plus, go to deploy page and do the following things:
+- Uninstall through [Windows Settings](ms-settings:appsfeatures-app) or Control Panel, which can only clean a single product or language.
+- On the [Deploy page](/usage/deploy/modify-deployment.md), mark some or all products/languages for uninstallation, then click Start Deploy to confirm the uninstallation.
 
-- Add [product(s)](/usage/deploy/settings/basic.md#products).
-- Add [language(s)](/usage/deploy/settings/basic.md#languages).
+::: warning Note
 
-Add products and languages according to your needs.
-
----
-
-If needed, you can also check the following configuration.
-
-### Architecture
-
-By default, 32-bit Office will be installed. For more information please check [architecture](/usage/deploy/settings/basic.md#architecture) section.
-
-### Update channel
-
-If you want to install Office 2019/2021/2024 volume products, you need to configure update channel to Office 2019/2021/2024 Perpetual Enterprise channel. Other times just use the default channel. For more information please check [update channel](/usage/deploy/settings/basic.md#update-channel) section.
-
-### Applications
-
-We usually recommend just selecting the applications which you need, such as the Word, PowerPoint and Excel. For more information please check [applications](/usage/deploy/settings/basic.md#applications) section.
-
-### Download first
-
-When this option is off, Office will be deployed during downloading, and when it is on, it will be deployed after downloaded.
-
-![Download first](/images/en-us/deploy/download-first.webp)
-
-- Deploy during downloading: you can't pause or cancel the installation at that moment. Office installer will download and install Office from Office CDN. If you have a bad internet connection, the installation may get stuck.
-- Deploy after downloaded: the operation is usually performed by Office Tool Plus, so you can cancel or pause the download before the installation begins. Once the download is complete, you can go offline when installing Office.
-
----
-
-Once the configuration is complete and no errors, you can begin deploying Office.
-
-## Offline installation
-
-The offline installation means that install Office using already packaged installation files.
-
-If you have an image file (.iso), you can mount it as a DVD drive. If you have a compressed package (such as .zip, .7z, .rar), please unpack it to a folder.
-
-After mounting/unpacking, run Office Tool Plus from the archives. If not, [download](/introduction/download) Office Tool Plus first.
-
-After opened Office Tool Plus, navigate to deploy page, make sure the installation files was loaded. If not, click `Select` button and choose the file.
-
-![Office installation](/images/en-us/deploy/office-installation.webp)
-
-::: tip Tips
-
-Office installation files should show version number and languages information in its entirety without errors. If the installation files does not contain language, or contains only proofing tool, the installation will still require an Internet connection, otherwise the installation will fail.
+If you are unable to uninstall Office through normal means, you can [force remove Office](/usage/toolbox/office.md) on the Toolbox page. Force removing Office will clean both activation information and Office application settings, so you do not need to perform the following operations unless you skipped those items.
 
 :::
 
-After installation files was loaded, do the following things:
+## Clean more items
 
-- Add [product(s)](/usage/deploy/settings/basic.md#products).
-- Add [language(s)](/usage/deploy/settings/basic.md#languages).
-- Configure [applications](/usage/deploy/settings/basic.md#applications) (if needed).
+- [Clear activation information of Office](/usage/activate/manage.md#clear-activation): If you do not clear this information, the previously activation information will still be displayed after Office is installed.
+- [Reset Office settings to defaults](/usage/toolbox/office.md#reset-office-settings-to-defaults): If you do not clear this information, Office will still use the previous settings, such as language, theme, and other application settings.
 
-The architecture and update channels have been automatically matched based on the installation files, so you don't need to change them again unless you have multiple installations. The language(s) should also match the installation file. If the installation files does not contain the language(s) you added, the installation will still require an Internet connection, otherwise the installation will fail.
+## Reinstall Office
 
-If Office Tool Plus prompts that the product cannot be installed on the selected channel when adding a product, it means that the Office installation files you downloaded cannot install the product you selected. Please select a different product, or download different Office installation files.
-
-If everything is ok, click **Start deploy** now.
+After the cleaning is complete, simply install the new Office as you would for a [first deployment](/usage/deploy/first-deployment.md).

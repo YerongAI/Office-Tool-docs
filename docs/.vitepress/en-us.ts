@@ -44,7 +44,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: 'Usage',
-            link: '/usage/deploy/clean-deployment',
+            link: '/usage/deploy/first-deployment',
             activeMatch: '/usage/'
         },
         {
@@ -87,8 +87,9 @@ function sidebarUsage(): DefaultTheme.SidebarItem[] {
             text: 'Deploy',
             collapsed: false,
             items: [
-                { text: 'Clean deploy', link: 'deploy/clean-deployment' },
-                { text: 'Modify', link: 'deploy/modify-deployment' },
+                { text: 'First deployment', link: 'deploy/first-deployment' },
+                { text: 'Clean deployment', link: 'deploy/clean-deployment' },
+                { text: 'Modify deployment', link: 'deploy/modify-deployment' },
                 { text: 'Basic settings', link: 'deploy/settings/basic' },
                 { text: 'Advanced settings', link: 'deploy/settings/advanced' }
             ]

@@ -1,5 +1,7 @@
 # Modify
 
+When deploying Office, installation and uninstallation can occur simultaneously, so you can combine multiple steps without having to perform them separately.
+
 ## Modify products or languages
 
 Add products or languages that you want, click `Uninstall` for which you want to uninstall now.
