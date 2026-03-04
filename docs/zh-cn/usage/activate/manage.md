@@ -1,5 +1,11 @@
 # 激活管理 {#activation-management}
 
+## 清理激活信息 {#clear-activation}
+
+卸载 Office 并不会删除 Office 的激活信息，您可以通过这个方式清理 Office 的激活信息。清理完成之后，需要重新激活 Office。
+
+![清理激活信息的截图](/images/zh-cn/activation/clear-activation.webp)
+
 ## 许可证管理 {#licenses-management}
 
 ### 安装许可证 {#install-license}

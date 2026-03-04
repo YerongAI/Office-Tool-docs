@@ -1,5 +1,11 @@
 # 啟用管理 {#activation-management}
 
+## Clear activation {#clear-activation}
+
+Uninstalling Office does not remove the activation information for Office, you can use this function to clear the activation information for Office. After clearing, you need to reactivate Office.
+
+![Screenshot of clear activation](/images/en-us/activation/clear-activation.webp)
+
 ## 授權管理 {#licenses-management}
 
 ### 安裝授權 {#install-license}
