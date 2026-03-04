@@ -20,6 +20,11 @@
 irm https://officetool.plus | iex
 ```
 
+If you need, you can download older versions of Office Tool Plus:
+
+- [Download](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=10.30.43.0) v10.30.43.0 for Windows x86 platform.
+- [Download](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=9.0.4.2) v9.0.4.2 for Windows 7.
+
 ---
 
 版本差異：

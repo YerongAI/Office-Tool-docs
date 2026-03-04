@@ -20,6 +20,11 @@
 irm https://officetool.plus | iex
 ```
 
+如果需要，你可以下载旧版本的 Office Tool Plus：
+
+- [下载](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=10.30.43.0)适用于 Windows x86 平台的 v10.30.43.0。
+- [下载](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=9.0.4.2)适用于 Windows 7 的 v9.0.4.2。
+
 ---
 
 版本区别：
