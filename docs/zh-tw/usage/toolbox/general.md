@@ -18,8 +18,6 @@
 
 預設情況下，Office Tool Plus 透過 **TCP 連線** 測試 KMS 主機是否可連線。
 
-您也可以使用 [vlmcs](https://download.coolhub.top/Extensions/Components/) 元件來檢測 KMS 主機是否正常運作。
-
 輸入您的 KMS 主機位址，然後按一下 **[測試]** 按鈕。
 
 ::: info Note
