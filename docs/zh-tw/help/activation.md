@@ -68,15 +68,16 @@ Before activating Office, make sure Windows is activated.
 
 > 軟體授權服務報告指出未安裝授權。
 
-如果您的 Office 已啟用，可以忽略此訊息。
-
-如果您的 Office 尚未啟用，請檢查您的啟用步驟是否正確，或從 Microsoft 購買正版 Office。
+- 在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
+- 嘗試再次安裝授權。
 
 ## 0xC004F017
 
 > 軟體授權服務報告指出未安裝授權。
 
-解決方法與 [0xC004F015](activation.md#_0xc004f015) 相同。
+如果您的 Office 已啟用，可以忽略此訊息。
+
+如果您的 Office 尚未啟用，請檢查您的啟用步驟是否正確，產品金鑰是否正確，或從 Microsoft 購買正版 Office。
 
 ## 0xC004F069
 

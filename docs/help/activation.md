@@ -68,15 +68,16 @@ Solution is same as [0x8004E108](activation.md#_0x8004e108).
 
 > The Software Licensing Service reported that the license is not installed.
 
-If your Office was activated, you can ignore the message.
-
-If your Office is not activated, check your activation steps is correct or not, or purchase Office from Microsoft.
+- [Reset Software Protection service](/usage/toolbox/windows.md#reset-software-protection-service) on the [Toolbox](/usage/toolbox/windows.md) page.
+- Try installing Office licenses again.
 
 ## 0xC004F017
 
 > The Software Licensing Service reported that the license is not installed.
 
-Solution is same as [0xC004F015](activation.md#_0xc004f015).
+If your Office was activated, you can ignore the message.
+
+If your Office is not activated, check your activation steps is correct or not make sure the Office product key is valid, or purchase Office from Microsoft.
 
 ## 0xC004F069
 

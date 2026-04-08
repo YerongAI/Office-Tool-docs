@@ -68,15 +68,16 @@
 
 > 软件授权服务报告许可证未安装。
 
-如果您的 Office 已经激活，则不需要理会此消息。
-
-如果您的 Office 尚未激活，请检查自己的操作步骤是否有错误，是否安装了正确的 Office 许可证，或者向微软[购买](https://otp.landian.vip/zh-cn/#store) Office 许可证授权。
+- 在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[重置 Software Protection 服务](/zh-cn/usage/toolbox/windows.md#reset-software-protection-service)。
+- 再次尝试安装 Office 许可证。
 
 ## 0xC004F017
 
 > 软件授权服务报告许可证未安装。
 
-解决方案同[0xC004F015](activation.md#_0xc004f015)。
+如果您的 Office 已经激活，则不需要理会此消息。
+
+如果您的 Office 尚未激活，请检查自己的操作步骤是否有错误，是否安装了正确的 Office 许可证，是否使用了正确的产品密钥。
 
 ## 0xC004F069
 
