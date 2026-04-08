@@ -2,7 +2,7 @@
 
 你可以从这些站点中下载 Office Tool Plus:
 
-| 站点 | x64 (64 位) | ARM64 |
+| 站点 | x64 (64 位) | Arm64 |
 | :-- | :---------: | :---: |
 | [山东大学镜像站](https://www.officetool.plus/redirect/download.php?site=sdumirror) | [<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"><title>Download</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=sdumirror&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"><title>Download</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=sdumirror&type=runtime&arch=arm64) |
 | [上海交通大学镜像站](https://www.officetool.plus/redirect/download.php?site=sjtumirror) | [<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"><title>Download</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=sjtumirror&type=runtime&arch=x64) | [<svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"><title>Download</title><path fill="#0078D4" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>](https://www.officetool.plus/redirect/download.php?site=sjtumirror&type=runtime&arch=arm64) |

@@ -4,7 +4,7 @@
 
 - Windows 10 或更新版本
 - Windows Server 2016 或更新版本
-- 架構：x64 或 ARM64
+- 架構：x64 或 Arm64
 
 > Office Tool Plus 不支援 macOS 或 Linux。
 
@@ -15,6 +15,6 @@
 ## 執行環境 {#runtime}
 
 - [.NET 10.0 Desktop Runtime x64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-x64.exe).
-- [.NET 10.0 Desktop Runtime ARM64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-arm64.exe).
+- [.NET 10.0 Desktop Runtime Arm64](https://aka.ms/dotnet/10.0/windowsdesktop-runtime-win-arm64.exe).
 
 您可以下載包含 .NET Runtime 的 Office Tool Plus，無需額外安裝 .NET Runtime 也能執行 Office Tool Plus。

@@ -25,7 +25,7 @@ For more information please refer to [Choose between the 64-bit or 32-bit versio
 
 ::: tip Tip
 
-If you are using ARM64-based Windows, you can select ARM64 (64-bit compatible) for better performance and compatibility.
+If you are using Arm64-based Windows, you can select Arm64 (64-bit compatible) for better performance and compatibility.
 
 :::
 
