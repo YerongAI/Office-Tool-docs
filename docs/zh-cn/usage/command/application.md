@@ -51,7 +51,7 @@ Office Tool Plus.Console 是一个命令行程序，默认情况下，通过 Off
 .\"Office Tool Plus.Console" deploy /add ...
 ```
 
-### Batch 文件
+### Batch 文件 {#batch-file}
 
 如果你需要使用 BAT 文件运行 "Office Tool Plus.Console"，请确保你有管理员权限执行这个脚本。
 

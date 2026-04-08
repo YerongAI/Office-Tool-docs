@@ -52,7 +52,7 @@ Office Tool Plus.Console 是一個命令列程式。當透過 `Office Tool Plus`
 ."Office Tool Plus.Console" deploy /add ...
 ```
 
-### Batch 檔 (BAT)
+### Batch 檔 (BAT) {#batch-file}
 
 如果您需要透過 BAT 檔案執行 `Office Tool Plus.Console`，請確保擁有系統管理員權限。
 
