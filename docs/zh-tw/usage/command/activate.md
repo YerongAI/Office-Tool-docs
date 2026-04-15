@@ -16,6 +16,8 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 | :-- | :-- | :-- |
 | `/unkeys` | 解除安裝所有已安裝的 Office 產品金鑰。 | `ospp /unkeys` |
 | `/unlics` | 解除安裝所有已安裝的 Office 授權。 | `ospp /unlics` |
+| `/rmvlic` *value*   | Remove specified vNext license (only available in command-line). Run /dstatus command to get the license ID. | `/rmvlic <License ID>` |
+| `/rmvlics`          | Remove all vNext licenses (only available in command-line). | `/rmvlics` |
 | `/inslicid` *value* | 安裝指定的 Office 授權。 | `ospp /inslicid ProPlus2021Volume` 或 `ospp /inslicid ProPlus2021Volume,VisioPro2021Volume` |
 | `/inpkey` *value* | 安裝指定的 Office 產品金鑰。 | `ospp /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` |
 | `/unpkey` *value* | 解除安裝指定的 Office 產品金鑰。 | `ospp /unpkey XXXXX` |

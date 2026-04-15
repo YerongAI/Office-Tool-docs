@@ -16,6 +16,8 @@ ospp /inslicid ProPlus2021Volume /inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /act
 | :--     | :--     | :--       |
 | /unkeys           | Uninstall all installed Office product keys. | `/unkeys` |
 | /unlics           | Uninstall all installed Office licenses. | `/unlics` |
+| /rmvlic *value*   | Remove specified vNext license (only available in command-line). Run /dstatus command to get the license ID. | `/rmvlic <License ID>` |
+| /rmvlics          | Remove all vNext licenses (only available in command-line). | `/rmvlics` |
 | /inslicid *value* | Install the specified Office licenses. | `/inslicid ProPlus2021Volume` or `/inslicid ProPlus2021Volume,VisioPro2021Volume` |
 | /inpkey *value*   | Install the specified Office product key. | `/inpkey XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` |
 | /unpkey *value*   | Uninstall the specified Office product key. | `/unpkey XXXXX` |
