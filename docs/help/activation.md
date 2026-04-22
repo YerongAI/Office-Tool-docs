@@ -14,6 +14,18 @@ This error code has no meaning, please refer to the given error message to troub
 
 This error code has no meaning, please refer to the given error message to troubleshoot the problem.
 
+## 0x8004100E
+
+> Invalid namespace.
+
+Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.
+
+## 0x80041010
+
+> Invalid class.
+
+Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.
+
 ## 0x8004E108
 
 > The Software Licensing Service reported that a token in the Token Store contains an invalid hash.
@@ -119,11 +131,3 @@ Usually, when you install the corresponding volume licenses on Office Tool Plus,
 
 - SPLA license: SPLA licenses can only be activated using MAK, KMS activation is not supported.
 - Preview products: Products in the preview do not have the GVLK, so you need to manually install the GVLK for KMS activation.
-
-## Invalid class
-
-Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.
-
-## Invalid namespace
-
-Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.

@@ -14,6 +14,18 @@
 
 此错误代码没有准确意义，请参考给出的错误信息进行问题排查。
 
+## 0x8004100E
+
+> 无效命名空间。
+
+请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
+
+## 0x80041010
+
+> 无效类。
+
+请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
+
 ## 0x8004E108
 
 > 软件授权服务报告令牌存储中的令牌包含无效的哈希。
@@ -119,11 +131,3 @@
 
 - SPLA 许可证：SPLA 许可证仅能使用 MAK 进行激活，不支持 KMS 激活。
 - 预览版产品：处于预览阶段的产品没有 GVLK，因此您还需要手动安装 GVLK 才可进行 KMS 激活。
-
-## 无效类 {#invalid-class}
-
-请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
-
-## 无效命名空间 {#invalid-namespace}
-
-请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。

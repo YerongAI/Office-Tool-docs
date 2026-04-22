@@ -14,6 +14,18 @@ Before activating Office, make sure Windows is activated.
 
 此錯誤代碼沒有特定意義，請參考錯誤訊息內容來排除問題。
 
+## 0x8004100E
+
+> Invalid namespace.
+
+Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
+
+## 0x80041010
+
+> 無效的類別。
+
+Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
+
 ## 0x8004E108
 
 > 軟體授權服務報告指出權杖存放中的權杖包含不正確的雜湊。
@@ -119,11 +131,3 @@ Before activating Office, make sure Windows is activated.
 
 - **SPLA 授權**：SPLA 授權只能使用 MAK 啟用，不支援 KMS 啟用。
 - **預覽版本**：預覽版產品沒有內建 GVLK，因此需要手動安裝 GVLK 來進行 KMS 啟用。
-
-## 無效的類別 {#invalid-class}
-
-Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
-
-## Invalid namespace {#invalid-namespace}
-
-Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
