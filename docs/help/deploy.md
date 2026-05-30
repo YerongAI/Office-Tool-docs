@@ -34,8 +34,6 @@ If the problem persists, try to [Enable HTTPS connection](/usage/settings.md#con
 
 ## How to terminate Office installer
 
-**Note: Forcing to terminate Office installer may cause data loss or other problems, please operate with caution.**
-
 If you need to terminate Office installer for any reason, please go to Toolbox page to [Remove Office](/usage/toolbox/office.md), then deploy Office again.
 
 ::: warning Notice
@@ -49,7 +47,7 @@ If Office installer is stuck at `We're getting things ready...`, please force en
 If Office installation progress is stuck between 0-49%, it means that the Office installer could not get the required files.
 
 - If you are installing online, please check your network connection or try a different network.
-- Enable [download first](/usage/deploy/clean-deployment.md#download-first), this can minimize problems due to the network.
+- Enable [download first](/usage/deploy/first-deployment.md#download-first), this can minimize problems due to the network.
 - Try to [verify Office installation files](/usage/deploy/settings/basic.md#installation-files), sometimes there are problems with the files.
 
 If Office installation progress is stuck between 50-100%, it means that an error occurred during the Office installation.

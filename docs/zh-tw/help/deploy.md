@@ -34,8 +34,6 @@ If the problem persists, try to [Enable HTTPS connection](/zh-tw/usage/settings.
 
 ## 如何終止 Office 安裝程式 {#how-to-terminate-office-installer}
 
-**注意：強制終止 Office 安裝程式可能會導致資料遺失或其他問題，請謹慎操作。**
-
 如果您因任何原因需要終止 Office 安裝程式，請前往工具箱頁面[移除 Office](/zh-tw/usage/toolbox/office.md)，然後重新部署 Office。
 
 ::: warning 注意
@@ -51,7 +49,7 @@ If the problem persists, try to [Enable HTTPS connection](/zh-tw/usage/settings.
 這表示 Office 安裝程式無法取得必要的檔案。
 
 - 如果您是線上安裝，請檢查網路連線，或嘗試使用其他網路。
-- 啟用 [先下載後安裝](/zh-tw/usage/deploy/clean-deployment.md#download-first)，這可以減少網路問題帶來的影響。
+- 啟用 [先下載後安裝](/zh-tw/usage/deploy/first-deployment.md#download-first)，這可以減少網路問題帶來的影響。
 - 嘗試[驗證 Office 安裝檔案](/zh-tw/usage/deploy/settings/basic.md#installation-files)，有時候問題來自於安裝檔案損壞。
 
 若 Office 安裝進度停滯在 50-100%：

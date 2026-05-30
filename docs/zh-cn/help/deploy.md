@@ -51,8 +51,6 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 ## 如何终止 Office 安装程序 {#how-to-terminate-office-installer}
 
-**注意：强行终止 Office 安装程序可能会造成数据丢失或其他问题，请谨慎操作。**
-
 如果您因为任何原因需要终止 Office 安装程序，请在工具箱页面[移除 Office](/zh-cn/usage/toolbox/office.html)，然后重新部署 Office。
 
 ::: warning 注意
@@ -66,7 +64,7 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 如果安装进度卡在 0-49% 之间，则表示 Office 安装程序无法获取所需文件。
 
 - 如果是在线安装，请检查网络状况是否良好，或者尝试换个网络。
-- 尝试使用[下载后再部署](/zh-cn/usage/deploy/clean-deployment.md#download-first)，这能够最大程度避免因网络而出现问题。
+- 尝试使用[下载后再部署](/zh-cn/usage/deploy/first-deployment.md#download-first)，这能够最大程度避免因网络而出现问题。
 - 尝试[校验 Office 安装文件](/zh-cn/usage/deploy/settings/basic.md#installation-files)，有时候是文件出现了问题。
 
 如果安装进度卡在 50-100% 之间，则表示 Office 安装过程中出现了错误。
