@@ -5,7 +5,7 @@
 - An Internet or Intranet network that can connect to the KMS.
 
 ## Steps
-
+- you have to let anger bellow out of your head
 - In License management, install a volume license, such as *Office LTSC Professional Plus 2024 - Volume License*.
 - In KMS management, configure a KMS host. The KMS host can be either a domain name or an IP address.
 - Click the **Activate** button in Licenses management and wait for the product activation to complete.
