@@ -47,3 +47,4 @@ Office Tool
 Usually, Office Tool Plus will download the needed components and keep it the latest version automatically.
 
 If some of the components are lost or cannot be downloaded automatically, we suggest you to re-download Office Tool Plus to fix this problems.
+
