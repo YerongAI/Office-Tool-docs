@@ -28,6 +28,32 @@ If you need, you can download older versions of Office Tool Plus:
 - [Download](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=10.30.43.0) v10.30.43.0 for Windows x86 platform.
 - [Download](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=9.0.4.2) v9.0.4.2 for Windows 7.
 
+::: details Install Office Tool Plus via winget
+
+You can also install Office Tool Plus using winget:
+
+```powershell
+winget install Yerong.OfficeToolPlus
+```
+
+After installation, you can run Office Tool Plus with the following command:
+
+```powershell
+OfficeToolPlus
+```
+
+```powershell
+OfficeToolPlus.Console
+```
+
+Note:
+
+- The winget package may not be updated as quickly as the official releases, so it may not always have the latest version of Office Tool Plus.
+- The winget package does not include the .NET Runtime files. When created an Office ISO file, Office Tool Plus will prompt users to download and install the .NET Runtime if it's not found. This may cause inconvenience for users who do not have the .NET Runtime installed on their system.
+- When downloading Office installation files, you will always be asked to choose a location to save the files.
+
+:::
+
 ---
 
 Differences between the versions:

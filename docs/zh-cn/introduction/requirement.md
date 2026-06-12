@@ -7,6 +7,8 @@
 - 体系结构：x64 或 Arm64。
 
 > Office Tool Plus 不支持其它操作系统，例如 macOS 或者 Linux。
+>
+> 在 Windows 10 中使用时，请确保已通过 Windows Update 安装了所有可用的更新。
 
 ## 硬件要求 {#hardware}
 

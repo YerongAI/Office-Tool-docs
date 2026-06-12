@@ -28,6 +28,32 @@ irm https://officetool.plus | iex
 - [下载](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=10.30.43.0)适用于 Windows x86 平台的 v10.30.43.0。
 - [下载](https://www.officetool.plus/redirect/download.php?type=runtime&arch=x86&version=9.0.4.2)适用于 Windows 7 的 v9.0.4.2。
 
+::: details 通过 winget 安装 Office Tool Plus
+
+你也可以使用 winget 安装 Office Tool Plus：
+
+```powershell
+winget install Yerong.OfficeToolPlus
+```
+
+安装完成后，你可以使用以下命令运行 Office Tool Plus：
+
+```powershell
+OfficeToolPlus
+```
+
+```powershell
+OfficeToolPlus.Console
+```
+
+注意：
+
+- winget 包可能不会跟上新版发布的节奏，因此它可能并不是最新版本的 Office Tool Plus。
+- winget 包不包含 .NET Runtime 文件。创建 Office ISO 文件并使用时，如果系统上未找到 .NET Runtime，Office Tool Plus 将提示用户下载和安装 .NET Runtime。这可能会给没有安装 .NET Runtime 的用户带来不便。
+- 下载 Office 安装文件时，你将始终被要求选择一个位置来保存文件。
+
+:::
+
 ---
 
 版本区别：

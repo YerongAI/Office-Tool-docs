@@ -7,6 +7,8 @@
 - Architecture: x64 or Arm64.
 
 > Office Tool Plus doesn't support macOS or Linux.
+>
+> When using on Windows 10, please make sure you have installed all available updates via Windows Update.
 
 ## Hardware
 

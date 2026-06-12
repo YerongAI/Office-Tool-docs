@@ -7,6 +7,8 @@
 - 架構：x64 或 Arm64
 
 > Office Tool Plus 不支援 macOS 或 Linux。
+>
+> 在 Windows 10 上使用時，請確保已通過 Windows Update 安裝了所有可用的更新。
 
 ## 硬體 {#hardware}
 
