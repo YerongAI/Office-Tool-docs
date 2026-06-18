@@ -36,7 +36,9 @@ You can also install Office Tool Plus using winget:
 winget install Yerong.OfficeToolPlus
 ```
 
-After installation, you can run Office Tool Plus with the following command:
+**Please run `winget install` command with administrator privileges, otherwise the symlink will not be created, and you cannot run Office Tool Plus with the following commands.**
+
+After installation, you can run Office Tool Plus with the following commands:
 
 ```powershell
 OfficeToolPlus

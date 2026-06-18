@@ -36,6 +36,8 @@ If you need, you can download older versions of Office Tool Plus:
 winget install Yerong.OfficeToolPlus
 ```
 
+**請以管理員權限運行 `winget install` 命令，否則將無法創建符號鏈接，並且你將無法使用以下命令運行 Office Tool Plus。**
+
 安裝完成後，你可以使用以下命令運行 Office Tool Plus：
 
 ```powershell

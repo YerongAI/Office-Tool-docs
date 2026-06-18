@@ -36,6 +36,8 @@ irm https://officetool.plus | iex
 winget install Yerong.OfficeToolPlus
 ```
 
+**请以管理员权限运行 `winget install` 命令，否则将无法创建符号链接，并且你将无法使用以下命令运行 Office Tool Plus。**
+
 安装完成后，你可以使用以下命令运行 Office Tool Plus：
 
 ```powershell
