@@ -10,6 +10,8 @@
 
 也可以在部署页面编辑好配置之后，直接生成 deploy 命令。
 
+若要在命令中使用 Office ISO 内的 Office 安装文件作为安装源，请在 deploy 命令中添加 `/source %~dp0` 参数，并设置好 `/ver` 和 `/channel` 参数。
+
 编辑好 deploy 命令之后，将其替换到下方的模板中即可。
 
 ``` batch

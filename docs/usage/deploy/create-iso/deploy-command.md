@@ -10,6 +10,8 @@ You can write your own commands by referring to the [usage of the deploy command
 
 You can also generate the deploy commands after editing the configuration on the deploy page.
 
+If you want to use the Office installation files in the Office ISO as the installation source, please add the `/source %~dp0` parameter in the deploy command and set the `/ver` and `/channel` parameters.
+
 Replace the deploy command with the template below.
 
 ``` batch
