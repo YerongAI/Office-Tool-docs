@@ -14,6 +14,12 @@ Before activating Office, make sure Windows is activated.
 
 此錯誤代碼沒有特定意義，請參考錯誤訊息內容來排除問題。
 
+## 0x80040154
+
+> Class not registered.
+
+Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/zh-tw/usage/toolbox/windows.md) page.
+
 ## 0x8004100E
 
 > Invalid namespace.

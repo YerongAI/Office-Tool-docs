@@ -14,6 +14,12 @@
 
 此错误代码没有准确意义，请参考给出的错误信息进行问题排查。
 
+## 0x80040154
+
+> 没有注册类。
+
+请在[工具箱](/zh-cn/usage/toolbox/windows.md)页面[修复 WMI 组件](/zh-cn/usage/toolbox/windows.md#repair-wmi-components)。
+
 ## 0x8004100E
 
 > 无效命名空间。

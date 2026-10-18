@@ -14,6 +14,12 @@
 
 Этот код ошибки не имеет значения; ориентируйтесь на приведённое сообщение об ошибке для устранения проблемы.
 
+## 0x80040154
+
+> Class not registered.
+
+Выполните [восстановление компонентов WMI](/ru/usage/toolbox/windows.md#repair-wmi-components) на странице [Инструменты](/ru/usage/toolbox/windows.md).
+
 ## 0x8004100E
 
 > Invalid namespace.

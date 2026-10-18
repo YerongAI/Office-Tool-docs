@@ -14,6 +14,12 @@ This error code has no meaning, please refer to the given error message to troub
 
 This error code has no meaning, please refer to the given error message to troubleshoot the problem.
 
+## 0x80040154
+
+> Class not registered.
+
+Please [Repair WMI components](/usage/toolbox/windows.md#repair-wmi-components) on the [Toolbox](/usage/toolbox/windows.md) page.
+
 ## 0x8004100E
 
 > Invalid namespace.
