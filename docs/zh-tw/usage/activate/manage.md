@@ -6,6 +6,14 @@ Uninstalling Office does not remove the activation information for Office, you c
 
 ![Screenshot of clear activation](/images/en-us/activation/clear-activation.webp)
 
+## Licensing mode {#licensing-mode}
+
+There are various licensing modes that can be used with **a supported version of Microsoft 365 Apps**.
+
+User based is the default licensing mode. For most users, this is the most commonly used licensing mode; selecting the wrong one will prevent Microsoft 365 Apps from being activated.
+
+For more information please visit [Overview of licensing and activation in Microsoft 365 Apps](https://learn.microsoft.com/zh-tw/microsoft-365-apps/licensing-activation/overview-licensing-activation-microsoft-365-apps#licensing-modes).
+
 ## 授權管理 {#licenses-management}
 
 ### 安裝授權 {#install-license}

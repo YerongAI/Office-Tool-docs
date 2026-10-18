@@ -6,6 +6,14 @@
 
 ![清理激活信息的截图](/images/zh-cn/activation/clear-activation.webp)
 
+## 许可模式 {#licensing-mode}
+
+有多种许可模式可以用于**受支持的 Microsoft 365 应用**版本.
+
+基于用户是默认的许可模式。对于大多数用户来说，这是最常用的许可模式，设置错误的许可模式将会无法激活 Microsoft 365 应用。
+
+有关更多详细信息，请访问 [Microsoft 365 应用版中的许可和激活概述](https://learn.microsoft.com/zh-cn/microsoft-365-apps/licensing-activation/overview-licensing-activation-microsoft-365-apps#licensing-modes)。
+
 ## 许可证管理 {#licenses-management}
 
 ### 安装许可证 {#install-license}

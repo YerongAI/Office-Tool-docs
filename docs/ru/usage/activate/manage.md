@@ -6,6 +6,14 @@
 
 ![Скриншот очистки активации](/images/ru/activation/clear-activation.webp)
 
+## Licensing mode {#licensing-mode}
+
+There are various licensing modes that can be used with **a supported version of Microsoft 365 Apps**.
+
+User based is the default licensing mode. For most users, this is the most commonly used licensing mode; selecting the wrong one will prevent Microsoft 365 Apps from being activated.
+
+For more information please visit [Overview of licensing and activation in Microsoft 365 Apps](https://learn.microsoft.com/ru-ru/microsoft-365-apps/licensing-activation/overview-licensing-activation-microsoft-365-apps#licensing-modes).
+
 ## Управление лицензиями {#licenses-management}
 
 ### Установить лицензию {#install-license}
