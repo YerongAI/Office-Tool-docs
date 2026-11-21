@@ -82,6 +82,12 @@
 
 Решение такое же, как для [0x8004E108](activation.md#_0x8004e108).
 
+## 0xC004F013
+
+> The Software Licensing Service determined that there is no permission to run the software.
+
+Make sure Windows is properly activated before activating Office.
+
 ## 0xC004F015
 
 > Служба лицензирования программного обеспечения сообщила, что лицензия не установлена.

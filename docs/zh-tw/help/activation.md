@@ -89,6 +89,12 @@ Please [Repair WMI components](/zh-tw/usage/toolbox/windows.md#repair-wmi-compon
 - 在[工具箱頁面](/zh-tw/usage/toolbox/windows.md)[重設軟體保護服務](/zh-tw/usage/toolbox/windows.md#reset-software-protection-service)。
 - 嘗試再次安裝授權。
 
+## 0xC004F013
+
+> The Software Licensing Service determined that there is no permission to run the software.
+
+Make sure Windows is properly activated before activating Office.
+
 ## 0xC004F017
 
 > 軟體授權服務報告指出未安裝授權。
