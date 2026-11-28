@@ -4,9 +4,22 @@
 
 ## Окончание поддержки Windows и Microsoft 365 Apps {#windows-end-of-support-and-microsoft-365-apps}
 
-Microsoft 365 Apps могут не устанавливаться или работать некорректно на более старых системах. Microsoft настоятельно рекомендует перейти на поддерживаемую операционную систему для лучшего опыта.
+Microsoft 365 Apps may not run properly on the older systems. Microsoft recommend you move to a supported operating system for better experience.
 
-Если вы всё же хотите установить Microsoft 365 Apps на свой ПК, используйте **Current Channel** в качестве канала развёртывания. Если при установке Microsoft 365 Apps появляется сообщение о том, что операционная система не поддерживается, попробуйте сменить модуль установки с `Office Deployment Tool` на `Office Tool Plus`, чтобы пропустить проверку совместимости.
+The table below lists the relationship between various Windows versions and Office:
+
+| Windows                       | Office 2019 - 2024 | Latest Build on Current Channel |
+| :--                           | :-:                | :--                             |
+| Windows 7                     | ×                  | 16.0.12527.22286                |
+| Windows 8                     | ×                  | 16.0.12730.20270                |
+| Windows 8.1                   | ×                  | 16.0.16026.20200                |
+| Windows 10 1507 to 1803 (RS4) | √                  | 16.0.19725.xxxxx                |
+| Windows Server 2016           | √                  | 16.0.19725.xxxxx                |
+| Windows 10 1809 (RS5) to 22H2 | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2019           | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2022           | √                  | 16.0.20326.xxxxx                |
+
+For versions of Windows not listed (such as Windows 11), it is still possible to deploy the latest version of Office and continue receiving feature updates for Office.
 
 Подробнее:
 
@@ -15,12 +28,6 @@ Microsoft 365 Apps могут не устанавливаться или раб�
 - [Окончание поддержки Windows 8.1 и Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-81-support).
 - [Окончание поддержки Windows 10 и Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support).
 - [Окончание поддержки Windows Server и Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support).
-
-::: warning Внимание
-
-На Windows 7 нельзя установить более новую версию Office, даже если сменить модуль установки.
-
-:::
 
 ## Как установить Office в другой путь {#how-to-install-office-to-another-path}
 

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
-import { shared } from './shared'
-import { headConfig } from './head'
-import { en_us } from './en-us'
-import { zh_cn } from './zh-cn'
-import { zh_tw } from './zh-tw'
-import { ru } from './ru'
+import { shared } from './shared.ts'
+import { headConfig } from './head.ts'
+import { en_us } from './en-us.ts'
+import { zh_cn } from './zh-cn.ts'
+import { zh_tw } from './zh-tw.ts'
+import { ru } from './ru.ts'
 
 export default defineConfig({
     ...shared,

@@ -4,9 +4,22 @@ Here you can find the causes and solutions for most Office installation problems
 
 ## Windows 終止支援與 Microsoft 365 應用程式 {#windows-end-of-support-and-microsoft-365-apps}
 
-Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。Microsoft 強烈建議您升級至受支援的作業系統，以獲得更好的使用體驗。
+Microsoft 365 Apps may not run properly on the older systems. Microsoft recommend you move to a supported operating system for better experience.
 
-如果您仍希望在舊版 Windows 上安裝 Microsoft 365 應用程式，請選擇 **目前通道 (Current Channel)** 作為部署通道。如果安裝過程中出現「您的作業系統不受支援」的訊息，您可以嘗試將安裝模組從 `Office 部署工具 (Office Deployment Tool)` 更改為 `Office Tool Plus`，以跳過相容性檢查。
+The table below lists the relationship between various Windows versions and Office:
+
+| Windows                       | Office 2019 - 2024 | Latest Build on Current Channel |
+| :--                           | :-:                | :--                             |
+| Windows 7                     | ×                  | 16.0.12527.22286                |
+| Windows 8                     | ×                  | 16.0.12730.20270                |
+| Windows 8.1                   | ×                  | 16.0.16026.20200                |
+| Windows 10 1507 to 1803 (RS4) | √                  | 16.0.19725.xxxxx                |
+| Windows Server 2016           | √                  | 16.0.19725.xxxxx                |
+| Windows 10 1809 (RS5) to 22H2 | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2019           | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2022           | √                  | 16.0.20326.xxxxx                |
+
+For versions of Windows not listed (such as Windows 11), it is still possible to deploy the latest version of Office and continue receiving feature updates for Office.
 
 欲了解更多資訊，請參閱：
 
@@ -15,12 +28,6 @@ Microsoft 365 應用程式可能無法在舊版系統上正常安裝或執行。
 - [Windows 8.1 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-81-support)
 - [Windows 10 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-10-support)
 - [Windows Server 終止支援與 Microsoft 365 應用程式](https://learn.microsoft.com/zh-tw/microsoft-365-apps/end-of-support/windows-server-support)
-
-::: warning 注意
-
-即使您變更了安裝模組，也無法在 Windows 7 上安裝新版 Office。
-
-:::
 
 ## 如何安裝 Office 至其他路徑
 

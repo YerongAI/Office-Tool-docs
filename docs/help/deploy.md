@@ -4,9 +4,22 @@ Here you can find the causes and solutions for most Office installation problems
 
 ## Windows end of support and Microsoft 365 Apps
 
-Microsoft 365 Apps may not install or run correctly on older systems. Microsoft strongly recommend you move to a supported operating system for better experience.
+Microsoft 365 Apps may not run properly on the older systems. Microsoft recommend you move to a supported operating system for better experience.
 
-If you still want to install Microsoft 365 Apps on your PC, please use **Current Channel** as deploy channel. If you receive a message that your operating system is not supported when installing Microsoft 365 Apps, you can try changing the installation module from `Office Deployment Tool` to `Office Tool Plus` to skip the compatibility check.
+The table below lists the relationship between various Windows versions and Office:
+
+| Windows                       | Office 2019 - 2024 | Latest Build on Current Channel |
+| :--                           | :-:                | :--                             |
+| Windows 7                     | ×                  | 16.0.12527.22286                |
+| Windows 8                     | ×                  | 16.0.12730.20270                |
+| Windows 8.1                   | ×                  | 16.0.16026.20200                |
+| Windows 10 1507 to 1803 (RS4) | √                  | 16.0.19725.xxxxx                |
+| Windows Server 2016           | √                  | 16.0.19725.xxxxx                |
+| Windows 10 1809 (RS5) to 22H2 | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2019           | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2022           | √                  | 16.0.20326.xxxxx                |
+
+For versions of Windows not listed (such as Windows 11), it is still possible to deploy the latest version of Office and continue receiving feature updates for Office.
 
 For more information please visit:
 
@@ -15,12 +28,6 @@ For more information please visit:
 - [Windows 8.1 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-81-support).
 - [Windows 10 end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-10-support).
 - [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support).
-
-::: warning Notice
-
-You can't install newer version of Office on Windows 7 even you changed the installation module.
-
-:::
 
 ## How to install Office to another path
 

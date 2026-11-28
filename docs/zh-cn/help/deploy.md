@@ -4,9 +4,22 @@
 
 ## Windows 支持终止和 Microsoft 365 应用 {#windows-end-of-support-and-microsoft-365-apps}
 
-Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强烈建议您迁移到受支持的操作系统以便获得更好的使用体验。
+Microsoft 365 应用可能无法在老旧的系统上正确运行。微软建议您迁移到受支持的操作系统以便获得更好的使用体验。
 
-如果你仍然想在你的 PC 上安装 Microsoft 365 应用，请使用**当前通道**作为部署时的通道。如果你在安装 Microsoft 365 应用时收到操作系统不受支持的提示，你可以尝试将安装模块从 `Office 部署工具`更改为 `Office Tool Plus` 以跳过操作系统兼容性检查。
+下表列出了各个 Windows 版本与 Office 的关联：
+
+| Windows                       | Office 2019 - 2024 | 当前通道的最新版本              |
+| :--                           | :-:                | :--                             |
+| Windows 7                     | ×                  | 16.0.12527.22286                |
+| Windows 8                     | ×                  | 16.0.12730.20270                |
+| Windows 8.1                   | ×                  | 16.0.16026.20200                |
+| Windows 10 1507 to 1803 (RS4) | √                  | 16.0.19725.xxxxx                |
+| Windows Server 2016           | √                  | 16.0.19725.xxxxx                |
+| Windows 10 1809 (RS5) to 22H2 | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2019           | √                  | 16.0.20326.xxxxx                |
+| Windows Server 2022           | √                  | 16.0.20326.xxxxx                |
+
+未列出的 Windows 版本（例如 Windows 11）仍可部署最新版本的 Office，并持续获得 Office 的功能更新。
 
 获取更多信息请访问:
 
@@ -15,12 +28,6 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 - [Windows 8.1 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-81-support)
 - [Windows 10 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-10-support)
 - [Windows Server 支持终止和 Microsoft 365 应用](https://learn.microsoft.com/zh-cn/microsoft-365-apps/end-of-support/windows-server-support)
-
-::: warning 注意
-
-即使你更改安装模块，你也无法在 Windows 7 中安装高版本的 Office。
-
-:::
 
 ## 如何将 Office 安装到其他位置 {#how-to-install-office-to-another-path}
 
